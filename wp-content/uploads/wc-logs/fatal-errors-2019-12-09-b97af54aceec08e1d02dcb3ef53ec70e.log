@@ -1,0 +1,81 @@
+2019-12-09T08:02:51+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php:80
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(555): wpnetbase_best_seller_wpb_widget->widget(Array, Array)
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(873): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 0, true, false, 3104, '')
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(833): SiteOrigin_Panels_Renderer->render_widget(3104, 0, 0, 0, Array, false)
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(759): SiteOrigin_Panels_Renderer->render_cell(3104, 0, 0, Array, Array, Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(341): SiteOrigin_Panels_Renderer->render_row(3104, 0, Array, Array)
+#5 /home/ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php on line 80
+
+2019-12-09T23:44:46+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+
+2019-12-09T23:50:46+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+
+2019-12-09T23:50:54+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+
+2019-12-09T23:50:56+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+
+2019-12-09T23:51:02+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+
+2019-12-09T23:51:31+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php:152
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): NBT_Solutions_Pluggable::frontend_enqueue_scripts('')
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /home/q8rxz6vqvxck/publ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase_solutions/core/modules/pluggable/pluggable.php on line 152
+

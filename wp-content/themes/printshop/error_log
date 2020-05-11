@@ -1,0 +1,8 @@
+[19-Jul-2019 23:10:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printshop_get_redux_options() in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/index.php on line 13
+[09-Aug-2019 11:49:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printshop_get_redux_options() in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/index.php on line 13

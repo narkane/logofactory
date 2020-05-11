@@ -28,16 +28,16 @@ include(theme('header.php'));
             <div class="owl-carousel owl-theme">
                 <div class="item" style="background:url('<?php echo theme('assets/images/hero2.jpg', true); ?>') no-repeat;background-size:cover;">
                     <div class="container">
-                        <h1><?php echo $lumise->lang('New collecttion 2018'); ?></h1>
-                        <h4><?php echo $lumise->lang('Sale up to 50%  all product in the new collection'); ?></h4>
-                        <a href="<?php echo $lumise->cfg->url.'products.php'; ?>"><?php echo $lumise->lang('View Collection'); ?></a>
+                        <h1><?php echo $lumise->lang('Big Bang Printing'); ?></h1>
+                        <h4><?php echo $lumise->lang('Now offering options to personalize all products.'); ?></h4>
+                        <a href="<?php echo $lumise->cfg->url.'products.php'; ?>"><?php echo $lumise->lang('View All Products'); ?></a>
                     </div>
                 </div>
                 <div class="item" style="background:url('<?php echo theme('assets/images/hero1.jpg', true); ?>')no-repeat;background-size:cover;">
                     <div class="container">
-                        <h1><?php echo $lumise->lang('SALE OFF! UP TO 70%'); ?></h1>
-                        <h4><?php echo $lumise->lang('Duis aute irure dolor in reprehenderit in voluptate velit'); ?></h4>
-                        <a href="<?php echo $lumise->cfg->url.'products.php'; ?>"><?php echo $lumise->lang('View Collection'); ?></a>
+                        <h1><?php echo $lumise->lang('Featured Items'); ?></h1>
+                        <h4><?php echo $lumise->lang('Now Offering Customizations to Your Favorites'); ?></h4>
+                        <a href="<?php echo $lumise->cfg->url.'products.php'; ?>"><?php echo $lumise->lang('View Products'); ?></a>
                     </div>
                 </div>
             </div>

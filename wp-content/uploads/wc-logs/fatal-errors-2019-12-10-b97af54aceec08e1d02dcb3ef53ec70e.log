@@ -1,0 +1,128 @@
+2019-12-10T00:46:05+00:00 CRITICAL require_once(): Failed opening required '/home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/woo_connector.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php on line 1203
+
+2019-12-10T00:46:05+00:00 CRITICAL require_once(): Failed opening required '/home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/woo_connector.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php on line 1203
+
+2019-12-10T02:26:18+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T02:26:18+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T04:59:21+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T05:17:41+00:00 CRITICAL Cannot redeclare wp_privacy_generate_personal_data_export_group_html() (previously declared in /home/q8rxz6vqvxck/public_html/wp-admin/includes/file.php:2220) in /home/q8rxz6vqvxck/public_html/wp-admin/includes/privacy-tools.php on line 277
+
+2019-12-10T05:17:42+00:00 CRITICAL Cannot redeclare wp_privacy_generate_personal_data_export_group_html() (previously declared in /home/q8rxz6vqvxck/public_html/wp-admin/includes/file.php:2220) in /home/q8rxz6vqvxck/public_html/wp-admin/includes/privacy-tools.php on line 277
+
+2019-12-10T05:17:49+00:00 CRITICAL Uncaught Error: Call to a member function add_help_tab() on null in /home/q8rxz6vqvxck/public_html/wp-admin/network/upgrade.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/q8rxz6vqvxck/public_html/wp-admin/network/upgrade.php on line 18
+
+2019-12-10T05:32:48+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T05:32:48+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T05:35:04+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-12-10T05:42:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(288): storefront_header_cart('')
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(722): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(671): load_template('/home/q8rxz6vqv...', true)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/gen in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-12-10T05:42:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(288): storefront_header_cart('')
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(722): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(671): load_template('/home/q8rxz6vqv...', true)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/gen in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-12-10T05:44:06+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(288): storefront_header_cart('')
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(722): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(671): load_template('/home/q8rxz6vqv...', true)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/gen in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-12-10T05:51:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(288): storefront_header_cart('')
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(722): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(671): load_template('/home/q8rxz6vqv...', true)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/gen in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-12-10T05:51:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(288): storefront_header_cart('')
+#2 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(722): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-includes/template.php(671): load_template('/home/q8rxz6vqv...', true)
+#7 /home/q8rxz6vqvxck/public_html/wp-includes/gen in /home/q8rxz6vqvxck/public_html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+

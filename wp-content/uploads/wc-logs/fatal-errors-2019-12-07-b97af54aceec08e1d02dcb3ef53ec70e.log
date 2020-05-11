@@ -1,0 +1,18 @@
+2019-12-07T00:06:54+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php:80
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(555): wpnetbase_best_seller_wpb_widget->widget(Array, Array)
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(873): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 0, true, false, 3104, '')
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(833): SiteOrigin_Panels_Renderer->render_widget(3104, 0, 0, 0, Array, false)
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(759): SiteOrigin_Panels_Renderer->render_cell(3104, 0, 0, Array, Array, Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(341): SiteOrigin_Panels_Renderer->render_row(3104, 0, Array, Array)
+#5 /home/ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php on line 80
+
+2019-12-07T08:28:28+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php:80
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(555): wpnetbase_best_seller_wpb_widget->widget(Array, Array)
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(873): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 0, true, false, 3104, '')
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(833): SiteOrigin_Panels_Renderer->render_widget(3104, 0, 0, 0, Array, false)
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(759): SiteOrigin_Panels_Renderer->render_cell(3104, 0, 0, Array, Array, Array)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/siteorigin-panels/inc/renderer.php(341): SiteOrigin_Panels_Renderer->render_row(3104, 0, Array, Array)
+#5 /home/ in /home/q8rxz6vqvxck/public_html/wp-content/plugins/netbase-widgets-for-siteorigin-print/widgets/top_seller_widget/top_seller_widget.php on line 80
+

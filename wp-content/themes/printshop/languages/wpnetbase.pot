@@ -1,0 +1,4626 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Blank WordPress Pot "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2018-12-03 13:58+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"Sorry Page Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"The page you are looking "
+"for does not appear to "
+"exist. Please go back or "
+"head on over our "
+"homepage to choose a new "
+"direction."
+msgstr ""
+
+#: 404.php:18
+msgid " Go to home"
+msgstr ""
+
+#: comments.php:26
+msgctxt "comments title"
+msgid "1 Comment %2$"
+msgid_plural ""
+"%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34
+#: comments.php:50
+msgid ""
+"&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:51
+msgid ""
+"Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your "
+"first post? <a href="
+"\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:20
+#: content-search.php:26
+#: content-single.php:31
+#: content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: content.php:31
+#, php-format
+msgid ""
+"Continue reading %s "
+"<span class=\"meta-nav"
+"\">&rarr;</span>"
+msgstr ""
+
+#: dokan/coupon/form.php:16
+msgid "Coupon Title"
+msgstr ""
+
+#: dokan/coupon/form.php:18
+#: dokan/products/new-product-single.php:171
+msgid "Title"
+msgstr ""
+
+#: dokan/coupon/form.php:23
+#: dokan/products/new-product-single.php:407
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#: dokan/coupon/form.php:30
+msgid "Discount Type"
+msgstr ""
+
+#: dokan/coupon/form.php:34
+msgid "Product Discount"
+msgstr ""
+
+#: dokan/coupon/form.php:35
+msgid "Product % Discount"
+msgstr ""
+
+#: dokan/coupon/form.php:41
+#: dokan/coupon/form.php:43
+#: dokan/withdraw/approved-request-listing.php:14
+#: dokan/withdraw/pending-request-listing.php:14
+msgid "Amount"
+msgstr ""
+
+#: dokan/coupon/form.php:48
+msgid "Email Restrictions"
+msgstr ""
+
+#: dokan/coupon/form.php:50
+msgid "Email restrictions"
+msgstr ""
+
+#: dokan/coupon/form.php:55
+#: dokan/coupon/form.php:57
+msgid "Usage Limit"
+msgstr ""
+
+#: dokan/coupon/form.php:62
+#: dokan/coupon/form.php:64
+msgid "Expire Date"
+msgstr ""
+
+#: dokan/coupon/form.php:69
+msgid "Exclude Sale Items"
+msgstr ""
+
+#: dokan/coupon/form.php:74
+msgid ""
+"Check this box if the "
+"coupon should not apply "
+"to items on sale."
+msgstr ""
+
+#: dokan/coupon/form.php:78
+msgid ""
+" Per-item coupons will "
+"only work if the item is "
+"not on sale. Per-cart "
+"coupons will only work "
+"if there are no sale "
+"items in the cart."
+msgstr ""
+
+#: dokan/coupon/form.php:85
+#: dokan/coupon/form.php:87
+msgid "Minimum Amount"
+msgstr ""
+
+#: dokan/coupon/form.php:92
+#: woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: dokan/coupon/form.php:94
+#: dokan/coupon/form.php:116
+msgid "Select Some Product"
+msgstr ""
+
+#: dokan/coupon/form.php:108
+#: dokan/products/edit/html-product-attribute.php:53
+msgid "Select all"
+msgstr ""
+
+#: dokan/coupon/form.php:109
+msgid "Clear"
+msgstr ""
+
+#: dokan/coupon/form.php:114
+msgid "Exclude products"
+msgstr ""
+
+#: dokan/coupon/form.php:134
+msgid "Show on store"
+msgstr ""
+
+#: dokan/coupon/form.php:139
+msgid ""
+"Check this box if you "
+"want to show this coupon "
+"in store page."
+msgstr ""
+
+#: dokan/coupon/header.php:13
+msgid "Coupon"
+msgstr ""
+
+#: dokan/coupon/header.php:17
+msgid "Edit Coupon"
+msgstr ""
+
+#: dokan/coupon/header.php:17
+msgid "Add Coupon"
+msgstr ""
+
+#: dokan/coupon/header.php:23
+msgid "Add new Coupon"
+msgstr ""
+
+#: dokan/coupon/listing.php:14
+#: dokan/coupon/listing.php:27
+msgid "Code"
+msgstr ""
+
+#: dokan/coupon/listing.php:15
+#: dokan/coupon/listing.php:41
+msgid "Coupon type"
+msgstr ""
+
+#: dokan/coupon/listing.php:16
+#: dokan/coupon/listing.php:56
+msgid "Coupon amount"
+msgstr ""
+
+#: dokan/coupon/listing.php:17
+#: dokan/coupon/listing.php:60
+msgid "Product IDs"
+msgstr ""
+
+#: dokan/coupon/listing.php:18
+#: dokan/coupon/listing.php:72
+msgid "Usage / Limit"
+msgstr ""
+
+#: dokan/coupon/listing.php:19
+#: dokan/coupon/listing.php:85
+msgid "Expiry date"
+msgstr ""
+
+#: dokan/coupon/listing.php:36
+#: dokan/products/edit/sidebar.php:26
+#: dokan/products/edit/sidebar.php:69
+#: dokan/products/product-edit.php:166
+#: dokan/products/products-listing.php:136
+#: inc/template-tags.php:475
+msgid "Edit"
+msgstr ""
+
+#: dokan/coupon/listing.php:37
+msgid ""
+"Are you sure want to "
+"delete"
+msgstr ""
+
+#: dokan/coupon/listing.php:37
+msgid "delete"
+msgstr ""
+
+#: dokan/coupon/listing.php:47
+msgid "Fixed Amount"
+msgstr ""
+
+#: dokan/coupon/listing.php:49
+msgid "Percent"
+msgstr ""
+
+#: dokan/coupon/listing.php:79
+#, php-format
+msgid "%s / %s"
+msgstr ""
+
+#: dokan/coupon/listing.php:81
+#, php-format
+msgid "%s / &infin;"
+msgstr ""
+
+#: dokan/dashboard/big-counter-widget.php:20
+msgid "Sales"
+msgstr ""
+
+#: dokan/dashboard/big-counter-widget.php:24
+msgid "Earning"
+msgstr ""
+
+#: dokan/dashboard/big-counter-widget.php:28
+msgid "Pageview"
+msgstr ""
+
+#: dokan/dashboard/big-counter-widget.php:32
+#: dokan/my-orders.php:27
+#: dokan/orders/details.php:20
+#: dokan/orders/listing.php:17
+#: dokan/orders/listing.php:31
+#: dokan/sub-orders.php:25
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Order"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:48
+msgid ""
+"Edit Account Details"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:55
+msgid "First name"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:60
+msgid "Last name"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:67
+msgid "Email address"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:75
+msgid "Password Change"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:78
+msgid ""
+"Current Password (leave "
+"blank to leave unchanged)"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:85
+msgid ""
+"New Password (leave "
+"blank to leave unchanged)"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:92
+msgid ""
+"Confirm New Password"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:105
+msgid "Save changes"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:15
+msgid "Orders"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:21
+#: dokan/dashboard/products-widget.php:26
+#: dokan/my-orders.php:30
+#: dokan/orders/order-fee-html.php:17
+#: dokan/sub-orders.php:28
+#: woocommerce/cart/cart.php:38
+#: woocommerce/cart/cart.php:119
+#: woocommerce/myaccount/my-orders.php:43
+#: woocommerce/myaccount/my-orders.php:66
+#: woocommerce/wishlist-view.php:22
+msgid "Total"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:26
+msgid "Completed"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:31
+msgid "Pending"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:36
+#: dokan/orders/listing.php:97
+msgid "Processing"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:41
+msgid "Cancelled"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:46
+msgid "Refunded"
+msgstr ""
+
+#: dokan/dashboard/orders-widget.php:51
+msgid "On hold"
+msgstr ""
+
+#: dokan/dashboard/products-widget.php:16
+#: dokan/products/product-edit.php:110
+msgid "Products"
+msgstr ""
+
+#: dokan/dashboard/products-widget.php:19
+msgid "+ Add new product"
+msgstr ""
+
+#: dokan/dashboard/products-widget.php:31
+msgid "Live"
+msgstr ""
+
+#: dokan/dashboard/products-widget.php:36
+msgid "Offline"
+msgstr ""
+
+#: dokan/dashboard/products-widget.php:41
+msgid "Pending Review"
+msgstr ""
+
+#: dokan/dashboard/sales-chart-widget.php:15
+msgid "Sales this Month"
+msgstr ""
+
+#: dokan/global/header-menu.php:13
+#, php-format
+msgid "Cart %s"
+msgstr ""
+
+#: dokan/global/header-menu.php:29
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: dokan/global/header-menu.php:32
+msgid "Visit your store"
+msgstr ""
+
+#: dokan/global/header-menu.php:46
+msgid "My Orders"
+msgstr ""
+
+#: dokan/global/header-menu.php:47
+#: header-banner.php:39
+#: woocommerce/checkout/thankyou.php:33
+msgid "My Account"
+msgstr ""
+
+#: dokan/global/header-menu.php:48
+#: inc/dokan.php:593
+msgid "Edit Account"
+msgstr ""
+
+#: dokan/global/header-menu.php:50
+#: dokan/orders/details.php:125
+msgid "Billing Address"
+msgstr ""
+
+#: dokan/global/header-menu.php:51
+#: dokan/orders/details.php:134
+msgid "Shipping Address"
+msgstr ""
+
+#: dokan/global/header-menu.php:58
+msgid "Log in"
+msgstr ""
+
+#: dokan/global/header-menu.php:59
+msgid "Sign Up"
+msgstr ""
+
+#: dokan/global/product-tab.php:11
+msgid "Vendor Information"
+msgstr ""
+
+#: dokan/global/product-tab.php:17
+msgid "Store Name:"
+msgstr ""
+
+#: dokan/global/product-tab.php:26
+msgid "Vendor:"
+msgstr ""
+
+#: dokan/global/product-tab.php:35
+msgid "Address:"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:15
+msgid "First Name"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:20
+msgid "Last Name"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:26
+msgid "Shop Name"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:31
+msgid "Shop URL"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:38
+#: inc/dokan.php:126
+msgid "Phone Number"
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:52
+#, php-format
+msgid ""
+"I have read and agree to "
+"the <a target=\"_blank\" "
+"href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+
+#: dokan/global/seller-warning.php:11
+#: dokan/products/new-product-single.php:137
+#: dokan/products/new-product.php:54
+#: dokan/products/product-edit.php:150
+msgid "Error!"
+msgstr ""
+
+#: dokan/global/seller-warning.php:12
+msgid ""
+"Your account is not "
+"enabled for selling, "
+"please contact the admin"
+msgstr ""
+
+#: dokan/my-orders.php:21
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Recent Orders"
+msgstr ""
+
+#: dokan/my-orders.php:28
+#: dokan/orders/listing.php:21
+#: dokan/orders/listing.php:67
+#: dokan/products/products-listing.php:70
+#: dokan/products/products-listing.php:202
+#: dokan/sub-orders.php:26
+#: dokan/withdraw/approved-request-listing.php:16
+#: dokan/withdraw/pending-request-listing.php:16
+#: woocommerce/myaccount/my-orders.php:41
+#: woocommerce/myaccount/my-orders.php:60
+msgid "Date"
+msgstr ""
+
+#: dokan/my-orders.php:29
+#: dokan/orders/listing.php:19
+#: dokan/orders/listing.php:37
+#: dokan/products/products-listing.php:64
+#: dokan/products/products-listing.php:141
+#: dokan/sub-orders.php:27
+#: dokan/withdraw/pending-request-listing.php:18
+#: inc/tgm/class-tgm-plugin-activation.php:1380
+#: woocommerce/myaccount/my-orders.php:42
+#: woocommerce/myaccount/my-orders.php:63
+msgid "Status"
+msgstr ""
+
+#: dokan/my-orders.php:31
+msgid "Vendor"
+msgstr ""
+
+#: dokan/my-orders.php:55
+#: dokan/sub-orders.php:51
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%s for %s item"
+msgid_plural ""
+"%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dokan/my-orders.php:65
+msgid "Multiple Vendor"
+msgstr ""
+
+#: dokan/my-orders.php:77
+#: woocommerce/checkout/thankyou.php:31
+#: woocommerce/myaccount/my-orders.php:76
+msgid "Pay"
+msgstr ""
+
+#: dokan/my-orders.php:83
+#: dokan/orders/details.php:190
+#: dokan/products/edit/sidebar.php:42
+#: dokan/products/edit/sidebar.php:82
+#: dokan/products/new-product-single.php:222
+#: dokan/products/tmpl-add-product-popup.php:47
+#: dokan/withdraw/pending-request-listing.php:17
+#: dokan/withdraw/pending-request-listing.php:35
+#: woocommerce/myaccount/my-orders.php:83
+#: woocommerce/wishlist-view.php:56
+msgid "Cancel"
+msgstr ""
+
+#: dokan/my-orders.php:88
+#: dokan/orders/listing.php:114
+#: dokan/products/products-listing.php:138
+#: dokan/sub-orders.php:59
+#: woocommerce/myaccount/my-orders.php:89
+msgid "View"
+msgstr ""
+
+#: dokan/my-orders.php:106
+msgid "No orders found!"
+msgstr ""
+
+#: dokan/orders/date-export.php:15
+#: woocommerce/checkout/thankyou.php:47
+msgid "Date:"
+msgstr ""
+
+#: dokan/orders/date-export.php:16
+#: dokan/products/listing-filter.php:42
+msgid "Filter"
+msgstr ""
+
+#: dokan/orders/date-export.php:23
+msgid "Export All"
+msgstr ""
+
+#: dokan/orders/date-export.php:24
+msgid "Export Filtered"
+msgstr ""
+
+#: dokan/orders/details.php:7
+msgid ""
+"This is not yours, I "
+"swear!"
+msgstr ""
+
+#: dokan/orders/details.php:20
+msgid "Order Items"
+msgstr ""
+
+#: dokan/orders/details.php:28
+msgid "Item"
+msgstr ""
+
+#: dokan/orders/details.php:32
+msgid "Qty"
+msgstr ""
+
+#: dokan/orders/details.php:34
+msgid "Totals"
+msgstr ""
+
+#: dokan/orders/details.php:96
+msgid "Coupons"
+msgstr ""
+
+#: dokan/orders/details.php:145
+msgid ""
+"Downloadable Product "
+"Permission"
+msgstr ""
+
+#: dokan/orders/details.php:160
+msgid "General Details"
+msgstr ""
+
+#: dokan/orders/details.php:164
+msgid "Order Status:"
+msgstr ""
+
+#: dokan/orders/details.php:168
+msgid "&nbsp; Edit"
+msgstr ""
+
+#: dokan/orders/details.php:188
+msgid "Update"
+msgstr ""
+
+#: dokan/orders/details.php:194
+msgid "Order Date:"
+msgstr ""
+
+#: dokan/orders/details.php:201
+msgid "Customer:"
+msgstr ""
+
+#: dokan/orders/details.php:214
+msgid "Email:"
+msgstr ""
+
+#: dokan/orders/details.php:218
+msgid "Phone:"
+msgstr ""
+
+#: dokan/orders/details.php:222
+msgid "Customer IP:"
+msgstr ""
+
+#: dokan/orders/details.php:234
+msgid "Customer Note:"
+msgstr ""
+
+#: dokan/orders/details.php:245
+msgid "Order Notes"
+msgstr ""
+
+#: dokan/orders/details.php:269
+#, php-format
+msgid "added %s ago"
+msgstr ""
+
+#: dokan/orders/details.php:269
+msgid "Delete note"
+msgstr ""
+
+#: dokan/orders/details.php:275
+msgid ""
+"There are no notes for "
+"this order yet."
+msgstr ""
+
+#: dokan/orders/details.php:283
+msgid "Add note"
+msgstr ""
+
+#: dokan/orders/details.php:291
+msgid "Customer note"
+msgstr ""
+
+#: dokan/orders/details.php:292
+msgid "Private note"
+msgstr ""
+
+#: dokan/orders/details.php:300
+msgid "Add Note"
+msgstr ""
+
+#: dokan/orders/details.php:306
+#: dokan/orders/details.php:324
+msgid "Tracking Number"
+msgstr ""
+
+#: dokan/orders/details.php:318
+msgid "Shipment Tracking"
+msgstr ""
+
+#: dokan/orders/details.php:322
+msgid ""
+"Shipping Provider Name / "
+"URL"
+msgstr ""
+
+#: dokan/orders/details.php:326
+msgid "Date Shipped"
+msgstr ""
+
+#: dokan/orders/details.php:333
+msgid "Close"
+msgstr ""
+
+#: dokan/orders/details.php:334
+msgid ""
+"Add Tracking Details"
+msgstr ""
+
+#: dokan/orders/downloadable.php:39
+msgid ""
+"Choose a downloadable "
+"product&hellip;"
+msgstr ""
+
+#: dokan/orders/downloadable.php:72
+msgid "Grant Access"
+msgstr ""
+
+#: dokan/orders/listing.php:18
+#: dokan/orders/listing.php:34
+msgid "Order Total"
+msgstr ""
+
+#: dokan/orders/listing.php:20
+#: dokan/orders/listing.php:40
+msgid "Customer"
+msgstr ""
+
+#: dokan/orders/listing.php:22
+#: dokan/orders/listing.php:86
+#: dokan/products/new-product-single.php:515
+msgid "Action"
+msgstr ""
+
+#: dokan/orders/listing.php:32
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: dokan/orders/listing.php:61
+msgid "Guest"
+msgstr ""
+
+#: dokan/orders/listing.php:70
+#: dokan/products/products-listing.php:205
+msgid "Unpublished"
+msgstr ""
+
+#: dokan/orders/listing.php:72
+#: dokan/products/products-listing.php:208
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: dokan/orders/listing.php:78
+#: dokan/products/products-listing.php:215
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: dokan/orders/listing.php:80
+#: dokan/products/products-listing.php:217
+msgid "Y/m/d"
+msgstr ""
+
+#: dokan/orders/listing.php:105
+msgid "Complete"
+msgstr ""
+
+#: dokan/orders/listing.php:163
+msgid "No orders found"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:7
+#, php-format
+msgid "File %d: %s"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:10
+msgid "Revoke Access"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:20
+msgid "Downloaded"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:22
+#, php-format
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dokan/orders/order-download-permission-html.php:25
+msgid "Downloads Remaining"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:28
+#: dokan/products/edit/html-product-variation.php:326
+#: dokan/products/edit/html-product-variation.php:330
+msgid "Unlimited"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:31
+msgid "Access Expires"
+msgstr ""
+
+#: dokan/orders/order-download-permission-html.php:32
+msgid "Never"
+msgstr ""
+
+#: dokan/orders/order-fee-html.php:10
+msgid "Fee Name"
+msgstr ""
+
+#: dokan/orders/order-tax-html.php:6
+msgid "Tax Rate:"
+msgstr ""
+
+#: dokan/orders/order-tax-html.php:8
+#: dokan/store-lists-loop.php:9
+#: inc/dokan.php:85
+msgid "N/A"
+msgstr ""
+
+#: dokan/orders/order-tax-html.php:16
+msgid "Sales Tax:"
+msgstr ""
+
+#: dokan/orders/order-tax-html.php:20
+msgid "Shipping Tax:"
+msgstr ""
+
+#: dokan/orders/orders-status-filter.php:14
+msgid "&larr; Orders"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:1
+#: dokan/products/product-edit.php:186
+msgid "Attributes"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:1
+msgid ""
+"Different types of this "
+"product (e.g. size, "
+"color)"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:46
+#: dokan/products/edit/templates-js.php:5
+msgid "Category name"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:54
+#: dokan/products/edit/html-product-attribute.php:4
+#: dokan/products/edit/html-product-variation.php:64
+#: dokan/products/edit/templates-js.php:11
+#: dokan/products/edit/tmpl-add-attribute.php:17
+#: woocommerce/wishlist-view.php:249
+msgid "Remove"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:72
+#: dokan/products/edit/html-product-attribute.php:24
+#: dokan/products/edit/templates-js.php:21
+msgid ""
+"Visible on the product "
+"page"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:85
+#: dokan/products/edit/html-product-attribute.php:28
+#: dokan/products/edit/templates-js.php:27
+msgid "Used for variations"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:99
+#: dokan/products/edit/attributes.php:113
+#: dokan/products/edit/templates-js.php:36
+#: dokan/products/edit/templates-js.php:54
+msgid "Option..."
+msgstr ""
+
+#: dokan/products/edit/attributes.php:138
+msgid "Custom Attribute"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:146
+msgid "+ Add a category"
+msgstr ""
+
+#: dokan/products/edit/attributes.php:147
+msgid "Save attributes"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:3
+msgid "Attribute Name"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:12
+#: dokan/products/edit/html-product-variation.php:276
+#: dokan/products/new-product-single.php:513
+#: dokan/products/products-listing.php:63
+#: dokan/products/products-listing.php:132
+#: woocommerce/single-product-reviews.php:73
+#: woocommerce/wpnetbase-product-reviews.php:66
+msgid "Name"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:33
+msgid "Value(s)"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:38
+msgid "Select terms"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:54
+msgid "Select none"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:55
+msgid "Add new"
+msgstr ""
+
+#: dokan/products/edit/html-product-attribute.php:58
+#: dokan/products/edit/html-product-attribute.php:73
+#, php-format
+msgid ""
+"Enter some text, or some "
+"attributes by \"%s\" "
+"separating values."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation-download.php:2
+msgid "File Name"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation-download.php:3
+msgid "http://"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation-download.php:4
+msgid "Choose file"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation-download.php:4
+msgid "Insert file URL"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation-download.php:5
+msgid "Delete"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:31
+msgid "Any"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:62
+msgid ""
+"Drag and drop, or click "
+"to set admin variation "
+"order"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:71
+msgid "Remove this image"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:71
+msgid "Upload an image"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:77
+msgid "Enabled"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:78
+#: dokan/products/new-product-single.php:193
+#: dokan/products/products-listing.php:186
+msgid "Downloadable"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:78
+msgid ""
+"Enable this option if "
+"access is given to a "
+"downloadable file upon "
+"purchase of a product"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:79
+#: dokan/products/new-product-single.php:198
+#: dokan/products/products-listing.php:184
+msgid "Virtual"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:79
+msgid ""
+"Enable this option if a "
+"product is not shipped "
+"or there is no shipping "
+"cost"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:82
+msgid "Manage stock?"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:82
+msgid ""
+"Enable this option to "
+"enable stock management "
+"at variation level"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:94
+#: dokan/products/edit/inventory.php:18
+#: dokan/products/edit/inventory.php:20
+#: dokan/products/new-product-single.php:426
+#: dokan/products/products-listing.php:65
+#: dokan/products/products-listing.php:144
+msgid "SKU"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:94
+msgid ""
+"Enter a SKU for this "
+"variation or leave blank "
+"to use the parent "
+"product SKU."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:102
+msgid "Stock status"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:102
+msgid ""
+"Controls whether or not "
+"the product is listed as "
+"\"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:117
+msgid "Regular price"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:118
+msgid ""
+"Variation price "
+"(required)"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:121
+msgid "Sale price"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:121
+#: dokan/products/new-product-single.php:221
+#: dokan/products/product-edit.php:273
+#: dokan/products/tmpl-add-product-popup.php:46
+msgid "Schedule"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:121
+msgid "Cancel schedule"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:127
+msgid "Sale start date"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:128
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:131
+msgid "Sale end date"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:132
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:154
+msgid "Stock quantity"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:154
+msgid ""
+"Enter a quantity to "
+"enable stock management "
+"at variation level, or "
+"leave blank to use the "
+"parent product's options."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:158
+msgid "Allow backorders?"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:189
+#: dokan/products/edit/shipping.php:34
+msgid "Weight"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:189
+msgid ""
+"Enter a weight for this "
+"variation or leave blank "
+"to use the parent "
+"product weight."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:198
+msgid ""
+"Dimensions (L&times;"
+"W&times;H)"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:215
+msgid "Shipping class"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:220
+#: dokan/products/edit/html-product-variation.php:237
+msgid "Same as parent"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:235
+msgid "Tax class"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:265
+msgid ""
+"Variation description"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:272
+msgid "Downloadable files"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:276
+#: dokan/products/new-product-single.php:513
+msgid ""
+"This is the name of the "
+"download shown to the "
+"customer."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:277
+#: dokan/products/new-product-single.php:514
+msgid "File URL"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:277
+msgid ""
+"This is the URL or "
+"absolute path to the "
+"file which customers "
+"will get access to. URLs "
+"entered here should "
+"already be encoded."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:315
+#: dokan/products/edit/sidebar.php:114
+#: dokan/products/new-product-single.php:507
+msgid "Add File"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:325
+msgid "Download limit"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:325
+msgid ""
+"Leave blank for "
+"unlimited re-downloads."
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:329
+msgid "Download expiry"
+msgstr ""
+
+#: dokan/products/edit/html-product-variation.php:329
+msgid ""
+"Enter the number of days "
+"before a download link "
+"expires, or leave blank."
+msgstr ""
+
+#: dokan/products/edit/inventory.php:6
+msgid "Standard"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:25
+msgid "Manage Stock?"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:27
+msgid ""
+"Enable stock management "
+"at product level"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:32
+msgid "Stock Qty"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:39
+#: dokan/products/new-product-single.php:442
+#: woocommerce/wishlist-view.php:19
+#: woocommerce/wishlist-view.php:113
+msgid "Stock Status"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:42
+#: dokan/products/new-product-single.php:445
+#: woocommerce/wishlist-view.php:192
+msgid "In Stock"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:43
+#: dokan/products/new-product-single.php:446
+#: woocommerce/wishlist-view.php:189
+msgid "Out of Stock"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:51
+#: dokan/products/new-product-single.php:451
+msgid "Allow Backorders"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:54
+#: dokan/products/new-product-single.php:454
+msgid "Do not allow"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:55
+#: dokan/products/new-product-single.php:455
+msgid ""
+"Allow but notify customer"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:56
+#: dokan/products/new-product-single.php:456
+msgid "Allow"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:65
+msgid "Tax Status"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:68
+msgid "Taxable"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:69
+msgid "Shipping only"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:70
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: dokan/products/edit/inventory.php:77
+msgid "Tax Class"
+msgstr ""
+
+#: dokan/products/edit/options.php:4
+#: dokan/products/new-product-single.php:628
+msgid "Purchase Note"
+msgstr ""
+
+#: dokan/products/edit/options.php:11
+#: dokan/review/header.php:11
+#: woocommerce/single-product-reviews.php:34
+#: woocommerce/wpnetbase-product-reviews.php:28
+msgid "Reviews"
+msgstr ""
+
+#: dokan/products/edit/options.php:14
+msgid "Enable Reviews"
+msgstr ""
+
+#: dokan/products/edit/options.php:19
+#: dokan/products/new-product-single.php:616
+msgid "Visibility"
+msgstr ""
+
+#: dokan/products/edit/options.php:22
+#: dokan/products/new-product-single.php:618
+msgid "Catalog or Search"
+msgstr ""
+
+#: dokan/products/edit/options.php:23
+#: dokan/products/new-product-single.php:619
+msgid "Catalog"
+msgstr ""
+
+#: dokan/products/edit/options.php:24
+#: dokan/products/listing-filter.php:50
+#: dokan/products/new-product-single.php:620
+msgid "Search"
+msgstr ""
+
+#: dokan/products/edit/options.php:25
+#: dokan/products/new-product-single.php:126
+#: dokan/products/new-product-single.php:621
+#: dokan/products/product-edit.php:114
+msgid "Hidden"
+msgstr ""
+
+#: dokan/products/edit/options.php:31
+msgid "Sold Individually"
+msgstr ""
+
+#: dokan/products/edit/options.php:34
+#: dokan/products/new-product-single.php:464
+msgid ""
+"Allow only one quantity "
+"of this product to be "
+"bought in a single order"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:25
+msgid "Disable Shipping"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:28
+msgid ""
+"Disable shipping for "
+"this product"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:41
+msgid "Dimensions"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:43
+msgid "length"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:44
+msgid "width"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:45
+msgid "height"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:51
+msgid "Override Shipping"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:53
+msgid ""
+"Override default "
+"shipping cost for this "
+"product"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:58
+msgid "Additional cost"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:65
+#: dokan/settings/shipping.php:91
+msgid ""
+"Per Qty Additional Price"
+msgstr ""
+
+#: dokan/products/edit/shipping.php:72
+#: dokan/settings/shipping.php:106
+msgid "Processing Time"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:14
+msgid "Update Product"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:20
+msgid "Product Status:"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:31
+#: dokan/products/new-product-single.php:600
+msgid "Online"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:32
+#: dokan/products/new-product-single.php:601
+msgid "Draft"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:41
+#: dokan/products/edit/sidebar.php:81
+msgid "OK"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:48
+msgid "Product Type:"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:52
+msgid "Simple product"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:53
+msgid "Variable product"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:94
+msgid ""
+"Downloadable Product"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:134
+msgid "Limit"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:135
+msgid "Number of times"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:141
+#: dokan/products/new-product-single.php:539
+msgid "Number of days"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:152
+msgid "Virtual Product"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:164
+#: dokan/products/new-product-single.php:564
+msgid ""
+"Enable bulk discount"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:173
+#: dokan/products/new-product-single.php:569
+msgid "Minimum quantity"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:178
+#: dokan/products/new-product-single.php:573
+msgid "Discount %"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:192
+msgid "Image Gallery"
+msgstr ""
+
+#: dokan/products/edit/sidebar.php:223
+msgid ""
+"+ Add product images"
+msgstr ""
+
+#: dokan/products/listing-filter.php:22
+#: dokan/products/new-product-single.php:262
+#: dokan/products/new-product.php:106
+#: dokan/products/product-edit.php:306
+#: dokan/products/tmpl-add-product-popup.php:81
+#: dokan/store-main.php:37
+msgid ""
+"- Select a category -"
+msgstr ""
+
+#: dokan/products/listing-filter.php:55
+msgid "Search Products"
+msgstr ""
+
+#: dokan/products/listing-status-filter.php:13
+#, php-format
+msgid "All (%d)"
+msgstr ""
+
+#: dokan/products/new-product-single.php:8
+msgid ""
+"Access Denied, No "
+"product found"
+msgstr ""
+
+#: dokan/products/new-product-single.php:14
+#: dokan/products/product-edit.php:19
+msgid "Access Denied"
+msgstr ""
+
+#: dokan/products/new-product-single.php:114
+msgid "Edit Product"
+msgstr ""
+
+#: dokan/products/new-product-single.php:121
+#: dokan/products/product-edit.php:119
+msgid "View Product"
+msgstr ""
+
+#: dokan/products/new-product-single.php:145
+#: dokan/products/product-edit.php:137
+msgid "Success!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:145
+msgid ""
+"The product has been "
+"saved successfully."
+msgstr ""
+
+#: dokan/products/new-product-single.php:148
+#: dokan/products/product-edit.php:140
+msgid "View Product &rarr;"
+msgstr ""
+
+#: dokan/products/new-product-single.php:172
+#: dokan/products/new-product.php:87
+#: dokan/products/tmpl-add-product-popup.php:29
+msgid "Product name.."
+msgstr ""
+
+#: dokan/products/new-product-single.php:174
+msgid ""
+"Please enter product "
+"title!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:180
+msgid "Product Type"
+msgstr ""
+
+#: dokan/products/new-product-single.php:180
+msgid ""
+"Choose Variable if your "
+"product has multiple "
+"attributes - like sizes, "
+"colors, quality etc"
+msgstr ""
+
+#: dokan/products/new-product-single.php:182
+#: dokan/products/products-listing.php:188
+msgid "Simple"
+msgstr ""
+
+#: dokan/products/new-product-single.php:183
+#: dokan/products/products-listing.php:192
+msgid "Variable"
+msgstr ""
+
+#: dokan/products/new-product-single.php:193
+msgid ""
+"Downloadable products "
+"give access to a file "
+"upon purchase."
+msgstr ""
+
+#: dokan/products/new-product-single.php:198
+msgid ""
+"Virtual products are "
+"intangible and aren't "
+"shipped."
+msgstr ""
+
+#: dokan/products/new-product-single.php:210
+#: dokan/products/products-listing.php:67
+#: dokan/products/products-listing.php:166
+#: dokan/products/tmpl-add-product-popup.php:35
+#: woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: dokan/products/new-product-single.php:214
+#: dokan/products/new-product-single.php:227
+msgid "0.00"
+msgstr ""
+
+#: dokan/products/new-product-single.php:220
+#: dokan/products/tmpl-add-product-popup.php:45
+msgid "Discounted Price"
+msgstr ""
+
+#: dokan/products/new-product-single.php:235
+#: dokan/products/product-edit.php:279
+#: dokan/products/tmpl-add-product-popup.php:60
+msgid "From"
+msgstr ""
+
+#: dokan/products/new-product-single.php:242
+#: dokan/products/product-edit.php:286
+#: dokan/products/tmpl-add-product-popup.php:67
+msgid "To"
+msgstr ""
+
+#: dokan/products/new-product-single.php:251
+#: dokan/products/new-product-single.php:282
+#: dokan/products/product-edit.php:323
+msgid "Category"
+msgstr ""
+
+#: dokan/products/new-product-single.php:277
+msgid ""
+"Please choose a category!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:302
+#: dokan/products/new-product.php:141
+#: dokan/products/product-edit.php:343
+#: dokan/products/tmpl-add-product-popup.php:116
+msgid ""
+"Select product category"
+msgstr ""
+
+#: dokan/products/new-product-single.php:308
+msgid "Tags"
+msgstr ""
+
+#: dokan/products/new-product-single.php:328
+#: dokan/products/new-product.php:164
+#: dokan/products/product-edit.php:368
+#: dokan/products/tmpl-add-product-popup.php:139
+msgid "Select product tags"
+msgstr ""
+
+#: dokan/products/new-product-single.php:353
+#: dokan/products/product-edit.php:234
+#: dokan/products/tmpl-add-product-popup.php:18
+msgid ""
+"Upload a product cover "
+"image"
+msgstr ""
+
+#: dokan/products/new-product-single.php:384
+msgid "Delete image"
+msgstr ""
+
+#: dokan/products/new-product-single.php:395
+msgid "+ Add more images"
+msgstr ""
+
+#: dokan/products/new-product-single.php:402
+msgid "Short Description"
+msgstr ""
+
+#: dokan/products/new-product-single.php:416
+#: dokan/products/product-edit.php:176
+msgid "Inventory"
+msgstr ""
+
+#: dokan/products/new-product-single.php:417
+msgid ""
+"Manage inventory for "
+"this product."
+msgstr ""
+
+#: dokan/products/new-product-single.php:426
+msgid ""
+"(Stock Keeping Unit)"
+msgstr ""
+
+#: dokan/products/new-product-single.php:431
+msgid ""
+"Enable product stock "
+"management"
+msgstr ""
+
+#: dokan/products/new-product-single.php:437
+#: woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr ""
+
+#: dokan/products/new-product-single.php:438
+#: inc/template-tags.php:208
+msgid "1"
+msgstr ""
+
+#: dokan/products/new-product-single.php:481
+msgid ""
+"Downloadable Options"
+msgstr ""
+
+#: dokan/products/new-product-single.php:482
+msgid ""
+"Configure your "
+"downloadable product "
+"settings"
+msgstr ""
+
+#: dokan/products/new-product-single.php:514
+msgid ""
+"This is the URL or "
+"absolute path to the "
+"file which customers "
+"will get access to."
+msgstr ""
+
+#: dokan/products/new-product-single.php:533
+msgid "Download Limit"
+msgstr ""
+
+#: dokan/products/new-product-single.php:534
+msgid "e.g. 4"
+msgstr ""
+
+#: dokan/products/new-product-single.php:538
+msgid "Download Expiry"
+msgstr ""
+
+#: dokan/products/new-product-single.php:553
+msgid "Discount Options"
+msgstr ""
+
+#: dokan/products/new-product-single.php:554
+msgid ""
+"Set your discount for "
+"this product"
+msgstr ""
+
+#: dokan/products/new-product-single.php:570
+#: inc/template-tags.php:208
+msgid "0"
+msgstr ""
+
+#: dokan/products/new-product-single.php:575
+#: dokan/settings/store-form.php:183
+msgid "Percentage"
+msgstr ""
+
+#: dokan/products/new-product-single.php:587
+msgid "Other Options"
+msgstr ""
+
+#: dokan/products/new-product-single.php:588
+msgid ""
+"Set your extra product "
+"options"
+msgstr ""
+
+#: dokan/products/new-product-single.php:597
+msgid "Product Status"
+msgstr ""
+
+#: dokan/products/new-product-single.php:629
+msgid ""
+"Customer will get this "
+"info in their order email"
+msgstr ""
+
+#: dokan/products/new-product-single.php:634
+msgid ""
+"Enable product reviews"
+msgstr ""
+
+#: dokan/products/new-product-single.php:647
+#: dokan/products/new-product-single.php:648
+msgid "Save Product"
+msgstr ""
+
+#: dokan/products/new-product.php:42
+#: dokan/products/tmpl-add-product-popup.php:3
+msgid "Add New Product"
+msgstr ""
+
+#: dokan/products/new-product.php:76
+msgid ""
+"Upload Product Image"
+msgstr ""
+
+#: dokan/products/new-product.php:98
+msgid ""
+"Short description of the "
+"product..."
+msgstr ""
+
+#: dokan/products/new-product.php:179
+msgid "Add Product"
+msgstr ""
+
+#: dokan/products/product-edit.php:26
+msgid ""
+"Access Denied! You have "
+"reached the limit of "
+"your subscribed total "
+"online product"
+msgstr ""
+
+#: dokan/products/product-edit.php:137
+msgid ""
+"The product has been "
+"updated successfully."
+msgstr ""
+
+#: dokan/products/product-edit.php:171
+msgid "Options"
+msgstr ""
+
+#: dokan/products/product-edit.php:181
+msgid "Shipping"
+msgstr ""
+
+#: dokan/products/product-edit.php:191
+msgid "Variations"
+msgstr ""
+
+#: dokan/products/product-edit.php:271
+msgid "Special Price"
+msgstr ""
+
+#: dokan/products/products-listing.php:45
+msgid "Add new product"
+msgstr ""
+
+#: dokan/products/products-listing.php:62
+#: dokan/products/products-listing.php:129
+msgid "Image"
+msgstr ""
+
+#: dokan/products/products-listing.php:66
+#: dokan/products/products-listing.php:153
+msgid "Stock"
+msgstr ""
+
+#: dokan/products/products-listing.php:68
+#: dokan/products/products-listing.php:175
+#: inc/tgm/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: dokan/products/products-listing.php:69
+#: dokan/products/products-listing.php:199
+msgid "Views"
+msgstr ""
+
+#: dokan/products/products-listing.php:137
+#: dokan/review/listing-table-tr.php:42
+#: dokan/review/listing-table-tr.php:47
+msgid "Delete Permanently"
+msgstr ""
+
+#: dokan/products/products-listing.php:156
+msgid "In stock"
+msgstr ""
+
+#: dokan/products/products-listing.php:158
+msgid "Out of stock"
+msgstr ""
+
+#: dokan/products/products-listing.php:178
+msgid "Grouped"
+msgstr ""
+
+#: dokan/products/products-listing.php:180
+msgid "External/Affiliate"
+msgstr ""
+
+#: dokan/products/products-listing.php:224
+msgid "Published"
+msgstr ""
+
+#: dokan/products/products-listing.php:227
+msgid "Missed schedule"
+msgstr ""
+
+#: dokan/products/products-listing.php:229
+msgid "Scheduled"
+msgstr ""
+
+#: dokan/products/products-listing.php:232
+msgid "Last Modified"
+msgstr ""
+
+#: dokan/products/products-listing.php:244
+msgid "No product found"
+msgstr ""
+
+#: dokan/products/products-listing.php:267
+msgid "&laquo; Previous"
+msgstr ""
+
+#: dokan/products/products-listing.php:268
+msgid "Next &raquo;"
+msgstr ""
+
+#: dokan/products/tmpl-add-product-popup.php:144
+msgid ""
+"Enter some short "
+"description about this "
+"product..."
+msgstr ""
+
+#: dokan/products/tmpl-add-product-popup.php:151
+msgid "Create product"
+msgstr ""
+
+#: dokan/products/tmpl-add-product-popup.php:152
+msgid "Create & add new"
+msgstr ""
+
+#: dokan/report/header.php:11
+msgid "Reports"
+msgstr ""
+
+#: dokan/review/listing-table-body.php:14
+msgid "No Results Found"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:23
+msgid "Submitted on "
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:35
+#: dokan/review/listing-table-tr.php:54
+msgid "Approve"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:36
+#: dokan/review/listing-table-tr.php:57
+msgid "Spam"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:37
+#: dokan/review/listing-table-tr.php:58
+msgid "Trash"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:41
+msgid "Not Spam"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:46
+msgid "Restore"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:52
+msgid "Unapprove"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:66
+msgid "View Comment"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:77
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: dokan/review/listing-table-tr.php:78
+#: inc/dokan.php:158
+msgid "out of 5"
+msgstr ""
+
+#: dokan/review/listing.php:16
+msgid "Author"
+msgstr ""
+
+#: dokan/review/listing.php:17
+msgid "Comment"
+msgstr ""
+
+#: dokan/review/listing.php:18
+msgid "Link To"
+msgstr ""
+
+#: dokan/review/listing.php:19
+msgid "Rating"
+msgstr ""
+
+#: dokan/review/listing.php:43
+#: dokan/review/listing.php:48
+#: dokan/review/listing.php:52
+#: dokan/review/listing.php:56
+msgid "-None-"
+msgstr ""
+
+#: dokan/review/listing.php:44
+msgid "Mark Approve"
+msgstr ""
+
+#: dokan/review/listing.php:45
+#: dokan/review/listing.php:58
+msgid "Mark Spam"
+msgstr ""
+
+#: dokan/review/listing.php:46
+#: dokan/review/listing.php:59
+msgid "Mark Trash"
+msgstr ""
+
+#: dokan/review/listing.php:49
+msgid "Mark Not Spam"
+msgstr ""
+
+#: dokan/review/listing.php:50
+#: dokan/review/listing.php:54
+msgid "Delete permanently"
+msgstr ""
+
+#: dokan/review/listing.php:53
+msgid "Resore"
+msgstr ""
+
+#: dokan/review/listing.php:57
+msgid "Mark Pending"
+msgstr ""
+
+#: dokan/review/listing.php:67
+#: woocommerce/single-product-reviews.php:78
+#: woocommerce/wpnetbase-product-reviews.php:71
+msgid "Submit"
+msgstr ""
+
+#: dokan/review/status-filter.php:13
+msgid "Approved ("
+msgstr ""
+
+#: dokan/review/status-filter.php:13
+#: dokan/review/status-filter.php:16
+#: dokan/review/status-filter.php:19
+#: dokan/review/status-filter.php:22
+msgid ")"
+msgstr ""
+
+#: dokan/review/status-filter.php:16
+msgid "Pending ("
+msgstr ""
+
+#: dokan/review/status-filter.php:19
+msgid "Spam ("
+msgstr ""
+
+#: dokan/review/status-filter.php:22
+msgid "Trash ("
+msgstr ""
+
+#: dokan/settings/address-form.php:27
+msgid "Address"
+msgstr ""
+
+#: dokan/settings/address-form.php:35
+msgid "Street "
+msgstr ""
+
+#: dokan/settings/address-form.php:43
+msgid "Street address"
+msgstr ""
+
+#: dokan/settings/address-form.php:48
+msgid "Street 2"
+msgstr ""
+
+#: dokan/settings/address-form.php:56
+msgid ""
+"Apartment, suite, unit "
+"etc. (optional)"
+msgstr ""
+
+#: dokan/settings/address-form.php:64
+msgid "City"
+msgstr ""
+
+#: dokan/settings/address-form.php:72
+msgid "Town / City"
+msgstr ""
+
+#: dokan/settings/address-form.php:79
+msgid "Post/ZIP Code"
+msgstr ""
+
+#: dokan/settings/address-form.php:87
+msgid "Postcode / Zip"
+msgstr ""
+
+#: dokan/settings/address-form.php:106
+msgid "Country "
+msgstr ""
+
+#: dokan/settings/address-form.php:137
+msgid "State "
+msgstr ""
+
+#: dokan/settings/header.php:14
+#: dokan/store-lists-loop.php:34
+#: inc/dokan.php:108
+#: inc/dokan.php:592
+msgid "Visit Store"
+msgstr ""
+
+#: dokan/settings/payment.php:41
+#: dokan/settings/social.php:39
+#: dokan/settings/store-form.php:288
+msgid "Update Settings"
+msgstr ""
+
+#: dokan/settings/seo-form.php:17
+msgid "SEO Title :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:18
+msgid ""
+"SEO Title is shown as "
+"the title of your store "
+"page"
+msgstr ""
+
+#: dokan/settings/seo-form.php:31
+msgid "Meta Description :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:32
+msgid ""
+"The meta description is "
+"often shown as the black "
+"text under the title in "
+"a search result. For "
+"this to work it has to "
+"contain the keyword that "
+"was searched for and "
+"should be less than 156 "
+"chars."
+msgstr ""
+
+#: dokan/settings/seo-form.php:44
+msgid "Meta Keywords :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:45
+msgid ""
+"Insert some comma "
+"separated keywords for "
+"better ranking of your "
+"store page."
+msgstr ""
+
+#: dokan/settings/seo-form.php:57
+msgid "Facebook Title :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:66
+msgid ""
+"Facebook Description :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:78
+msgid "Facebook Image :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:88
+#: dokan/settings/seo-form.php:126
+#: dokan/settings/store-form.php:114
+msgid "Upload Photo"
+msgstr ""
+
+#: dokan/settings/seo-form.php:95
+msgid "Twitter Title :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:104
+msgid ""
+"Twitter Description :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:116
+msgid "Twitter Image :"
+msgstr ""
+
+#: dokan/settings/seo-form.php:138
+msgid "Save Changes"
+msgstr ""
+
+#: dokan/settings/shipping.php:39
+msgid "Enable Shipping"
+msgstr ""
+
+#: dokan/settings/shipping.php:40
+msgid ""
+"Check this if you want "
+"to enable shipping for "
+"your store"
+msgstr ""
+
+#: dokan/settings/shipping.php:50
+msgid ""
+"Enable shipping "
+"functionality"
+msgstr ""
+
+#: dokan/settings/shipping.php:62
+msgid ""
+"Default Shipping Price"
+msgstr ""
+
+#: dokan/settings/shipping.php:63
+msgid ""
+"This is the base price "
+"and will be the starting "
+"shipping price for each "
+"product"
+msgstr ""
+
+#: dokan/settings/shipping.php:76
+msgid ""
+"Per Product Additional "
+"Price"
+msgstr ""
+
+#: dokan/settings/shipping.php:77
+msgid ""
+"If a customer buys more "
+"than one type product "
+"from your store, first "
+"product of the every "
+"second type will be "
+"charged with this price"
+msgstr ""
+
+#: dokan/settings/shipping.php:92
+msgid ""
+"Every second product of "
+"same type will be "
+"charged with this price"
+msgstr ""
+
+#: dokan/settings/shipping.php:107
+msgid ""
+"The time required before "
+"sending the product for "
+"delivery"
+msgstr ""
+
+#: dokan/settings/shipping.php:126
+msgid "Shipping Policy"
+msgstr ""
+
+#: dokan/settings/shipping.php:127
+msgid ""
+"Write your terms, "
+"conditions and "
+"instructions about "
+"shipping"
+msgstr ""
+
+#: dokan/settings/shipping.php:141
+msgid "Refund Policy"
+msgstr ""
+
+#: dokan/settings/shipping.php:142
+msgid ""
+"Write your terms, "
+"conditions and "
+"instructions about refund"
+msgstr ""
+
+#: dokan/settings/shipping.php:156
+msgid "Ships from:"
+msgstr ""
+
+#: dokan/settings/shipping.php:157
+msgid ""
+"Location from where the "
+"products are shipped for "
+"delivery. Usually it is "
+"same as the store."
+msgstr ""
+
+#: dokan/settings/shipping.php:177
+msgid ""
+"Add the countries you "
+"deliver your products "
+"to. You can specify "
+"states as well. If the "
+"shipping price is same "
+"except some countries/"
+"states, there is an "
+"option "
+"<strong>Everywhere Else</"
+"strong>, you can use "
+"that."
+msgstr ""
+
+#: dokan/settings/shipping.php:190
+#: dokan/settings/shipping.php:294
+#: dokan/settings/shipping.php:352
+msgid "Ship to"
+msgstr ""
+
+#: dokan/settings/shipping.php:191
+#: dokan/settings/shipping.php:295
+#: dokan/settings/shipping.php:353
+msgid ""
+"The country you ship to"
+msgstr ""
+
+#: dokan/settings/shipping.php:198
+#: dokan/settings/shipping.php:228
+#: dokan/settings/shipping.php:254
+#: dokan/settings/shipping.php:302
+#: dokan/settings/shipping.php:360
+msgid "Cost"
+msgstr ""
+
+#: dokan/settings/shipping.php:199
+#: dokan/settings/shipping.php:303
+#: dokan/settings/shipping.php:361
+msgid ""
+"If the shipping price is "
+"same for all the states, "
+"use this field. If not, "
+"manually add the states "
+"below"
+msgstr ""
+
+#: dokan/settings/shipping.php:220
+#: dokan/settings/shipping.php:250
+msgid "State"
+msgstr ""
+
+#: dokan/settings/shipping.php:221
+msgid ""
+"The state you ship to"
+msgstr ""
+
+#: dokan/settings/shipping.php:229
+msgid ""
+"Shipping price for this "
+"state"
+msgstr ""
+
+#: dokan/settings/shipping.php:325
+msgid "Add Location"
+msgstr ""
+
+#: dokan/settings/shipping.php:340
+msgid "Save Settings"
+msgstr ""
+
+#: dokan/settings/store-form.php:75
+msgid "Upload banner"
+msgstr ""
+
+#: dokan/settings/store-form.php:88
+#, php-format
+msgid ""
+"Upload a banner for your "
+"store. Banner size is "
+"(%sx%s) pixels."
+msgstr ""
+
+#: dokan/settings/store-form.php:103
+msgid "Profile Picture"
+msgstr ""
+
+#: dokan/settings/store-form.php:123
+msgid "Store Name"
+msgstr ""
+
+#: dokan/settings/store-form.php:126
+msgid "store name"
+msgstr ""
+
+#: dokan/settings/store-form.php:132
+msgid ""
+"Store Product Per Page"
+msgstr ""
+
+#: dokan/settings/store-form.php:157
+msgid "Phone No"
+msgstr ""
+
+#: dokan/settings/store-form.php:161
+msgid "+123456.."
+msgstr ""
+
+#: dokan/settings/store-form.php:169
+msgid "Discount "
+msgstr ""
+
+#: dokan/settings/store-form.php:175
+msgid ""
+"Enable storewide discount"
+msgstr ""
+
+#: dokan/settings/store-form.php:180
+msgid ""
+"Minimum Order Amount"
+msgstr ""
+
+#: dokan/settings/store-form.php:192
+#: woocommerce/single-product-reviews.php:75
+#: woocommerce/wpnetbase-product-reviews.php:68
+msgid "Email"
+msgstr ""
+
+#: dokan/settings/store-form.php:198
+msgid ""
+"Show email address in "
+"store"
+msgstr ""
+
+#: dokan/settings/store-form.php:206
+msgid "More product"
+msgstr ""
+
+#: dokan/settings/store-form.php:212
+msgid ""
+"Enable tab on product "
+"single page view"
+msgstr ""
+
+#: dokan/settings/store-form.php:220
+msgid "Map"
+msgstr ""
+
+#: dokan/settings/store-form.php:228
+msgid ""
+"Type an address to find"
+msgstr ""
+
+#: dokan/settings/store-form.php:229
+msgid "Find Address"
+msgstr ""
+
+#: dokan/settings/store-form.php:251
+msgid ""
+"Terms and Conditions"
+msgstr ""
+
+#: dokan/settings/store-form.php:257
+msgid ""
+"Show terms and "
+"conditions in store page"
+msgstr ""
+
+#: dokan/settings/store-form.php:266
+msgid "TOC Details"
+msgstr ""
+
+#: dokan/store-lists-loop.php:25
+#: inc/dokan.php:98
+msgid "No Image"
+msgstr ""
+
+#: dokan/store-lists-loop.php:70
+msgid "&larr; Previous"
+msgstr ""
+
+#: dokan/store-lists-loop.php:71
+msgid "Next &rarr;"
+msgstr ""
+
+#: dokan/store-lists-loop.php:97
+#: inc/dokan.php:145
+msgid "No vendor found!"
+msgstr ""
+
+#: dokan/store-reviews.php:35
+#: dokan/store-toc.php:31
+#: dokan/store.php:41
+msgid "Store Category"
+msgstr ""
+
+#: dokan/store-reviews.php:38
+#: dokan/store-toc.php:33
+#: dokan/store.php:44
+msgid "Store Location"
+msgstr ""
+
+#: dokan/store-reviews.php:42
+#: dokan/store-toc.php:36
+#: dokan/store.php:48
+msgid "Contact Vendor"
+msgstr ""
+
+#: dokan/store-reviews.php:79
+msgid "Vendor Review"
+msgstr ""
+
+#: dokan/store-toc.php:62
+msgid ""
+"Terms And Conditions"
+msgstr ""
+
+#: dokan/store.php:101
+msgid ""
+"No products were found "
+"of this vendor!"
+msgstr ""
+
+#: dokan/sub-orders.php:12
+msgid "Sub Orders"
+msgstr ""
+
+#: dokan/sub-orders.php:16
+msgid "Note:"
+msgstr ""
+
+#: dokan/sub-orders.php:17
+msgid ""
+"This order has products "
+"from multiple vendors. "
+"So we divided this order "
+"into multiple vendor "
+"orders.\n"
+"    Each order will be "
+"handled by their "
+"respective vendor "
+"independently."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:23
+msgid "Your Name"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:26
+msgid "you@example.com"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:29
+msgid ""
+"Type your messsage..."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:36
+msgid "Send Message"
+msgstr ""
+
+#: dokan/widgets/widget-content-product.php:31
+msgid "No products found"
+msgstr ""
+
+#: dokan/withdraw/approved-request-listing.php:15
+#: dokan/withdraw/pending-request-listing.php:15
+msgid "Method"
+msgstr ""
+
+#: dokan/withdraw/header.php:11
+msgid "Withdraw"
+msgstr ""
+
+#: dokan/withdraw/pending-request-listing.php:41
+msgid "Pending Reivew"
+msgstr ""
+
+#: dokan/withdraw/pending-request-listing.php:43
+msgid "Accepted"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:14
+msgid "Withdraw Amount"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:30
+msgid "Payment Method"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:49
+msgid "Submit Request"
+msgstr ""
+
+#: dokan/withdraw/status-listing.php:12
+msgid "Withdraw Request"
+msgstr ""
+
+#: dokan/withdraw/status-listing.php:15
+msgid "Approved Requests"
+msgstr ""
+
+#: footer.php:53
+#, php-format
+msgid ""
+"%s - Copyright &copy; %u "
+"%s. All Rights Reserved"
+msgstr ""
+
+#: footer.php:53
+#: header-creativeleft.php:93
+#: header-creativeright.php:107
+msgid ""
+"http://www.netbaseteam."
+"com/"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: functions.php:55
+#: inc/options-config.php:1074
+msgid "Footer"
+msgstr ""
+
+#: functions.php:79
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:81
+msgid ""
+"Sidebar in the blog pages"
+msgstr ""
+
+#: functions.php:88
+msgid "Top Language"
+msgstr ""
+
+#: functions.php:90
+msgid ""
+"Widget area for language "
+"change in header"
+msgstr ""
+
+#: functions.php:97
+msgid "Top Currency"
+msgstr ""
+
+#: functions.php:99
+msgid ""
+"Widget area for currency "
+"change in header"
+msgstr ""
+
+#: functions.php:106
+#: functions.php:108
+msgid "Cart Header"
+msgstr ""
+
+#: functions.php:115
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:117
+msgid "Sidebar for pages"
+msgstr ""
+
+#: functions.php:124
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:126
+msgid ""
+"Sidebar for WooCommerce "
+"pages"
+msgstr ""
+
+#: functions.php:134
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:143
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:152
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:171
+msgid "Top Bar Left"
+msgstr ""
+
+#: functions.php:173
+msgid ""
+"Widget area for top bar "
+"left"
+msgstr ""
+
+#: functions.php:179
+msgid "Top Bar Right"
+msgstr ""
+
+#: functions.php:181
+msgid ""
+"Widget area for top bar "
+"right"
+msgstr ""
+
+#: functions.php:188
+msgid ""
+"Menu Header Creative"
+msgstr ""
+
+#: functions.php:190
+msgid ""
+"Widget area for menu "
+"header creative"
+msgstr ""
+
+#: functions.php:197
+msgid "Footer bottom"
+msgstr ""
+
+#: functions.php:243
+#: header-banner.php:40
+msgid "Wishlist"
+msgstr ""
+
+#: functions.php:244
+msgid "Quickview"
+msgstr ""
+
+#: functions.php:245
+msgid "Browse Wishlist"
+msgstr ""
+
+#: functions.php:246
+msgid "Start Design"
+msgstr ""
+
+#: functions.php:247
+msgid "Compare"
+msgstr ""
+
+#: functions.php:325
+#: inc/template-tags.php:714
+msgid "Read More"
+msgstr ""
+
+#: functions.php:335
+msgid "Recent Post"
+msgstr ""
+
+#: functions.php:341
+#: inc/widget-dokan.php:81
+msgid "Title:"
+msgstr ""
+
+#: functions.php:344
+msgid ""
+"Use the following "
+"options to customize the "
+"display."
+msgstr ""
+
+#: functions.php:346
+msgid "Number of posts:"
+msgstr ""
+
+#: functions.php:397
+msgid "Wpnetbase Parallax"
+msgstr ""
+
+#: functions.php:400
+msgid ""
+"If enabled, the "
+"background image will "
+"have a parallax effect."
+"custom by netbaseteam"
+msgstr ""
+
+#: functions.php:421
+msgid "Menu Sidebar Main"
+msgstr ""
+
+#: functions.php:514
+msgid ""
+"Page Layout ( Set the "
+"page layout, inherit "
+"from Theme Option by "
+"default ) "
+msgstr ""
+
+#: functions.php:528
+msgid "Page Settings"
+msgstr ""
+
+#: header-banner.php:22
+#: header-logoleft.php:22
+#: header-menubottom.php:22
+#: header.php:22
+msgid "PRINT CARDS"
+msgstr ""
+
+#: header-banner.php:30
+msgid "Call Support Free: "
+msgstr ""
+
+#: header-banner.php:42
+msgid "Logout"
+msgstr ""
+
+#: header-banner.php:44
+msgid "Login"
+msgstr ""
+
+#: header-banner.php:92
+#: header-centered.php:87
+#: header-creativeleft.php:67
+#: header-creativeright.php:83
+#: header-logoleft.php:72
+#: header-menubottom.php:94
+#: header.php:82
+msgid "Navigation"
+msgstr ""
+
+#: header-banner.php:108
+#: header-centered.php:97
+#: header-creativeleft.php:31
+#: header-creativeright.php:37
+#: header-logoleft.php:87
+#: header-menubottom.php:82
+#: header.php:98
+#: inc/woo-config.php:63
+#: inc/woo-config.php:78
+msgid ""
+"View your shopping cart"
+msgstr ""
+
+#: header-creativeleft.php:93
+#: header-creativeright.php:107
+#, php-format
+msgid ""
+"Central - Copyright "
+"&copy; 2015 %2$s. All "
+"Rights Reserved"
+msgstr ""
+
+#: inc/apis/mailchimp-api.php:1
+msgid ""
+"Adding email address..."
+msgstr ""
+
+#: inc/dokan.php:157
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/dokan.php:179
+msgid "Dashboard"
+msgstr ""
+
+#: inc/dokan.php:184
+#: inc/dokan.php:224
+#: inc/dokan.php:472
+#: inc/template-tags.php:700
+msgid "You are here"
+msgstr ""
+
+#: inc/dokan.php:211
+msgid "Shop"
+msgstr ""
+
+#: inc/dokan.php:249
+msgid "Sidebar Store"
+msgstr ""
+
+#: inc/dokan.php:251
+msgid ""
+"show on all posts and "
+"pages"
+msgstr ""
+
+#: inc/dokan.php:594
+msgid "Log out"
+msgstr ""
+
+#: inc/dokan.php:615
+msgid ""
+"Your bank account name"
+msgstr ""
+
+#: inc/dokan.php:620
+msgid ""
+"Your bank account number"
+msgstr ""
+
+#: inc/dokan.php:625
+msgid "Name of bank"
+msgstr ""
+
+#: inc/dokan.php:630
+msgid ""
+"Address of your bank"
+msgstr ""
+
+#: inc/dokan.php:634
+msgid "Swift code"
+msgstr ""
+
+#: inc/dokan.php:643
+msgid "PayPal"
+msgstr ""
+
+#: inc/dokan.php:648
+msgid "Bank Transfer"
+msgstr ""
+
+#: inc/dokan.php:668
+msgid "E-mail"
+msgstr ""
+
+#: inc/extras.php:191
+msgid ""
+"This widget area is "
+"currently disabled. You "
+"can enable it Theme "
+"Options - Footer section."
+msgstr ""
+
+#: inc/extras.php:207
+msgid ""
+"This widget area is "
+"currently disabled "
+"because you are using "
+"default header ( Theme "
+"Option > Header ) and it "
+"only available for "
+"Header Topbar or Header "
+"Centered."
+msgstr ""
+
+#: inc/options-config.php:51
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/options-config.php:52
+#: inc/options-config.php:58
+msgid ""
+"This is the tab content, "
+"HTML is allowed."
+msgstr ""
+
+#: inc/options-config.php:57
+msgid "Theme Information 2"
+msgstr ""
+
+#: inc/options-config.php:62
+msgid ""
+"This is the sidebar "
+"content, HTML is allowed."
+msgstr ""
+
+#: inc/options-config.php:85
+#: inc/options-config.php:86
+msgid "Theme Options"
+msgstr ""
+
+#: inc/options-config.php:193
+msgid "General"
+msgstr ""
+
+#: inc/options-config.php:203
+msgid "Site Logo"
+msgstr ""
+
+#: inc/options-config.php:205
+#: inc/options-config.php:213
+msgid ""
+"Upload your logo here."
+msgstr ""
+
+#: inc/options-config.php:211
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/options-config.php:219
+msgid "Site Logo Retina"
+msgstr ""
+
+#: inc/options-config.php:221
+msgid ""
+"Upload at exactly 2x the "
+"size of your standard "
+"logo (optional), the "
+"name should include @2x "
+"at the end, example "
+"logo@2x.png"
+msgstr ""
+
+#: inc/options-config.php:227
+msgid "Transparent Logo"
+msgstr ""
+
+#: inc/options-config.php:229
+msgid ""
+"Upload your transparent "
+"logo here, transparent "
+"logo display on a "
+"transparent header when "
+"applicable."
+msgstr ""
+
+#: inc/options-config.php:235
+msgid ""
+"Transparent Logo Retina"
+msgstr ""
+
+#: inc/options-config.php:237
+msgid ""
+"Upload at exactly 2x the "
+"size of your transparent "
+"logo (optional)."
+msgstr ""
+
+#: inc/options-config.php:246
+msgid "Logo Margin"
+msgstr ""
+
+#: inc/options-config.php:248
+msgid ""
+"Set your logo margin in "
+"px. ee.g. 20"
+msgstr ""
+
+#: inc/options-config.php:262
+msgid "Site Favicon"
+msgstr ""
+
+#: inc/options-config.php:264
+msgid ""
+"Upload a 16px x 16px ."
+"png or .gif image that "
+"will be your favicon."
+msgstr ""
+
+#: inc/options-config.php:270
+msgid "Apple iPhone Icon "
+msgstr ""
+
+#: inc/options-config.php:272
+msgid ""
+"Custom iPhone icon (57px "
+"x 57px)."
+msgstr ""
+
+#: inc/options-config.php:279
+msgid ""
+"Apple iPhone Retina Icon "
+msgstr ""
+
+#: inc/options-config.php:281
+msgid ""
+"Custom iPhone retina "
+"icon (114px x 114px)."
+msgstr ""
+
+#: inc/options-config.php:288
+msgid "Apple iPad Icon "
+msgstr ""
+
+#: inc/options-config.php:290
+msgid ""
+"Custom iPad icon (72px x "
+"72px)."
+msgstr ""
+
+#: inc/options-config.php:297
+msgid ""
+"Apple iPad Retina Icon "
+msgstr ""
+
+#: inc/options-config.php:299
+msgid ""
+"Custom iPad retina icon "
+"(144px x 144px)."
+msgstr ""
+
+#: inc/options-config.php:304
+msgid ""
+"Enable Page Comments?"
+msgstr ""
+
+#: inc/options-config.php:305
+msgid ""
+"Do you want to enable "
+"comments on single page?"
+msgstr ""
+
+#: inc/options-config.php:311
+msgid ""
+"Enable Back To Top "
+"Button?"
+msgstr ""
+
+#: inc/options-config.php:312
+msgid ""
+"Do you want to enable "
+"back to top button?"
+msgstr ""
+
+#: inc/options-config.php:318
+msgid "Your mailchimp API"
+msgstr ""
+
+#: inc/options-config.php:320
+msgid ""
+"Grab an API Key from <a "
+"href=\"http://admin."
+"mailchimp.com/account/"
+"api/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: inc/options-config.php:325
+msgid "Your group id"
+msgstr ""
+
+#: inc/options-config.php:327
+msgid ""
+"Grab your List's Unique "
+"Id by going <a href="
+"\"http://admin.mailchimp."
+"com/lists/\" target="
+"\"_blank\">here</a>.<br> "
+"Click the \"settings\" "
+"link for the list - the "
+"Unique Id is at the "
+"bottom of that page."
+msgstr ""
+
+#: inc/options-config.php:337
+msgid "Layout"
+msgstr ""
+
+#: inc/options-config.php:345
+msgid "Boxed Version?"
+msgstr ""
+
+#: inc/options-config.php:346
+msgid ""
+"Do you want to enable "
+"boxed layout?"
+msgstr ""
+
+#: inc/options-config.php:352
+msgid "Page Layout"
+msgstr ""
+
+#: inc/options-config.php:353
+msgid ""
+"Default page layout."
+msgstr ""
+
+#: inc/options-config.php:364
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/options-config.php:365
+msgid ""
+"Default archive layout "
+"( front page, category, "
+"tag, search, author, "
+"archive )."
+msgstr ""
+
+#: inc/options-config.php:376
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/options-config.php:377
+msgid ""
+"Set your blog layout to "
+"display, include blog "
+"page and single blog "
+"post."
+msgstr ""
+
+#: inc/options-config.php:388
+msgid ""
+"Single WooCommerce "
+"Product Layout"
+msgstr ""
+
+#: inc/options-config.php:389
+msgid ""
+"Layout for single "
+"product and products "
+"archive."
+msgstr ""
+
+#: inc/options-config.php:405
+msgid "Header"
+msgstr ""
+
+#: inc/options-config.php:414
+msgid ""
+"Enable fixed header on "
+"scroll."
+msgstr ""
+
+#: inc/options-config.php:420
+msgid ""
+"Enable bacground "
+"transparent"
+msgstr ""
+
+#: inc/options-config.php:426
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options-config.php:427
+msgid ""
+"Select your header layout"
+msgstr ""
+
+#: inc/options-config.php:444
+msgid ""
+"Header Topbar Setup Guide"
+msgstr ""
+
+#: inc/options-config.php:445
+msgid ""
+"You had selected Header "
+"Topbar style. In order "
+"to display top bar "
+"elements please go to "
+"Widget page and look for "
+"TopBar Left / TopBar "
+"Right widget areas."
+msgstr ""
+
+#: inc/options-config.php:452
+msgid ""
+"Header Centered Setup "
+"Guide"
+msgstr ""
+
+#: inc/options-config.php:453
+msgid ""
+"You had selected Header "
+"Centered style. In order "
+"to display top bar "
+"elements please go to "
+"Widget page and look for "
+"TopBar Left / TopBar "
+"Right widget areas."
+msgstr ""
+
+#: inc/options-config.php:461
+msgid "Phone Value"
+msgstr ""
+
+#: inc/options-config.php:472
+msgid ""
+"Header Extract Value "
+"Color"
+msgstr ""
+
+#: inc/options-config.php:484
+msgid ""
+"Hide Header Topbar ?."
+msgstr ""
+
+#: inc/options-config.php:491
+msgid ""
+"Custom Topbar Style?."
+msgstr ""
+
+#: inc/options-config.php:500
+msgid "Topbar Background"
+msgstr ""
+
+#: inc/options-config.php:510
+msgid "Topbar Text Color"
+msgstr ""
+
+#: inc/options-config.php:523
+msgid "Topbar Link Color"
+msgstr ""
+
+#: inc/options-config.php:534
+msgid ""
+"Topbar Link Hover Color"
+msgstr ""
+
+#: inc/options-config.php:545
+msgid ""
+"Topbar Primary Color"
+msgstr ""
+
+#: inc/options-config.php:556
+msgid "Topbar Border Color"
+msgstr ""
+
+#: inc/options-config.php:578
+msgid ""
+"Custom Header Style?."
+msgstr ""
+
+#: inc/options-config.php:587
+msgid "Header Background"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid ""
+"Header Background Link"
+msgstr ""
+
+#: inc/options-config.php:606
+msgid "Header Color"
+msgstr ""
+
+#: inc/options-config.php:625
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/options-config.php:633
+msgid ""
+"Primary Menu Typography"
+msgstr ""
+
+#: inc/options-config.php:651
+msgid ""
+"Custom typography for "
+"primary menu."
+msgstr ""
+
+#: inc/options-config.php:662
+msgid "Page"
+msgstr ""
+
+#: inc/options-config.php:673
+msgid ""
+"Page Title Background"
+msgstr ""
+
+#: inc/options-config.php:684
+msgid ""
+"Page Title Custom Color"
+msgstr ""
+
+#: inc/options-config.php:691
+msgid "Page Title Button"
+msgstr ""
+
+#: inc/options-config.php:703
+msgid "Styling"
+msgstr ""
+
+#: inc/options-config.php:712
+msgid ""
+"Primary Color Schema"
+msgstr ""
+
+#: inc/options-config.php:814
+msgid ""
+"Secondary Color Schema"
+msgstr ""
+
+#: inc/options-config.php:842
+msgid ""
+"Button Background Color"
+msgstr ""
+
+#: inc/options-config.php:858
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Meta Color"
+msgstr ""
+
+#: inc/options-config.php:884
+msgid "Border Color"
+msgstr ""
+
+#: inc/options-config.php:896
+msgid "Site Background"
+msgstr ""
+
+#: inc/options-config.php:909
+msgid ""
+"Body Background for "
+"boxed layout"
+msgstr ""
+
+#: inc/options-config.php:923
+msgid "Typography"
+msgstr ""
+
+#: inc/options-config.php:933
+msgid "Body"
+msgstr ""
+
+#: inc/options-config.php:949
+msgid ""
+"Select custom font for "
+"your main body text."
+msgstr ""
+
+#: inc/options-config.php:959
+msgid "Heading"
+msgstr ""
+
+#: inc/options-config.php:975
+msgid ""
+"Select custom font for "
+"heading like h1, h2, "
+"h3, ..."
+msgstr ""
+
+#: inc/options-config.php:988
+msgid "Blog"
+msgstr ""
+
+#: inc/options-config.php:996
+msgid ""
+"Enable Blog Page Title"
+msgstr ""
+
+#: inc/options-config.php:997
+msgid ""
+"Do you want to enable "
+"blog page title?"
+msgstr ""
+
+#: inc/options-config.php:1003
+msgid ""
+"Enable Blog Page Title "
+"For Single Blog Post"
+msgstr ""
+
+#: inc/options-config.php:1004
+msgid ""
+"Do you want to enable "
+"blog page title on "
+"single blog post?"
+msgstr ""
+
+#: inc/options-config.php:1016
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/options-config.php:1017
+msgid ""
+"Show featured image on "
+"single blog post?"
+msgstr ""
+
+#: inc/options-config.php:1023
+msgid "Show Author Box"
+msgstr ""
+
+#: inc/options-config.php:1024
+msgid ""
+"Show author bio box on "
+"single blog post?"
+msgstr ""
+
+#: inc/options-config.php:1034
+msgid "Footer Connect"
+msgstr ""
+
+#: inc/options-config.php:1042
+msgid ""
+"Enable footer connect "
+"social icon"
+msgstr ""
+
+#: inc/options-config.php:1048
+msgid "Social Text"
+msgstr ""
+
+#: inc/options-config.php:1050
+msgid ""
+"Enter social text before "
+"the social icons."
+msgstr ""
+
+#: inc/options-config.php:1056
+msgid "Enable Social Icon?"
+msgstr ""
+
+#: inc/options-config.php:1057
+msgid ""
+"Which icon should "
+"display? the social icon "
+"url will be take from "
+"Social Media setting tab."
+msgstr ""
+
+#: inc/options-config.php:1082
+msgid ""
+"Enable footer widgets "
+"area."
+msgstr ""
+
+#: inc/options-config.php:1088
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/options-config.php:1089
+msgid ""
+"Select the number of "
+"columns you would like "
+"for your footer widgets "
+"area."
+msgstr ""
+
+#: inc/options-config.php:1094
+msgid "1 Columns"
+msgstr ""
+
+#: inc/options-config.php:1095
+msgid "2 Columns"
+msgstr ""
+
+#: inc/options-config.php:1096
+msgid "3 Columns"
+msgstr ""
+
+#: inc/options-config.php:1097
+msgid "4 Columns"
+msgstr ""
+
+#: inc/options-config.php:1103
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/options-config.php:1104
+msgid ""
+"Enter the copyright "
+"section text."
+msgstr ""
+
+#: inc/options-config.php:1110
+msgid ""
+"Custom your footer "
+"style?."
+msgstr ""
+
+#: inc/options-config.php:1118
+msgid "Footer Background "
+msgstr ""
+
+#: inc/options-config.php:1129
+msgid ""
+"Footer Widget Title Color"
+msgstr ""
+
+#: inc/options-config.php:1138
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/options-config.php:1147
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/options-config.php:1156
+msgid ""
+"Footer Link Color Hover"
+msgstr ""
+
+#: inc/options-config.php:1165
+msgid ""
+"Site Info Background"
+msgstr ""
+
+#: inc/options-config.php:1178
+msgid "Social Media"
+msgstr ""
+
+#: inc/options-config.php:1186
+msgid "Twitter"
+msgstr ""
+
+#: inc/options-config.php:1188
+msgid ""
+"Enter your Twitter URL."
+msgstr ""
+
+#: inc/options-config.php:1193
+msgid "Facebook"
+msgstr ""
+
+#: inc/options-config.php:1195
+msgid ""
+"Enter your Facebook URL."
+msgstr ""
+
+#: inc/options-config.php:1200
+msgid "Linkedin"
+msgstr ""
+
+#: inc/options-config.php:1202
+msgid ""
+"Enter your Linkedin URL."
+msgstr ""
+
+#: inc/options-config.php:1207
+msgid "Pinterest"
+msgstr ""
+
+#: inc/options-config.php:1209
+msgid ""
+"Enter your Pinterest URL."
+msgstr ""
+
+#: inc/template-tags.php:114
+msgid ""
+"<i class='fa fa-chevron-"
+"left'></i>"
+msgstr ""
+
+#: inc/template-tags.php:115
+msgid ""
+"<i class='fa fa-chevron-"
+"right'></i>"
+msgstr ""
+
+#: inc/template-tags.php:122
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:157
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgctxt ""
+"Previous post link"
+msgid ""
+"<span class=\"meta-nav"
+"\">&</span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:161
+msgctxt "Next post link"
+msgid ""
+"%title&nbsp;<span class="
+"\"meta-nav\">&rarr;</"
+"span>"
+msgstr ""
+
+#: inc/template-tags.php:185
+#, php-format
+msgctxt "post date"
+msgid " on %s"
+msgstr ""
+
+#: inc/template-tags.php:190
+msgid ""
+"<span class=\"nbt-sticky-"
+"post\">Sticky</span>"
+msgstr ""
+
+#: inc/template-tags.php:194
+#, php-format
+msgctxt "post author"
+msgid ""
+"<i class=\"fa fa-user"
+"\"></i> %s"
+msgstr ""
+
+#: inc/template-tags.php:201
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:203
+#: inc/template-tags.php:213
+#: inc/template-tags.php:472
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid ""
+" <i class=\"fa fa-"
+"comment-o\"></i> "
+msgstr ""
+
+#: inc/template-tags.php:208
+msgid "%"
+msgstr ""
+
+#: inc/template-tags.php:236
+msgid ""
+"<i class=\"fa fa-file"
+"\"></i> "
+msgstr ""
+
+#: inc/template-tags.php:239
+msgid ""
+"<i class=\"fa fa-tag\"></"
+"i> "
+msgstr ""
+
+#: inc/template-tags.php:263
+#, php-format
+msgctxt "author byline"
+msgid "Written by %s"
+msgstr ""
+
+#: inc/template-tags.php:447
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:447
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:466
+msgid "Post author"
+msgstr ""
+
+#: inc/template-tags.php:474
+msgid "Reply"
+msgstr ""
+
+#: inc/template-tags.php:480
+msgid ""
+"Your comment is awaiting "
+"moderation."
+msgstr ""
+
+#: inc/template-tags.php:814
+msgid ""
+"Sorry, there is no child "
+"pages under your "
+"selected page."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:161
+#: inc/tgm/plugin-activation.php:240
+msgid ""
+"Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:162
+#: inc/tgm/plugin-activation.php:241
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:163
+#: inc/tgm/plugin-activation.php:242
+#, php-format
+msgid ""
+"Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:164
+msgid ""
+"Something went wrong."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:165
+#: inc/tgm/plugin-activation.php:244
+#, php-format
+msgid ""
+"This theme requires the "
+"following plugin: %1$s."
+msgid_plural ""
+"This theme requires the "
+"following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:166
+#: inc/tgm/plugin-activation.php:245
+#, php-format
+msgid ""
+"This theme recommends "
+"the following plugin: "
+"%1$s."
+msgid_plural ""
+"This theme recommends "
+"the following plugins: "
+"%1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:167
+#: inc/tgm/plugin-activation.php:246
+#, php-format
+msgid ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to install "
+"the %s plugin. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to install "
+"the %s plugins. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:168
+#: inc/tgm/plugin-activation.php:247
+#, php-format
+msgid ""
+"The following required "
+"plugin is currently "
+"inactive: %1$s."
+msgid_plural ""
+"The following required "
+"plugins are currently "
+"inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:169
+#: inc/tgm/plugin-activation.php:248
+#, php-format
+msgid ""
+"The following "
+"recommended plugin is "
+"currently inactive: %1$s."
+msgid_plural ""
+"The following "
+"recommended plugins are "
+"currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:170
+#: inc/tgm/plugin-activation.php:249
+#, php-format
+msgid ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to activate "
+"the %s plugin. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to activate "
+"the %s plugins. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugins "
+"activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:171
+#: inc/tgm/plugin-activation.php:250
+#, php-format
+msgid ""
+"The following plugin "
+"needs to be updated to "
+"its latest version to "
+"ensure maximum "
+"compatibility with this "
+"theme: %1$s."
+msgid_plural ""
+"The following plugins "
+"need to be updated to "
+"their latest version to "
+"ensure maximum "
+"compatibility with this "
+"theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:172
+#: inc/tgm/plugin-activation.php:251
+#, php-format
+msgid ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to update "
+"the %s plugin. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not "
+"have the correct "
+"permissions to update "
+"the %s plugins. Contact "
+"the administrator of "
+"this site for help on "
+"getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:173
+#: inc/tgm/plugin-activation.php:252
+msgid ""
+"Begin installing plugin"
+msgid_plural ""
+"Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:174
+#: inc/tgm/plugin-activation.php:253
+msgid ""
+"Begin activating plugin"
+msgid_plural ""
+"Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:175
+#: inc/tgm/plugin-activation.php:254
+msgid ""
+"Return to Required "
+"Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:176
+msgid ""
+"Return to the dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:177
+#: inc/tgm/class-tgm-plugin-activation.php:1945
+#: inc/tgm/plugin-activation.php:255
+msgid ""
+"Plugin activated "
+"successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:178
+#: inc/tgm/class-tgm-plugin-activation.php:1636
+msgid ""
+"The following plugin was "
+"activated successfully:"
+msgid_plural ""
+"The following plugins "
+"were activated "
+"successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:179
+#, php-format
+msgid ""
+"All plugins installed "
+"and activated "
+"successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:534
+#: inc/tgm/class-tgm-plugin-activation.php:2162
+msgid ""
+"Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1177
+msgid ""
+"WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1185
+msgid ""
+"Installed But Not "
+"Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1290
+#: inc/tgm/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1312
+#: inc/tgm/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or "
+"activate. <a href=\"%1$s"
+"\" title=\"Return to the "
+"Dashboard\">Return to "
+"the Dashboard</a>"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1928
+msgid ""
+"Install package not "
+"available."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid ""
+"Downloading install "
+"package from <span class="
+"\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1930
+msgid ""
+"Unpacking the "
+"package&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1931
+msgid ""
+"Installing the "
+"plugin&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1932
+msgid ""
+"Plugin install failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1933
+msgid ""
+"Plugin installed "
+"successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1944
+msgid ""
+"Plugin activation failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and "
+"activation process is "
+"starting. This process "
+"may take a while on some "
+"hosts, so please be "
+"patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid ""
+"%1$s installed and "
+"activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2059
+#: inc/tgm/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2059
+#: inc/tgm/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2060
+msgid ""
+"All installations and "
+"activations have been "
+"completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid ""
+"Installing and "
+"Activating Plugin %1$s "
+"(%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process "
+"is starting. This "
+"process may take a while "
+"on some hosts, so please "
+"be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid ""
+"An error occurred while "
+"installing %1$s: <strong>"
+"%2$s</strong>."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid ""
+"The installation of %1$s "
+"failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid ""
+"%1$s installed "
+"successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2069
+msgid ""
+"All installations have "
+"been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid ""
+"Installing Plugin %1$s "
+"(%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:195
+msgid "Dokan"
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:202
+msgid "Dokan Pro"
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:243
+msgid ""
+"Something went wrong "
+"with the plugin API."
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:256
+#, php-format
+msgid ""
+"All plugins installed "
+"and activated "
+"successfully. %s"
+msgstr ""
+
+#: inc/widget-dokan.php:73
+msgid "Best Vendor"
+msgstr ""
+
+#: inc/widget-dokan.php:74
+msgid "3"
+msgstr ""
+
+#: inc/woo-config.php:32
+#: woocommerce/loop/add-to-cart.php:25
+msgid "Add to cart"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid ""
+"Search Results for: %s"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:47
+msgid ""
+"Shipping costs will be "
+"calculated once you have "
+"provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:49
+msgid ""
+"There are no shipping "
+"methods available. "
+"Please double check your "
+"address, or contact us "
+"if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+#: woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid ""
+"Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:75
+msgid ""
+"No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:83
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid ""
+"You must be logged in to "
+"checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:49
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26
+msgid ""
+"Unfortunately your order "
+"cannot be processed as "
+"the originating bank/"
+"merchant has declined "
+"your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:39
+#: woocommerce/checkout/thankyou.php:70
+msgid ""
+"Thank you. Your order "
+"has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:43
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:49
+msgid ""
+"Sorry, it seems that "
+"there are no payment "
+"methods which support "
+"adding a new payment "
+"method. Please contact "
+"us if you require "
+"assistance or wish to "
+"make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:57
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:55
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:57
+msgctxt ""
+"hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/product-searchform.php:21
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:22
+msgctxt "placeholder"
+msgid ""
+"Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:22
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:23
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:32
+#, php-format
+msgid "%s review for %s"
+msgid_plural ""
+"%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:55
+#: woocommerce/wpnetbase-product-reviews.php:49
+msgid ""
+"There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+#: woocommerce/wpnetbase-product-reviews.php:62
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid ""
+"Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#: woocommerce/wpnetbase-product-reviews.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+#: woocommerce/wpnetbase-product-reviews.php:77
+#, php-format
+msgid ""
+"You must be <a href=\"%s"
+"\">logged in</a> to post "
+"a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#: woocommerce/wpnetbase-product-reviews.php:81
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+#: woocommerce/wpnetbase-product-reviews.php:82
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+#: woocommerce/wpnetbase-product-reviews.php:83
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+#: woocommerce/wpnetbase-product-reviews.php:84
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+#: woocommerce/wpnetbase-product-reviews.php:85
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+#: woocommerce/wpnetbase-product-reviews.php:86
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+#: woocommerce/wpnetbase-product-reviews.php:87
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+#: woocommerce/wpnetbase-product-reviews.php:91
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+#: woocommerce/wpnetbase-product-reviews.php:100
+msgid ""
+"Only logged in customers "
+"who have purchased this "
+"product may leave a "
+"review."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:52
+#: woocommerce/single-product/product-image.php:102
+msgid ""
+"Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:24
+msgid ""
+"Additional information"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:13
+#: woocommerce/wishlist-view.php:93
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:16
+#: woocommerce/wishlist-view.php:100
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:43
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:52
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:159
+#: woocommerce/wishlist-view.php:249
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:179
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:203
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:217
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:229
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:232
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:235
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:259
+msgid ""
+"No products were added "
+"to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:276
+msgid ""
+"Add the selected "
+"products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:284
+#: woocommerce/wishlist-view.php:326
+msgid "Ask for an estimate"
+msgstr ""
+
+#: woocommerce/wpnetbase-product-reviews.php:26
+#, php-format
+msgid ""
+"%s review for %s%s%s"
+msgid_plural ""
+"%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/wpnetbase-product-reviews.php:62
+#, php-format
+msgid ""
+"Be the first to review "
+"&ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/wpnetbase-single-product-reviews.php:10
+msgid "Customers' review"
+msgstr ""
+
+#: woocommerce/wpnetbase-single-product-reviews.php:19
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] ""
+msgstr[1] ""

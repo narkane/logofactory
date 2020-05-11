@@ -129,7 +129,7 @@ input:-moz-placeholder {
 	color: #393749;
 }
 .lumise-table a{
-	color: #47c1bf;
+	color: #FF0000;
 	font-weight: 500;
 	text-transform: uppercase;
 }
@@ -379,7 +379,7 @@ input:-moz-placeholder {
 .menu_mobile .main-menu li.demo a{
 	float: left;
 	width: auto;
-	background: #47c1bf;
+	background: #FF0000;
 	color: #fff;
 	padding: 5px 20px;
 	border-radius: 2px;
@@ -472,7 +472,7 @@ input:-moz-placeholder {
 }
 .menu .main-menu li.active a,
 .menu .main-menu li a:hover{
-	color: #47c1bf;
+	color: #FF0000;
 }
 .menu .main-menu .sub_menu{
 	position: absolute;
@@ -511,10 +511,10 @@ input:-moz-placeholder {
 	display: none;
 }
 .menu .main-menu .sub_menu li a:hover{
-	color: #47c1bf;
+	color: #FF0000;
 }
 .btn.btn-large, input[type="submit"].btn.btn-large{
-    background: #47c1bf;
+    background: #FF0000;
     border-radius: 3px;
     border: none;
     font-size: 16px;
@@ -565,7 +565,7 @@ input:-moz-placeholder {
 .lumise-hero h1{
 	font-size: 50px;
 	font-weight: 700;
-	color: #47c1bf;
+	color: #FF0000;
 	text-transform: uppercase;
 	display: inline-block;
 	width: 100%;
@@ -590,9 +590,9 @@ input:-moz-placeholder {
 	display: inline-block;
 }
 .lumise-hero a:hover{
-	background: #47c1bf;
+	background: #FF0000;
 	color: #fff;
-	border-color: #47c1bf;
+	border-color: #FF0000;
 }
 .lumise-services{
 	float: left;
@@ -612,7 +612,7 @@ input:-moz-placeholder {
     line-height: 1;
     color: #aaa;
     font-size: 42px;
-    color: #47c1bf;
+    color: #FF0000;
 }
 .box-info .content{
 	display: table-cell;
@@ -679,7 +679,7 @@ input:-moz-placeholder {
 	font-size: 13px;
 }
 .lumise-banner .text-content a:hover{
-	color: #47c1bf;
+	color: #FF0000;
 }
 .lumise-list{
 	float: left;
@@ -747,7 +747,7 @@ input:-moz-placeholder {
  	transition: all 0.3s ease 0s;
 }
 .lumise-list .lumise-action a.lumise-custom{
-	background: #47c1bf;
+	background: #FF0000;
 	color: #fff;
 }
 .lumise-list li:hover .lumise-action a{
@@ -800,7 +800,7 @@ input:-moz-placeholder {
 	float: left;
 	width: 100%;
 	font-weight: 700;
-	color: #47c1bf;
+	color: #FF0000;
 	font-size: 22px;
 }
 .lumise-client{
@@ -839,7 +839,7 @@ input:-moz-placeholder {
 .product-detail .price{
 	font-size: 22px;
 	font-weight: 700;
-	color: #47c1bf;
+	color: #FF0000;
 	float: left;
 	width: 100%;
 	margin: 0;
@@ -877,7 +877,7 @@ input:-moz-placeholder {
 	background: #ebebeb;
 }
 .product-detail a.lumise-custom{
-	background: #47c1bf;
+	background: #FF0000;
 	color: #fff;
 }
 .lumise-product .lumise-list{
@@ -1069,7 +1069,7 @@ input:-moz-placeholder {
     height: 42px;
     line-height: 42px;
     color: #fff;
-    background: #47c1bf;
+    background: #FF0000;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0 18px;

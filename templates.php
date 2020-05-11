@@ -72,7 +72,7 @@ include(theme('header.php'));
 ?>
         <div class="lumise-bread">
             <div class="container">
-                <h1><?php echo $lumise->lang('Lumise Shop'); ?></h1>
+                <h1><?php echo $lumise->lang('Big Bang Printing Shop'); ?></h1>
             </div>
         </div>
         <div class="lumise-products">

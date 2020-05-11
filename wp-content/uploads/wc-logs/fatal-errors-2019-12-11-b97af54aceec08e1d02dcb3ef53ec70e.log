@@ -1,0 +1,10 @@
+2019-12-11T16:23:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_dokan_get_seller_address(), 1 passed in /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php on line 290 and exactly 2 expected in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/inc/dokan.php:676
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-includes/class-wp-hook.php(290): get_dokan_get_seller_address(Array)
+#1 /home/q8rxz6vqvxck/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/dokan-lite/includes/functions.php(2482): apply_filters('dokan_get_selle...', Array, Array)
+#3 /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/dokan/store-header.php(10): dokan_get_seller_address(1, true)
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/dokan-lite/includes/functions.php(896): include('/home/q8rxz6vqv...')
+#5 /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/dokan/store.php(68): dokan_get_template_part('store-header')
+#6 /home/q8r in /home/q8rxz6vqvxck/public_html/wp-content/themes/printshop/inc/dokan.php on line 676
+

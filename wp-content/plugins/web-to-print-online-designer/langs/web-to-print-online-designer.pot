@@ -1,0 +1,6957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NBDesigner\n"
+"POT-Creation-Date: 2019-03-13 16:51+0700\n"
+"PO-Revision-Date: 2019-03-13 16:52+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: views\n"
+"X-Poedit-SearchPathExcluded-0: includes/tcpdf\n"
+
+#: includes/class-compatibility.php:49
+#: templates/compatibility/dokan/product_setting.php:4
+msgid "NBDesigner Options"
+msgstr ""
+
+#: includes/class-compatibility.php:127
+msgid "Clear"
+msgstr ""
+
+#: includes/class-compatibility.php:128 views/options/appearance.php:9
+#: views/options/field.php:267 views/options/field.php:338
+msgid "Default"
+msgstr ""
+
+#: includes/class-compatibility.php:129
+msgid "Select Color"
+msgstr ""
+
+#: includes/class-compatibility.php:130
+msgid "Current Color"
+msgstr ""
+
+#: includes/class-compatibility.php:166
+#: templates/emails/notify-admin-when-approve-design.php:20
+msgid "Custom designs"
+msgstr ""
+
+#: includes/class-compatibility.php:179 templates/order/download-section.php:21
+msgid "Upload files"
+msgstr ""
+
+#: includes/class-compatibility.php:200 includes/class-compatibility.php:218
+#: templates/gallery/artist.php:231 templates/gallery/artist.php:287
+#: templates/order/download-section.php:24 views/detail-order.php:81
+#: views/detail-order.php:135 views/detail-order.php:150
+#: views/detail-order.php:160 views/detail-order.php:169
+#: views/detail-order.php:178 views/modern/main-bar.php:52
+msgid "Download"
+msgstr ""
+
+#: includes/class-compatibility.php:204
+msgid "Download designs: PNG"
+msgstr ""
+
+#: includes/class-compatibility.php:205
+msgid "Download designs: PDF"
+msgstr ""
+
+#: includes/class-compatibility.php:206
+msgid "Download designs: SVG"
+msgstr ""
+
+#: includes/class-compatibility.php:208
+msgid "Download designs: JPG"
+msgstr ""
+
+#: includes/class-compatibility.php:209
+msgid "Download designs: CMYK - JPG"
+msgstr ""
+
+#: includes/class-compatibility.php:213
+msgid "Download upload files"
+msgstr ""
+
+#: includes/class-debug.php:110 includes/class-debug.php:163
+#: includes/class-debug.php:193 includes/class-debug.php:215
+msgid "You do not have permission to update data!"
+msgstr ""
+
+#: includes/class-debug.php:130
+msgid "Success!"
+msgstr ""
+
+#: includes/class-debug.php:146
+msgid "Erorr write data!"
+msgstr ""
+
+#: includes/class-debug.php:150
+msgid "Erorr backup!"
+msgstr ""
+
+#: includes/class-debug.php:156
+msgid "Invalid info!"
+msgstr ""
+
+#: includes/class-debug.php:208
+msgid "Your CSS has been saved!"
+msgstr ""
+
+#: includes/class-debug.php:230
+msgid "Your JS has been saved!"
+msgstr ""
+
+#: includes/class-helper.php:9
+msgid "Backend"
+msgstr ""
+
+#: includes/class-helper.php:11
+msgid "Backend setting"
+msgstr ""
+
+#: includes/class-helper.php:16
+msgid "Frontend"
+msgstr ""
+
+#: includes/class-helper.php:18
+msgid "Frontend setting"
+msgstr ""
+
+#: includes/class-helper.php:23
+msgid "Facebook API"
+msgstr ""
+
+#: includes/class-helper.php:25
+msgid "How to get Facebook API ID"
+msgstr ""
+
+#: includes/class-helper.php:26
+msgid ""
+"<span style=\"color:#CB4B16;\">Application</span> Key and Secret (also "
+"sometimes referred as <span style=\"color:#CB4B16;\">Consumer</span> key and "
+"secret or <span style=\"color:#CB4B16;\">Client</span> id and secret) are "
+"what we call an application credentials."
+msgstr ""
+
+#: includes/class-helper.php:27
+msgid "This application will link your website "
+msgstr ""
+
+#: includes/class-helper.php:27
+msgid ""
+"to <code>Facebook API</code> and these credentials are needed in order for "
+"<b>NBDesigner</b> users to use they Facebook photos."
+msgstr ""
+
+#: includes/class-helper.php:28
+msgid ""
+"These credentials may also differ in format, name and content depending on "
+"the social network."
+msgstr ""
+
+#: includes/class-helper.php:29
+msgid ""
+"To enable authentication with this provider and to register a new "
+"<b>Facebook API Application</b>, follow the steps"
+msgstr ""
+
+#: includes/class-helper.php:30
+msgid "First go to: "
+msgstr ""
+
+#: includes/class-helper.php:31
+msgid "Select <b>Add a New App</b> from the <b>Apps</b> menu at the top"
+msgstr ""
+
+#: includes/class-helper.php:32
+msgid ""
+"Fill out Display Name, Namespace, choose a category and click <b>Create App</"
+"b>"
+msgstr ""
+
+#: includes/class-helper.php:33
+msgid ""
+"Go to Settings page and click on <b>Add Platform</b>. Choose website and "
+"enter in the new screen your website url in <b>App Domains</b> and <b>Site "
+"URL</b> fields"
+msgstr ""
+
+#: includes/class-helper.php:34
+msgid "They should match with the current hostname"
+msgstr ""
+
+#: includes/class-helper.php:35
+msgid ""
+"Go to the <b>App Review</b> page and choose <b>yes</b> where it says <b>Do "
+"you want to make this app and all its live features available to the general "
+"public?</b>"
+msgstr ""
+
+#: includes/class-helper.php:36
+msgid ""
+"In section \"Submit Items for Approval\" click <b>Start a Submission</b>, in "
+"popup check \"user_photos\" and complete all steps"
+msgstr ""
+
+#: includes/class-helper.php:37
+msgid ""
+"Go back to the <b>Dashboard</b> page and past the created application "
+"credentials (APP ID and Secret) into the boxes above"
+msgstr ""
+
+#: includes/class-helper.php:38
+msgid "And that's it! "
+msgstr ""
+
+#: includes/class-helper.php:39
+msgid ""
+"If for some reason you still can't manage to create an application for "
+"Facebook, first try to <a href=\"https://www.google.com/search?q=Facebook "
+"API create application\" target=\"_blank\">Google it</a>, then check it on "
+"<a href=\"http://www.youtube.com/results?search_query=Facebook API create "
+"application \" target=\"_blank\">Youtube</a>, and if nothing works <a href="
+"\"https://cmsmart.net/support_ticket\">ask for support</a>"
+msgstr ""
+
+#: includes/class-helper.php:44
+msgid "Google Drive API"
+msgstr ""
+
+#: includes/class-helper.php:46
+msgid "How to get Google Drive API"
+msgstr ""
+
+#: includes/class-helper.php:47
+msgid "Go to"
+msgstr ""
+
+#: includes/class-helper.php:48
+msgid "To get API key"
+msgstr ""
+
+#: includes/class-helper.php:49
+msgid ""
+"Click <b>Create credentials > API key</b>. Next, look for your API key in "
+"the <b>API keys</b> section."
+msgstr ""
+
+#: includes/class-helper.php:50
+msgid "To get Client ID"
+msgstr ""
+
+#: includes/class-helper.php:51
+msgid ""
+"Click <b>Create credentials > OAuth client ID</b>. After you have created "
+"the credentials, you can see your client ID on the <b>Credentials</b> page."
+msgstr ""
+
+#: includes/class-helper.php:55 includes/class-helper.php:57
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/class-helper.php:58
+msgid ""
+"If you need to access the setup wizard again, please click on the button "
+"below."
+msgstr ""
+
+#: includes/class-helper.php:59
+#, php-format
+msgid "<a class=\"button-primary\" href=\"%s\">Setup wizard</a>"
+msgstr ""
+
+#: includes/class-helper.php:62
+msgid "For more information"
+msgstr ""
+
+#: includes/class-helper.php:63
+msgid ""
+"<a class=\"button\" href=\"https://cmsmart.net/support_ticket\" target="
+"\"_blank\">Support ticket</a>"
+msgstr ""
+
+#: includes/class-helper.php:64
+msgid ""
+"<a class=\"button\" href=\"https://cmsmart.net/community/woocommerce-online-"
+"product-designer-plugin\" target=\"_blank\">Forum</a>"
+msgstr ""
+
+#: includes/class-helper.php:65
+msgid ""
+"<a class=\"button\" href=\"https://cmsmart.net/community/woocommerce-online-"
+"product-designer-plugin/userguides\" target=\"_blank\">User guide</a>"
+msgstr ""
+
+#: includes/class-helper.php:66
+msgid ""
+"<a class=\"button\" href=\"https://vimeo.com/album/5056824\" target=\"_blank"
+"\">Video guide</a>"
+msgstr ""
+
+#: includes/class-install.php:15 includes/class.nbdesigner.php:4454
+msgid "Designer Studio"
+msgstr ""
+
+#: includes/class-install.php:31 includes/class.nbdesigner.php:4470
+msgid "Create your own"
+msgstr ""
+
+#: includes/class-install.php:47 includes/class.nbdesigner.php:4486
+msgid "Welcome to NBDesigner"
+msgstr ""
+
+#: includes/class-install.php:64 includes/class.nbdesigner.php:4503
+#: includes/settings/general.php:294
+msgid "Gallery"
+msgstr ""
+
+#: includes/class-install.php:81 includes/class.nbdesigner.php:4520
+#: templates/gallery/sidebar.php:13
+msgid "Designer"
+msgstr ""
+
+#: includes/class-install.php:98
+msgid "Product Builder"
+msgstr ""
+
+#: includes/class-settings.php:92
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-settings.php:92
+msgid "Settings reseted."
+msgstr ""
+
+#: includes/class-settings.php:102
+msgid "Save Options"
+msgstr ""
+
+#: includes/class-settings.php:103 includes/class-settings.php:303
+#: views/vista/toolbox/toolbox-image.php:21
+#: views/vista/toolbox/toolbox-text.php:105
+msgid "Reset"
+msgstr ""
+
+#: includes/class-settings.php:259
+#: templates/single-product/variation-bulk.php:4
+#: views/metabox-design-setting.php:550
+msgid "Add"
+msgstr ""
+
+#: includes/class-settings.php:275 includes/class-settings.php:302
+#: templates/order/download-pdf-option.php:17
+#: views/modern/popup-contents/user-design.php:19
+#: views/nbdesigner-manager-fonts.php:230
+msgid "Select"
+msgstr ""
+
+#: includes/class-setup-wizard.php:21
+msgid "General setup"
+msgstr ""
+
+#: includes/class-setup-wizard.php:26 includes/class.nbdesigner.php:871
+msgid "NBD Pages"
+msgstr ""
+
+#: includes/class-setup-wizard.php:31
+msgid "Overview"
+msgstr ""
+
+#: includes/class-setup-wizard.php:125 includes/class.nbdesigner.php:844
+#: includes/class.nbdesigner.php:906 views/options/field.php:6
+#: views/options/global_field.php:20
+msgid "General"
+msgstr ""
+
+#: includes/class-setup-wizard.php:128
+#, php-format
+msgid ""
+"<strong>License key</strong>—get your <a target=\"_blank\" href=\"%s"
+"\">premium license key</a>"
+msgstr ""
+
+#: includes/class-setup-wizard.php:131
+msgid "<strong>Get free license key</strong>"
+msgstr ""
+
+#: includes/class-setup-wizard.php:134 includes/settings/colors.php:28
+#: templates/gallery/artist.php:190 views/detail-order.php:266
+#: views/metabox-design-setting.php:96
+#: views/modern/popup-contents/global-template-category.php:24
+#: views/nbdesigner-box-design-setting-variation.php:18
+msgid "Name"
+msgstr ""
+
+#: includes/class-setup-wizard.php:138 includes/class-util.php:2763
+#: includes/options/fields/input.php:39
+msgid "Email"
+msgstr ""
+
+#: includes/class-setup-wizard.php:146
+msgid "<strong>Get license key</strong>"
+msgstr ""
+
+#: includes/class-setup-wizard.php:151 views/nbdesigner-manager-fonts.php:460
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-setup-wizard.php:152
+msgid "Check email to get license"
+msgstr ""
+
+#: includes/class-setup-wizard.php:161
+msgid "<strong>Dimension unit</strong>—used to calculate design area."
+msgstr ""
+
+#: includes/class-setup-wizard.php:172
+msgid "<strong>Font subset</strong>—choose your language font subset."
+msgstr ""
+
+#: includes/class-setup-wizard.php:203 views/nbdesigner-tools.php:143
+msgid "Create default NBDesigner pages"
+msgstr ""
+
+#: includes/class-setup-wizard.php:206
+msgid "<strong>Create your own page</strong>—page contain design editor."
+msgstr ""
+
+#: includes/class-setup-wizard.php:212
+msgid "<strong>Designer page</strong>—designer page."
+msgstr ""
+
+#: includes/class-setup-wizard.php:218
+msgid "<strong>Gallery</strong>—The page show all templates."
+msgstr ""
+
+#: includes/class-setup-wizard.php:224
+msgid "<strong>Redirect login</strong>"
+msgstr ""
+
+#: includes/class-setup-wizard.php:252
+msgid "Go to product detail to setup custom design or upload design."
+msgstr ""
+
+#: includes/class-setup-wizard.php:254
+#, php-format
+msgid ""
+"<strong>More Nbdesigner</strong> <a target=\"_blank\" href=\"%s\">settings</"
+"a>"
+msgstr ""
+
+#: includes/class-util.php:113
+msgid "Silence is golden."
+msgstr ""
+
+#: includes/class-util.php:702
+msgid "Your term"
+msgstr ""
+
+#: includes/class-util.php:780
+msgid "Text here"
+msgstr ""
+
+#: includes/class-util.php:858
+msgid "example.com"
+msgstr ""
+
+#: includes/class-util.php:1290
+msgid "Oops! Try again later!"
+msgstr ""
+
+#: includes/class-util.php:1291
+msgid "Complete!"
+msgstr ""
+
+#: includes/class-util.php:1292
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/class-util.php:1293
+msgid "You will not be able to recover this file!"
+msgstr ""
+
+#: includes/class-util.php:1294
+msgid "You will not be able to recover this category!"
+msgstr ""
+
+#: includes/class-util.php:1295
+msgid "Please fill category name!"
+msgstr ""
+
+#: includes/class-util.php:1296
+msgid "Restore your last data!"
+msgstr ""
+
+#: includes/class-util.php:1297
+msgid "You will not be able to recover this language!"
+msgstr ""
+
+#: includes/class-util.php:1653
+msgid "Any option"
+msgstr ""
+
+#: includes/class-util.php:1841
+msgid "Continue Shopping &rarr;"
+msgstr ""
+
+#: includes/class-util.php:1841 includes/class-util.php:1843
+#, php-format
+msgid "%s products successfully added to your cart."
+msgstr ""
+
+#: includes/class-util.php:1843
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: includes/class-util.php:2354
+msgid "No file defined"
+msgstr ""
+
+#: includes/class-util.php:2392 includes/class.nbdesigner.php:1598
+#: includes/class.nbdesigner.php:1765
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/class-util.php:2402 includes/class-util.php:2412
+#: includes/class.nbdesigner.php:1608 includes/class.nbdesigner.php:1618
+msgid "Irks! An error has occurred."
+msgstr ""
+
+#: includes/class-util.php:2419 includes/class.nbdesigner.php:1625
+msgid "Warning."
+msgstr ""
+
+#: includes/class-util.php:2731
+msgid "Full name"
+msgstr ""
+
+#: includes/class-util.php:2735
+msgid "First name"
+msgstr ""
+
+#: includes/class-util.php:2739
+msgid "Last name"
+msgstr ""
+
+#: includes/class-util.php:2743 includes/class-util.php:2744
+msgid "Company"
+msgstr ""
+
+#: includes/class-util.php:2747 includes/class-util.php:2748
+#: templates/mydesign/edit-info.php:41 views/user-profile.php:55
+msgid "Address"
+msgstr ""
+
+#: includes/class-util.php:2751
+msgid "Postcode"
+msgstr ""
+
+#: includes/class-util.php:2752
+msgid "12345"
+msgstr ""
+
+#: includes/class-util.php:2755
+msgid "City"
+msgstr ""
+
+#: includes/class-util.php:2756
+msgid "City Name"
+msgstr ""
+
+#: includes/class-util.php:2759
+msgid "Phone"
+msgstr ""
+
+#: includes/class-util.php:2760 includes/class-util.php:2768
+msgid "+012 346 6789"
+msgstr ""
+
+#: includes/class-util.php:2764
+msgid "example@website.com"
+msgstr ""
+
+#: includes/class-util.php:2767
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-util.php:2771
+msgid "Website"
+msgstr ""
+
+#: includes/class-util.php:2772
+msgid "website.com"
+msgstr ""
+
+#: includes/class-util.php:2775 includes/class-util.php:2776
+#: includes/class-util.php:2801 includes/class-util.php:2820
+#: includes/class-util.php:2839 includes/options/fields-list-table.php:32
+#: includes/options/fields/input.php:11 includes/options/fields/input.php:105
+#: includes/options/fields/input.php:114 views/options/field.php:264
+#: views/options/field.php:335
+msgid "Title"
+msgstr ""
+
+#: includes/class-util.php:2779 includes/class-util.php:2780
+msgid "Country"
+msgstr ""
+
+#: includes/class-util.php:2821 includes/class-util.php:2840
+msgid "0123456789"
+msgstr ""
+
+#: includes/class.my.design.php:124 includes/class.my.design.php:151
+#: includes/class.my.design.php:441
+#: views/modern/popup-contents/my-templates.php:12
+msgid "My designs"
+msgstr ""
+
+#: includes/class.my.design.php:127
+msgid "View design"
+msgstr ""
+
+#: includes/class.my.design.php:130
+msgid "Artist info"
+msgstr ""
+
+#: includes/class.my.design.php:441
+#, php-format
+msgid "My designs page( %s )"
+msgstr ""
+
+#: includes/class.my.design.php:930 includes/class.nbdesigner.php:2948
+msgid "Error adding to the cart"
+msgstr ""
+
+#: includes/class.nbdesigner.php:144
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+#: includes/class.nbdesigner.php:171
+msgid "You're not authorized to access this site."
+msgstr ""
+
+#: includes/class.nbdesigner.php:171
+msgid "Error"
+msgstr ""
+
+#: includes/class.nbdesigner.php:334
+msgid "Get a Quote"
+msgstr ""
+
+#: includes/class.nbdesigner.php:341 includes/class.nbdesigner.php:352
+#: includes/class.nbdesigner.php:2334
+#: templates/single-product/nbd-section.php:6
+msgid "Start Design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:370
+msgid "Add to cart & start design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:624
+msgid "Are you sure you want to delete this design?"
+msgstr ""
+
+#: includes/class.nbdesigner.php:625
+msgid "Delete successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:632
+#, php-format
+msgid ""
+"<p>Plugin <strong>not compatible</strong> with WordPress %s. Requires "
+"WordPress %s to use this Plugin.</p>"
+msgstr ""
+
+#: includes/class.nbdesigner.php:636
+#, php-format
+msgid ""
+"<p>Plugin <strong>not compatible</strong> with PHP %s. Requires PHP %s to "
+"use this Plugin.</p>"
+msgstr ""
+
+#: includes/class.nbdesigner.php:640
+#, php-format
+msgid "WooCommerce is not active. Please activate WooCommerce before using %s."
+msgstr ""
+
+#: includes/class.nbdesigner.php:645
+#, php-format
+msgid "WoooCommerce %s or greater is required"
+msgstr ""
+
+#: includes/class.nbdesigner.php:674
+msgid "Once Hourly"
+msgstr ""
+
+#: includes/class.nbdesigner.php:677
+msgid "Every 6 Hours"
+msgstr ""
+
+#: includes/class.nbdesigner.php:763
+msgid "New / Modified order(s)"
+msgstr ""
+
+#: includes/class.nbdesigner.php:809
+msgid "Has NBDesigner"
+msgstr ""
+
+#: includes/class.nbdesigner.php:845 views/options/edit-option.php:239
+#: views/options/field.php:8 views/options/global_field.php:22
+msgid "Appearance"
+msgstr ""
+
+#: includes/class.nbdesigner.php:846
+msgid "Design Tool"
+msgstr ""
+
+#: includes/class.nbdesigner.php:847 views/options/field.php:947
+msgid "Colors"
+msgstr ""
+
+#: includes/class.nbdesigner.php:848 includes/class.nbdesigner.php:3559
+#: templates/loop/start-design.php:15
+#: templates/single-product/nbd-section.php:635 views/box-order-metadata.php:56
+msgid "Upload design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:849
+msgid "Output"
+msgstr ""
+
+#: includes/class.nbdesigner.php:850
+msgid "Libraries"
+msgstr ""
+
+#: includes/class.nbdesigner.php:851 includes/options/admin-options.php:369
+msgid "Printing Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:868
+msgid "General Settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:869
+msgid "Notifications"
+msgstr ""
+
+#: includes/class.nbdesigner.php:870
+msgid "Application"
+msgstr ""
+
+#: includes/class.nbdesigner.php:872 includes/class.nbdesigner.php:1019
+msgid "Tools"
+msgstr ""
+
+#: includes/class.nbdesigner.php:873
+msgid "Customization"
+msgstr ""
+
+#: includes/class.nbdesigner.php:876 includes/class.nbdesigner.php:909
+msgid "Design editor"
+msgstr ""
+
+#: includes/class.nbdesigner.php:877
+msgid "Modern layout"
+msgstr ""
+
+#: includes/class.nbdesigner.php:878 templates/mydesign/detail-design.php:42
+#: views/modern/sidebars/tab-nav.php:7
+msgid "Product"
+msgstr ""
+
+#: includes/class.nbdesigner.php:879
+#: views/modern/popup-contents/global-template-category.php:18
+msgid "Category"
+msgstr ""
+
+#: includes/class.nbdesigner.php:880
+msgid "Cart, order, checkout"
+msgstr ""
+
+#: includes/class.nbdesigner.php:881 includes/class.nbdesigner.php:889
+msgid "Misc"
+msgstr ""
+
+#: includes/class.nbdesigner.php:884
+msgid "Text Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:885
+msgid "Clipart Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:886
+msgid "Image Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:887
+msgid "Free draw Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:888
+msgid "Qr Code Options"
+msgstr ""
+
+#: includes/class.nbdesigner.php:892
+msgid "Setting color"
+msgstr ""
+
+#: includes/class.nbdesigner.php:895
+msgid "Upload settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:898
+msgid "Output general settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:899
+msgid "JPG settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:902
+msgid "Javacript settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:903
+msgid "CSS settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:907
+msgid "Catalog"
+msgstr ""
+
+#: includes/class.nbdesigner.php:908
+msgid "Cart"
+msgstr ""
+
+#: includes/class.nbdesigner.php:971
+#, php-format
+msgid ""
+"If you <span style=\"color: #e25555;\">♥</span> <strong>NBDesigner</strong> "
+"please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge "
+"thanks in advance!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:989
+msgid "NBDesigner Settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:989
+msgid "Settings"
+msgstr ""
+
+#: includes/class.nbdesigner.php:995
+msgid "Manager Products"
+msgstr ""
+
+#: includes/class.nbdesigner.php:995 includes/options/fields-list-table.php:36
+#: includes/options/fields-list-table.php:152 templates/gallery/sidebar.php:23
+#: views/manager-product.php:97 views/options/edit-option.php:108
+msgid "Products"
+msgstr ""
+
+#: includes/class.nbdesigner.php:999
+msgid "Detail Design Order"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1004 views/nbdesigner-manager-arts.php:2
+msgid "Manager Cliparts"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1004 views/editor_components/js_config.php:54
+#: views/modern/sidebars/tab-nav.php:18
+msgid "Cliparts"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1009 views/nbdesigner-manager-fonts.php:2
+msgid "Manager Fonts"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1009
+msgid "Fonts"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1014 views/nbdesigner-translate.php:3
+msgid "Frontend Translate"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1019
+msgid "NBDesigner Tools"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1029
+msgid "NBDesigner Support"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1029 templates/gallery/artist.php:125
+#: views/modern/popup-contents/hotkeys.php:12
+msgid "About"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1176
+msgid "You do not have permission to add/edit font category!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1190 includes/class.nbdesigner.php:1210
+msgid "Category has been added/edited successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1197
+msgid "You do not have permission to add/edit clipart category!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1217
+msgid "You do not have permission to delete font category!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1229 includes/class.nbdesigner.php:1248
+msgid "Category has been delete successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1236
+msgid "You do not have permission to delete clipart category!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1260
+msgid "You do not have permission to add font!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1303
+msgid "The google fonts have been added successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1374
+msgid "Error while upload font."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1379 includes/class.nbdesigner.php:1703
+msgid "Incorrect file extensions."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1390 includes/class.nbdesigner.php:1397
+msgid "Your font has been saved."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1399
+msgid "Please choose font file or font name."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1534
+msgid "You do not have permission to delete font!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1557
+msgid "The font has been deleted successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1564
+msgid "You do not have permission to delete clipart!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1582
+msgid "Clipart has been deleted successfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1687
+msgid "Failed to copy."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1698
+msgid "Your art has been saved."
+msgstr ""
+
+#: includes/class.nbdesigner.php:1700
+#, php-format
+msgid ""
+"Error while upload art, please try again! <a target=\"_blank\" href=\"%s"
+"\">Force upload SVG</a>"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1773
+msgid "Setting NBDesigner"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1774
+msgid "Customer Design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2133
+msgid "Missing necessary information!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2137
+msgid "Incorrect information, check again license key"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2141 includes/class.nbdesigner.php:2213
+msgid "Incorrect License key"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2145
+msgid "License key is locked "
+msgstr ""
+
+#: includes/class.nbdesigner.php:2149
+msgid "License key have expired"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2153
+msgid "Link your website incorrect"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2157
+msgid "License key can using"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2161
+msgid "Domain has been added successfully"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2165
+msgid "Exceed your number of domain license"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2169
+msgid "Unsuccessfully active license key"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2181
+msgid "Try again later!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2184
+msgid "Please fill your license!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2207
+msgid "Missing necessary information"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2210
+msgid "Incorrect information"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2217
+msgid "Remove license key Successfully"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2222
+msgid "Remove license key Unsuccessfully!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2336
+#: templates/single-product/nbd-section.php:8
+msgid "Start and upload design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2339
+#: templates/single-product/nbd-section.php:11
+#: views/metabox-design-setting.php:82
+msgid "Upload Design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2606 includes/class.nbdesigner.php:2609
+msgid "Your server not allow creat folder"
+msgstr ""
+
+#: includes/class.nbdesigner.php:2634
+msgid "Your server not allow writable file"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3126
+msgid "You have not permission to create or edit template"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3404 views/modern/sidebars/tab-nav.php:5
+#: views/vista/toolbar.php:8
+msgid "Design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3435 includes/class.nbdesigner.php:3985
+#: includes/class.nbdesigner.php:6001
+#: templates/single-product/nbd-section.php:509 views/box-order-metadata.php:29
+msgid "Custom design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3470 includes/class.nbdesigner.php:3998
+#: includes/class.nbdesigner.php:6014 templates/mydesign/detail-design.php:46
+#: views/detail-order.php:53
+msgid "Edit design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3503 templates/mydesign/detail-design.php:48
+msgid "Add design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3511 includes/class.nbdesigner.php:4039
+#: includes/class.nbdesigner.php:6041 templates/gallery/main.php:38
+#: templates/single-product/nbd-section.php:587
+msgid "Upload file"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3544 includes/class.nbdesigner.php:4065
+#: includes/class.nbdesigner.php:6069
+msgid "Reupload design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3578 includes/class.nbdesigner.php:4070
+#: includes/class.nbdesigner.php:6074
+#: templates/single-product/nbd-section.php:590
+msgid "Extra price for design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3775
+msgid ""
+"You don't change anything? Or an error occured saving the data, please "
+"refresh this page and check if changes took place."
+msgstr ""
+
+#: includes/class.nbdesigner.php:3778
+msgid "You haven't chosen a item."
+msgstr ""
+
+#: includes/class.nbdesigner.php:3787
+msgid "The reason cannot be empty"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3789 includes/class.nbdesigner.php:3799
+msgid "Error while sending mail"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3794
+msgid "Your design accepted"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3829
+msgid "Approve designs - Order "
+msgstr ""
+
+#: includes/class.nbdesigner.php:3991 includes/class.nbdesigner.php:4058
+#: includes/class.nbdesigner.php:6007 includes/class.nbdesigner.php:6062
+msgid "(Rejected! Click "
+msgstr ""
+
+#: includes/class.nbdesigner.php:3991 includes/class.nbdesigner.php:4058
+#: includes/class.nbdesigner.php:6007 includes/class.nbdesigner.php:6062
+msgid "here "
+msgstr ""
+
+#: includes/class.nbdesigner.php:3991 includes/class.nbdesigner.php:4058
+#: includes/class.nbdesigner.php:6007 includes/class.nbdesigner.php:6062
+msgid " to design again"
+msgstr ""
+
+#: includes/class.nbdesigner.php:3994 includes/class.nbdesigner.php:4061
+#: includes/class.nbdesigner.php:6010 includes/class.nbdesigner.php:6065
+msgid "<small> (Approved!)</small>"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4008 includes/class.nbdesigner.php:4012
+#: templates/single-product/nbd-section.php:531
+msgid "Download PDF"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4140
+msgid "File size too small or large!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4141
+msgid "Extension not allowed!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4142
+msgid "Min DPI required for JPG"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4170 includes/class.nbdesigner.php:4247
+msgid "Upload success !"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4203 includes/class.nbdesigner.php:4225
+#: includes/class.nbdesigner.php:4250
+msgid "Error occurred with file upload!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4229
+msgid "Too large file !"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4234
+msgid "Invalid file format!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4240
+msgid "Image resolution too low!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4533
+msgid "NBD Gallery Page"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4536
+msgid "NBD Design Editor Page"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4539
+msgid "NBD Designer gallery Page"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4542
+msgid "NBD Product builder Page"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4565
+msgid "You do not have permission to edit language!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4597
+msgid "Update language success!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4600
+msgid "Update language failed!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4620
+msgid "You do not have permission to delete language!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4641
+msgid "Delete language success!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4646
+msgid "Oops! Can not delete primary language!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4653
+msgid "You do not have permission to create language!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4971
+msgid "Missing product!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:4975
+msgid "Missing information!"
+msgstr ""
+
+#: includes/class.nbdesigner.php:5806
+msgid "Has Design"
+msgstr ""
+
+#: includes/class.nbdesigner.php:5942
+#: includes/options/frontend-options.php:1284
+#, php-format
+msgid ""
+"Unable to add %s to the cart.  Please check your quantities and make sure "
+"the item is available and in stock"
+msgstr ""
+
+#: includes/class.nbdesigner.php:5945
+#: includes/options/frontend-options.php:1287
+msgid "No product quantities entered."
+msgstr ""
+
+#: includes/options/admin-options.php:130
+#: includes/options/fields-list-table.php:8
+msgid "Printing option"
+msgstr ""
+
+#: includes/options/admin-options.php:151
+msgid "Enable Print option"
+msgstr ""
+
+#: includes/options/admin-options.php:156
+msgid "Edit option"
+msgstr ""
+
+#: includes/options/admin-options.php:156
+msgid "Create option"
+msgstr ""
+
+#: includes/options/admin-options.php:162
+msgid "Enable Product builder"
+msgstr ""
+
+#: includes/options/admin-options.php:297
+msgid "Option updated."
+msgstr ""
+
+#: includes/options/admin-options.php:589
+#: includes/options/admin-options.php:591 views/options/field.php:33
+msgid "Option name"
+msgstr ""
+
+#: includes/options/admin-options.php:598
+msgid "Option description"
+msgstr ""
+
+#: includes/options/admin-options.php:600 includes/options/fields/input.php:20
+#: templates/product-info.php:15 views/options/field.php:43
+#: views/options/field.php:270 views/options/field.php:272
+#: views/options/field.php:341 views/options/field.php:343
+msgid "Description"
+msgstr ""
+
+#: includes/options/admin-options.php:609 includes/options/fields/input.php:29
+#: views/options/field.php:53
+msgid "Data type"
+msgstr ""
+
+#: includes/options/admin-options.php:616
+msgid "Custom input"
+msgstr ""
+
+#: includes/options/admin-options.php:620
+msgid "Multiple options"
+msgstr ""
+
+#: includes/options/admin-options.php:628 views/options/field.php:65
+msgid "Input type"
+msgstr ""
+
+#: includes/options/admin-options.php:642
+#: includes/options/admin-options.php:1085 includes/options/fields/input.php:37
+#: includes/settings/output.php:27 views/modern/sidebars/tab-nav.php:17
+#: views/modern/tour-guide.php:27 views/options/edit-option.php:195
+#: views/vista/toolbar.php:14
+msgid "Text"
+msgstr ""
+
+#: includes/options/admin-options.php:646 includes/options/fields/input.php:38
+msgid "Number"
+msgstr ""
+
+#: includes/options/admin-options.php:650
+msgid "Number range"
+msgstr ""
+
+#: includes/options/admin-options.php:654
+msgid "Upload"
+msgstr ""
+
+#: includes/options/admin-options.php:666 views/options/field.php:77
+msgid "Input option"
+msgstr ""
+
+#: includes/options/admin-options.php:695
+msgid "Text input option"
+msgstr ""
+
+#: includes/options/admin-options.php:720 views/options/field.php:127
+msgid "Upload file option"
+msgstr ""
+
+#: includes/options/admin-options.php:741 includes/options/fields/input.php:43
+#: views/options/field.php:154 views/options/global_field.php:7
+msgid "Enabled"
+msgstr ""
+
+#: includes/options/admin-options.php:748
+#: includes/options/admin-options.php:767
+#: includes/options/admin-options.php:846
+#: includes/options/admin-options.php:1022
+#: includes/options/admin-options.php:1041 includes/options/fields/input.php:51
+#: includes/options/fields/input.php:64 includes/settings/appearance.php:15
+#: includes/settings/appearance.php:28 includes/settings/appearance.php:39
+#: includes/settings/appearance.php:50 includes/settings/appearance.php:61
+#: includes/settings/appearance.php:72 includes/settings/appearance.php:83
+#: includes/settings/appearance.php:94 includes/settings/appearance.php:105
+#: includes/settings/appearance.php:116 includes/settings/appearance.php:127
+#: includes/settings/appearance.php:138 includes/settings/appearance.php:169
+#: includes/settings/appearance.php:202 includes/settings/appearance.php:259
+#: includes/settings/appearance.php:270 includes/settings/colors.php:15
+#: includes/settings/frontend.php:14 includes/settings/frontend.php:49
+#: includes/settings/frontend.php:60 includes/settings/frontend.php:71
+#: includes/settings/frontend.php:136 includes/settings/frontend.php:166
+#: includes/settings/frontend.php:176 includes/settings/frontend.php:233
+#: includes/settings/frontend.php:243 includes/settings/frontend.php:253
+#: includes/settings/frontend.php:263 includes/settings/frontend.php:273
+#: includes/settings/frontend.php:283 includes/settings/frontend.php:293
+#: includes/settings/frontend.php:303 includes/settings/frontend.php:313
+#: includes/settings/frontend.php:323 includes/settings/frontend.php:334
+#: includes/settings/frontend.php:411 includes/settings/frontend.php:488
+#: includes/settings/frontend.php:509 includes/settings/frontend.php:520
+#: includes/settings/frontend.php:531 includes/settings/general.php:64
+#: includes/settings/general.php:75 includes/settings/general.php:86
+#: includes/settings/general.php:97 includes/settings/general.php:108
+#: includes/settings/general.php:119 includes/settings/general.php:166
+#: includes/settings/general.php:203 includes/settings/general.php:235
+#: includes/settings/general.php:255 includes/settings/general.php:387
+#: includes/settings/general.php:398 includes/settings/general.php:409
+#: includes/settings/general.php:420 includes/settings/general.php:431
+#: includes/settings/general.php:442 includes/settings/general.php:453
+#: includes/settings/libraries.php:26 includes/settings/printing_option.php:26
+#: includes/settings/printing_option.php:37
+#: includes/settings/printing_option.php:48
+#: includes/settings/printing_option.php:59
+#: includes/settings/printing_option.php:70
+#: includes/settings/printing_option.php:81
+#: includes/settings/printing_option.php:127
+#: includes/settings/printing_option.php:140
+#: includes/settings/printing_option.php:151
+#: includes/settings/printing_option.php:162
+#: includes/settings/printing_option.php:173
+#: includes/settings/printing_option.php:186 includes/settings/upload.php:64
+#: views/detail-order.php:334 views/metabox-design-setting.php:555
+#: views/modern/popup-contents/confirm-delete-layers.php:12
+#: views/options/field.php:411 views/options/field.php:579
+#: views/options/field.php:666 views/options/field.php:732
+#: views/options/field.php:870 views/options/field.php:881
+#: views/options/field.php:929 views/options/field.php:940
+#: views/options/global_field.php:11 views/options/global_field.php:51
+#: views/options/global_field.php:62 views/options/quantity.php:11
+#: views/price-options.php:5 views/price-options.php:65
+#: views/vista/popup.php:60
+msgid "Yes"
+msgstr ""
+
+#: includes/options/admin-options.php:752
+#: includes/options/admin-options.php:771
+#: includes/options/admin-options.php:850
+#: includes/options/admin-options.php:1026
+#: includes/options/admin-options.php:1045 includes/options/fields/input.php:52
+#: includes/options/fields/input.php:65 includes/settings/appearance.php:16
+#: includes/settings/appearance.php:29 includes/settings/appearance.php:40
+#: includes/settings/appearance.php:51 includes/settings/appearance.php:62
+#: includes/settings/appearance.php:73 includes/settings/appearance.php:84
+#: includes/settings/appearance.php:95 includes/settings/appearance.php:106
+#: includes/settings/appearance.php:117 includes/settings/appearance.php:128
+#: includes/settings/appearance.php:139 includes/settings/appearance.php:170
+#: includes/settings/appearance.php:203 includes/settings/appearance.php:260
+#: includes/settings/appearance.php:271 includes/settings/colors.php:16
+#: includes/settings/frontend.php:15 includes/settings/frontend.php:50
+#: includes/settings/frontend.php:61 includes/settings/frontend.php:72
+#: includes/settings/frontend.php:137 includes/settings/frontend.php:167
+#: includes/settings/frontend.php:177 includes/settings/frontend.php:234
+#: includes/settings/frontend.php:244 includes/settings/frontend.php:254
+#: includes/settings/frontend.php:264 includes/settings/frontend.php:274
+#: includes/settings/frontend.php:284 includes/settings/frontend.php:294
+#: includes/settings/frontend.php:304 includes/settings/frontend.php:314
+#: includes/settings/frontend.php:324 includes/settings/frontend.php:335
+#: includes/settings/frontend.php:412 includes/settings/frontend.php:489
+#: includes/settings/frontend.php:510 includes/settings/frontend.php:521
+#: includes/settings/frontend.php:532 includes/settings/general.php:65
+#: includes/settings/general.php:76 includes/settings/general.php:87
+#: includes/settings/general.php:98 includes/settings/general.php:109
+#: includes/settings/general.php:120 includes/settings/general.php:132
+#: includes/settings/general.php:167 includes/settings/general.php:204
+#: includes/settings/general.php:236 includes/settings/general.php:256
+#: includes/settings/general.php:388 includes/settings/general.php:399
+#: includes/settings/general.php:410 includes/settings/general.php:421
+#: includes/settings/general.php:432 includes/settings/general.php:443
+#: includes/settings/general.php:454 includes/settings/libraries.php:27
+#: includes/settings/output.php:17 includes/settings/printing_option.php:27
+#: includes/settings/printing_option.php:38
+#: includes/settings/printing_option.php:49
+#: includes/settings/printing_option.php:60
+#: includes/settings/printing_option.php:71
+#: includes/settings/printing_option.php:82
+#: includes/settings/printing_option.php:128
+#: includes/settings/printing_option.php:141
+#: includes/settings/printing_option.php:152
+#: includes/settings/printing_option.php:163
+#: includes/settings/printing_option.php:174
+#: includes/settings/printing_option.php:187 includes/settings/upload.php:65
+#: views/detail-order.php:339 views/metabox-design-setting.php:556
+#: views/modern/popup-contents/confirm-delete-layers.php:11
+#: views/options/field.php:410 views/options/field.php:580
+#: views/options/field.php:667 views/options/field.php:733
+#: views/options/field.php:871 views/options/field.php:882
+#: views/options/field.php:930 views/options/field.php:941
+#: views/options/global_field.php:12 views/options/global_field.php:52
+#: views/options/global_field.php:63 views/options/quantity.php:12
+#: views/price-options.php:6 views/price-options.php:66
+#: views/vista/popup.php:59
+msgid "No"
+msgstr ""
+
+#: includes/options/admin-options.php:760 includes/options/fields/input.php:56
+#: views/options/field.php:166
+msgid "Required"
+msgstr ""
+
+#: includes/options/admin-options.php:761 views/options/field.php:166
+msgid "Choose whether the option is required or not."
+msgstr ""
+
+#: includes/options/admin-options.php:779 includes/options/fields/input.php:69
+#: views/options/field.php:178 views/options/global_field.php:32
+msgid "Price type"
+msgstr ""
+
+#: includes/options/admin-options.php:780 views/options/field.php:178
+msgid ""
+"Here you can choose how the price is calculated. Depending on the field "
+"there various types you can choose."
+msgstr ""
+
+#: includes/options/admin-options.php:786 includes/options/fields/input.php:77
+msgid "Fixed amount"
+msgstr ""
+
+#: includes/options/admin-options.php:790 includes/options/fields/input.php:78
+#: views/options/global_field.php:39
+msgid "Percent of the original price"
+msgstr ""
+
+#: includes/options/admin-options.php:794 includes/options/fields/input.php:79
+#: views/options/global_field.php:40
+msgid "Percent of the original price + options"
+msgstr ""
+
+#: includes/options/admin-options.php:798 includes/options/fields/input.php:80
+#: views/options/global_field.php:41
+msgid "Current value * price"
+msgstr ""
+
+#: includes/options/admin-options.php:819
+msgid "Price per char"
+msgstr ""
+
+#: includes/options/admin-options.php:839 views/options/field.php:190
+#: views/options/global_field.php:47
+msgid "Depend quantity breaks"
+msgstr ""
+
+#: includes/options/admin-options.php:858 views/options/field.php:202
+#: views/options/field.php:222 views/options/field.php:276
+#: views/options/field.php:288 views/options/field.php:347
+#: views/options/field.php:359
+msgid "Additional Price"
+msgstr ""
+
+#: includes/options/admin-options.php:859 views/options/field.php:202
+msgid "Enter the price for this field or leave it blank for no price."
+msgstr ""
+
+#: includes/options/admin-options.php:879 views/options/field.php:212
+msgid "Price depend quantity breaks"
+msgstr ""
+
+#: includes/options/admin-options.php:900
+#: includes/options/admin-options.php:1094
+msgid "Attribute name"
+msgstr ""
+
+#: includes/options/admin-options.php:946 views/options/field.php:233
+msgid "Attributes"
+msgstr ""
+
+#: includes/options/admin-options.php:947 views/options/field.php:233
+msgid "Attributes let you define extra product data, such as size or color."
+msgstr ""
+
+#: includes/options/admin-options.php:988 views/options/appearance.php:4
+#: views/options/quantity.php:18
+msgid "Display type"
+msgstr ""
+
+#: includes/options/admin-options.php:995 views/options/field.php:308
+#: views/options/quantity.php:23
+msgid "Dropdown"
+msgstr ""
+
+#: includes/options/admin-options.php:999 views/options/field.php:309
+msgid "Radio button"
+msgstr ""
+
+#: includes/options/admin-options.php:1003 views/options/field.php:310
+msgid "Swatch"
+msgstr ""
+
+#: includes/options/admin-options.php:1007 views/options/field.php:311
+msgid "Label"
+msgstr ""
+
+#: includes/options/admin-options.php:1015
+msgid "Changes product image"
+msgstr ""
+
+#: includes/options/admin-options.php:1016
+msgid "Choose whether to change the product image."
+msgstr ""
+
+#: includes/options/admin-options.php:1034
+msgid "Quantity selector"
+msgstr ""
+
+#: includes/options/admin-options.php:1035
+msgid "This will show a quantity selector for this option."
+msgstr ""
+
+#: includes/options/admin-options.php:1076
+msgid "Number of pages"
+msgstr ""
+
+#: includes/options/admin-options.php:1077 views/detail-order.php:93
+#: views/metabox-design-setting.php:199
+#: views/modern/toolbars/toolbar-path.php:6
+#: views/modern/toolbars/toolbar-text.php:69
+#: views/modern/toolbars/toolbar-text.php:135
+#: views/nbdesigner-box-design-setting-variation.php:119
+#: views/options/field.php:243 views/options/field.php:322
+#: views/options/field.php:515 views/options/field.php:955
+#: views/product-builder/wrapper.php:159
+#: views/vista/toolbox/toolbox-path.php:19
+msgid "Color"
+msgstr ""
+
+#: includes/options/admin-options.php:1078 views/options/edit-option.php:183
+msgid "Size"
+msgstr ""
+
+#: includes/options/admin-options.php:1079 views/options/edit-option.php:185
+msgid "DPI"
+msgstr ""
+
+#: includes/options/admin-options.php:1080 views/metabox-design-setting.php:242
+#: views/options/edit-option.php:186
+msgid "Area design shape"
+msgstr ""
+
+#: includes/options/admin-options.php:1081 views/detail-order.php:305
+#: views/options/edit-option.php:187
+msgid "Orientation"
+msgstr ""
+
+#: includes/options/admin-options.php:1082 views/options/edit-option.php:184
+msgid "Custom dimension"
+msgstr ""
+
+#: includes/options/admin-options.php:1083 views/options/edit-option.php:188
+msgid "Padding"
+msgstr ""
+
+#: includes/options/admin-options.php:1084 views/options/edit-option.php:194
+msgid "Component"
+msgstr ""
+
+#: includes/options/admin-options.php:1086 includes/settings/output.php:26
+#: views/editor_components/js_config.php:57
+#: views/metabox-design-setting.php:196
+#: views/nbdesigner-box-design-setting-variation.php:116
+#: views/options/edit-option.php:196 views/options/field.php:242
+#: views/options/field.php:321 views/options/field.php:514
+#: views/options/field.php:840 views/vista/sidebar/images.php:3
+#: views/vista/toolbar.php:17
+msgid "Image"
+msgstr ""
+
+#: includes/options/admin-options.php:1087
+msgid ""
+"DPI is used to describe the resolution number of dots per inch in a digital "
+"print and the printing resolution of a hard copy print dot gain, which is "
+"the increase in the size of the halftone dots during printing."
+msgstr ""
+
+#: includes/options/admin-options.php:1088
+msgid "Vertical"
+msgstr ""
+
+#: includes/options/admin-options.php:1089
+msgid "Horizontal"
+msgstr ""
+
+#: includes/options/admin-options.php:1090
+msgid "Can not add more attribute for this option."
+msgstr ""
+
+#: includes/options/admin-options.php:1091
+msgid "Can not remove this attribute."
+msgstr ""
+
+#: includes/options/admin-options.php:1092 includes/settings/frontend.php:471
+#: views/editor_components/js_config.php:58
+#: views/metabox-design-setting.php:245
+msgid "Rectangle"
+msgstr ""
+
+#: includes/options/admin-options.php:1093
+#: views/editor_components/js_config.php:63
+msgid "Ellipse"
+msgstr ""
+
+#: includes/options/admin-options.php:1095
+msgid "Sub attribute name"
+msgstr ""
+
+#: includes/options/admin-options.php:1096
+msgid "Can not copy this option."
+msgstr ""
+
+#: includes/options/admin-options.php:1097
+msgid "This option exist."
+msgstr ""
+
+#: includes/options/admin-options.php:1098
+msgid "Front side"
+msgstr ""
+
+#: includes/options/admin-options.php:1099
+msgid "Back side"
+msgstr ""
+
+#: includes/options/admin-options.php:1100
+msgid "Both font and back sides"
+msgstr ""
+
+#: includes/options/admin-options.php:1101
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/options/admin-options.php:1102
+msgid "Choose Image"
+msgstr ""
+
+#: includes/options/admin-options.php:1103 views/options/field.php:772
+msgid "View name"
+msgstr ""
+
+#: includes/options/fields-list-table.php:9 views/options/edit-option.php:222
+#: views/options/options-list-table.php:12
+msgid "Printing options"
+msgstr ""
+
+#: includes/options/fields-list-table.php:33
+#: templates/mydesign/detail-design.php:59
+msgid "Status"
+msgstr ""
+
+#: includes/options/fields-list-table.php:34 views/options/edit-option.php:68
+msgid "Priority"
+msgstr ""
+
+#: includes/options/fields-list-table.php:35
+msgid "Applied for"
+msgstr ""
+
+#: includes/options/fields-list-table.php:37
+#: includes/options/fields-list-table.php:152
+#: views/nbdesigner-manager-arts.php:30 views/nbdesigner-manager-fonts.php:114
+#: views/options/edit-option.php:111
+msgid "Categories"
+msgstr ""
+
+#: includes/options/fields-list-table.php:38
+#: includes/table/class.product.templates.php:252
+#: templates/mydesign/my-designs.php:52
+msgid "Date"
+msgstr ""
+
+#: includes/options/fields-list-table.php:128
+#: includes/table/class.product.templates.php:181
+#: templates/mydesign/my-designs.php:56 views/modern/context-menu.php:76
+#: views/modern/popup-contents/user-design.php:21
+#: views/modern/sidebars/tab-layer.php:13
+#: views/modern/toolbars/toolbar-common.php:9 views/options/field.php:22
+#: views/options/field.php:373 views/options/field.php:389
+#: views/options/field.php:968 views/options/global_field.php:88
+#: views/options/quantity.php:78 views/product-builder/wrapper.php:174
+#: views/product-builder/wrapper.php:197 views/vista/context-menu.php:19
+msgid "Delete"
+msgstr ""
+
+#: includes/options/fields-list-table.php:129
+#: includes/options/fields-list-table.php:146
+#: templates/mydesign/detail-design.php:61 views/options/edit-option.php:62
+msgid "Publish"
+msgstr ""
+
+#: includes/options/fields-list-table.php:130
+#: includes/options/fields-list-table.php:146
+#: templates/mydesign/detail-design.php:62
+msgid "Unpublish"
+msgstr ""
+
+#: includes/options/fields-list-table.php:135
+msgid "No options avaliable."
+msgstr ""
+
+#: includes/options/fields-list-table.php:141
+#: includes/table/class.product.templates.php:184
+#: templates/mydesign/my-designs.php:54 templates/mydesign/my-designs.php:55
+#: views/modern/main-bar.php:77
+msgid "Edit"
+msgstr ""
+
+#: includes/options/fields-list-table.php:155
+#: includes/options/fields-list-table.php:170
+msgid "Disabled"
+msgstr ""
+
+#: includes/options/fields-list-table.php:156
+#: includes/options/fields-list-table.php:171 views/options/field.php:501
+msgid "None"
+msgstr ""
+
+#: includes/options/fields/input.php:81
+msgid "Price depend quantity"
+msgstr ""
+
+#: includes/options/fields/input.php:85 templates/mydesign/detail-design.php:55
+#: templates/mydesign/my-designs.php:19 templates/mydesign/my-designs.php:51
+#: views/options/field.php:274 views/options/field.php:345
+#: views/options/global_field.php:83
+msgid "Price"
+msgstr ""
+
+#: includes/options/fields/input.php:94
+msgid "Sale Price"
+msgstr ""
+
+#: includes/options/frontend-options.php:108 views/modern/main-bar.php:140
+msgid "Options"
+msgstr ""
+
+#: includes/options/frontend-options.php:119
+#: templates/single-product/option-builder.php:892
+#: templates/single-product/price-options.php:33
+#: templates/single-product/pricing-table-tab.php:8
+#: views/options/edit-option.php:79 views/options/field.php:698
+#: views/price-options.php:38 views/price-options.php:98
+#: views/price-options.php:154 views/price-options.php:155
+msgid "From"
+msgstr ""
+
+#: includes/options/frontend-options.php:124
+msgid "Empty cart"
+msgstr ""
+
+#: includes/options/frontend-options.php:175
+#, php-format
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#: includes/options/frontend-options.php:210
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: includes/options/frontend-options.php:217
+msgid "Sorry, file is too small ( min size: "
+msgstr ""
+
+#: includes/options/frontend-options.php:217
+#: includes/options/frontend-options.php:224
+msgid " MB )"
+msgstr ""
+
+#: includes/options/frontend-options.php:224
+msgid "Sorry, file is too big ( max size: "
+msgstr ""
+
+#: includes/options/frontend-options.php:230
+msgid "Upload file is required."
+msgstr ""
+
+#: includes/options/frontend-options.php:339
+#: includes/options/frontend-options.php:497
+#: templates/single-product/option-builder.php:859
+msgid "Quantity Discount"
+msgstr ""
+
+#: includes/options/frontend-options.php:470
+#: views/modern/popup-contents/printing-options.php:13
+msgid "Edit options"
+msgstr ""
+
+#: includes/options/frontend-options.php:878
+#: views/nbdesigner-manager-fonts.php:202
+msgid "Total"
+msgstr ""
+
+#: includes/options/frontend-options.php:879
+#: templates/single-product/option-builder.php:833
+msgid "Please check invalid fields and quantity input!"
+msgstr ""
+
+#: includes/options/frontend-options.php:1188
+#, php-format
+msgid "Invalid value posted for %s"
+msgstr ""
+
+#: includes/settings/appearance.php:9 includes/settings/output.php:46
+#: views/metabox-design-setting.php:352
+#: views/nbdesigner-box-design-setting-variation.php:241
+msgid "Show bleed"
+msgstr ""
+
+#: includes/settings/appearance.php:11
+msgid "Hide/show bleed, safe zone as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:22
+msgid "Show ruler"
+msgstr ""
+
+#: includes/settings/appearance.php:24
+msgid "Hide/show ruler as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:33
+msgid "Show product dimensions"
+msgstr ""
+
+#: includes/settings/appearance.php:35
+msgid "Hide/show product dimensions as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:44 views/modern/main-bar.php:100
+msgid "Show grid"
+msgstr ""
+
+#: includes/settings/appearance.php:46
+msgid "Hide/show grid as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:55
+msgid "Show layer dimension"
+msgstr ""
+
+#: includes/settings/appearance.php:57
+msgid "Show/hide layer dimension in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:66
+msgid "Show warning out of stage"
+msgstr ""
+
+#: includes/settings/appearance.php:68
+msgid "Hide/show warning out of stage as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:77
+msgid "Show warning image low resolution"
+msgstr ""
+
+#: includes/settings/appearance.php:79
+msgid "Hide/show warning image low resolution as default in design editor."
+msgstr ""
+
+#: includes/settings/appearance.php:88
+msgid "Show design area border"
+msgstr ""
+
+#: includes/settings/appearance.php:90
+msgid "Show/hide design area border."
+msgstr ""
+
+#: includes/settings/appearance.php:99
+msgid "Hide Elements tab"
+msgstr ""
+
+#: includes/settings/appearance.php:101
+msgid "Hide Elements tab in modern layout"
+msgstr ""
+
+#: includes/settings/appearance.php:110
+msgid "Hide Typography section"
+msgstr ""
+
+#: includes/settings/appearance.php:112
+msgid "Hide Typography section in modern layout"
+msgstr ""
+
+#: includes/settings/appearance.php:121
+msgid "Hide manage layers tab"
+msgstr ""
+
+#: includes/settings/appearance.php:123
+msgid "Hide manage layers tab in modern layout"
+msgstr ""
+
+#: includes/settings/appearance.php:132
+msgid "Show all template sides when hover on the template"
+msgstr ""
+
+#: includes/settings/appearance.php:143
+msgid "Logo"
+msgstr ""
+
+#: includes/settings/appearance.php:145
+msgid "Choose design editor logo if site logo not showing"
+msgstr ""
+
+#: includes/settings/appearance.php:152
+msgid "Show design tool"
+msgstr ""
+
+#: includes/settings/appearance.php:155
+msgid "Show design tool in product detail page or open new page"
+msgstr ""
+
+#: includes/settings/appearance.php:158
+msgid "In product detail page"
+msgstr ""
+
+#: includes/settings/appearance.php:159
+msgid "Open new page"
+msgstr ""
+
+#: includes/settings/appearance.php:163
+msgid "Auto add to cart and redirect"
+msgstr ""
+
+#: includes/settings/appearance.php:165
+msgid ""
+"Auto add to cart and redirect to cart page after save design in product "
+"detail page, depend option \"Show design tool: In product detail page\"."
+msgstr ""
+
+#: includes/settings/appearance.php:174
+msgid "Position of button design"
+msgstr ""
+
+#: includes/settings/appearance.php:177
+msgid "The position of the product button designer in the product page"
+msgstr ""
+
+#: includes/settings/appearance.php:180
+msgid "Before add to cart button and after variantions option"
+msgstr ""
+
+#: includes/settings/appearance.php:181
+msgid "Before variantions option"
+msgstr ""
+
+#: includes/settings/appearance.php:182
+msgid "After add to cart button"
+msgstr ""
+
+#: includes/settings/appearance.php:183
+msgid ""
+"Custom Hook, <code>echo do_shortcode( '[nbdesigner_button]' );</code> in "
+"product page"
+msgstr ""
+
+#: includes/settings/appearance.php:187
+msgid "Class for \"Start design\" button in product page"
+msgstr ""
+
+#: includes/settings/appearance.php:188 includes/settings/appearance.php:242
+msgid "Enter your class to show \"Start design\" button with your style."
+msgstr ""
+
+#: includes/settings/appearance.php:196
+msgid "Hide button Add to cart before complete design"
+msgstr ""
+
+#: includes/settings/appearance.php:198
+msgid "Only show button Add to cart after customer complete they design."
+msgstr ""
+
+#: includes/settings/appearance.php:229
+msgid "Position of button in the catalog"
+msgstr ""
+
+#: includes/settings/appearance.php:232
+msgid "The position of the button in the catalog listing."
+msgstr ""
+
+#: includes/settings/appearance.php:235
+msgid "Replace Add-to-Cart button"
+msgstr ""
+
+#: includes/settings/appearance.php:236
+msgid "End of catalog item"
+msgstr ""
+
+#: includes/settings/appearance.php:237
+msgid "Do not show"
+msgstr ""
+
+#: includes/settings/appearance.php:241
+msgid "Class for \"Start design\" button in catalog page"
+msgstr ""
+
+#: includes/settings/appearance.php:253
+msgid "Show customer design in cart, checkout page"
+msgstr ""
+
+#: includes/settings/appearance.php:255
+msgid ""
+"Show the thumbnail of the customized product in the cart, checkout page."
+msgstr ""
+
+#: includes/settings/appearance.php:264
+msgid "Show customer design in order"
+msgstr ""
+
+#: includes/settings/appearance.php:266
+msgid "Show the thumbnail of the customized product in the order."
+msgstr ""
+
+#: includes/settings/colors.php:9
+msgid "Show all color"
+msgstr ""
+
+#: includes/settings/colors.php:11
+msgid ""
+"Choose \"Yes\" that will show all color or \"No\" that will show color "
+"palette with list predefined colors."
+msgstr ""
+
+#: includes/settings/colors.php:20
+msgid "Hexadecimal Color Names"
+msgstr ""
+
+#: includes/settings/colors.php:21
+msgid ""
+"Color palette, <a href=\"https://www.w3schools.com/colors/colors_names.asp\" "
+"target=\"_blank\">color name reference</a>."
+msgstr ""
+
+#: includes/settings/colors.php:27
+msgid "Hexadecimal Color"
+msgstr ""
+
+#: includes/settings/frontend.php:9
+msgid "Enable tool Add Text"
+msgstr ""
+
+#: includes/settings/frontend.php:19
+msgid "Default font subset"
+msgstr ""
+
+#: includes/settings/frontend.php:20
+msgid "Choose your language font subset."
+msgstr ""
+
+#: includes/settings/frontend.php:27 includes/settings/frontend.php:493
+#: views/options/field.php:858
+msgid "Default text"
+msgstr ""
+
+#: includes/settings/frontend.php:30
+msgid "Default text when user add text"
+msgstr ""
+
+#: includes/settings/frontend.php:35 views/vista/sidebar/more.php:107
+msgid "Default color"
+msgstr ""
+
+#: includes/settings/frontend.php:38
+#, php-format
+msgid ""
+"Default color text when user add text. If you're using limited color "
+"palette, make sure <a href=\"%s\">this color</a> has been defined"
+msgstr ""
+
+#: includes/settings/frontend.php:42
+msgid "Enable Curved Text"
+msgstr ""
+
+#: includes/settings/frontend.php:47
+msgid "Only available on 1.x versions"
+msgstr ""
+
+#: includes/settings/frontend.php:54
+msgid "Enable Text transform unproportionally"
+msgstr ""
+
+#: includes/settings/frontend.php:58
+msgid "When true, Text can be transformed unproportionally"
+msgstr ""
+
+#: includes/settings/frontend.php:65
+msgid "Enable Text pattern"
+msgstr ""
+
+#: includes/settings/frontend.php:76 includes/settings/frontend.php:141
+#: includes/settings/frontend.php:347 includes/settings/frontend.php:416
+msgid "Show/hide features"
+msgstr ""
+
+#: includes/settings/frontend.php:100 includes/settings/frontend.php:148
+#: includes/settings/frontend.php:373 includes/settings/frontend.php:437
+msgid "Show/hide features in frontend"
+msgstr ""
+
+#: includes/settings/frontend.php:105
+msgid "Change font"
+msgstr ""
+
+#: includes/settings/frontend.php:106 views/modern/toolbars/toolbar-text.php:98
+#: views/nbdesigner-manager-fonts.php:54
+msgid "Italic"
+msgstr ""
+
+#: includes/settings/frontend.php:107 views/modern/toolbars/toolbar-text.php:94
+#: views/nbdesigner-manager-fonts.php:66
+msgid "Bold"
+msgstr ""
+
+#: includes/settings/frontend.php:108
+msgid "Underline"
+msgstr ""
+
+#: includes/settings/frontend.php:109
+msgid "Line-through"
+msgstr ""
+
+#: includes/settings/frontend.php:110
+msgid "Overline"
+msgstr ""
+
+#: includes/settings/frontend.php:111
+msgid "Text Case"
+msgstr ""
+
+#: includes/settings/frontend.php:112 views/vista/toolbox/toolbox-text.php:71
+msgid "Align left"
+msgstr ""
+
+#: includes/settings/frontend.php:113 views/vista/toolbox/toolbox-text.php:85
+msgid "Align right"
+msgstr ""
+
+#: includes/settings/frontend.php:114 views/vista/toolbox/toolbox-text.php:78
+msgid "Align center"
+msgstr ""
+
+#: includes/settings/frontend.php:115 views/vista/toolbox/toolbox-text.php:142
+msgid "Text color"
+msgstr ""
+
+#: includes/settings/frontend.php:116
+msgid "Text background"
+msgstr ""
+
+#: includes/settings/frontend.php:117
+msgid "Text shadow"
+msgstr ""
+
+#: includes/settings/frontend.php:118
+#: views/modern/toolbars/toolbar-text.php:115
+msgid "Line height"
+msgstr ""
+
+#: includes/settings/frontend.php:119
+#: views/modern/toolbars/toolbar-text.php:107
+#: views/modern/toolbars/toolbar-text.php:176
+msgid "Spacing"
+msgstr ""
+
+#: includes/settings/frontend.php:120 views/vista/toolbox/toolbox-text.php:121
+msgid "Font size"
+msgstr ""
+
+#: includes/settings/frontend.php:121 includes/settings/frontend.php:154
+#: includes/settings/frontend.php:380
+#: views/modern/toolbars/toolbar-common.php:35
+#: views/modern/toolbars/toolbar-common.php:39
+#: views/vista/toolbox/toolbox-group.php:9
+#: views/vista/toolbox/toolbox-image.php:9
+#: views/vista/toolbox/toolbox-path.php:10
+#: views/vista/toolbox/toolbox-text.php:12
+msgid "Opacity"
+msgstr ""
+
+#: includes/settings/frontend.php:122
+msgid "Outline"
+msgstr ""
+
+#: includes/settings/frontend.php:123 includes/settings/frontend.php:378
+msgid "Unlock proportion"
+msgstr ""
+
+#: includes/settings/frontend.php:124 includes/settings/frontend.php:153
+#: includes/settings/frontend.php:397 views/product-builder/wrapper.php:83
+#: views/vista/toolbox/toolbox-image.php:17
+#: views/vista/toolbox/toolbox-path.php:151
+#: views/vista/toolbox/toolbox-text.php:212
+msgid "Rotate"
+msgstr ""
+
+#: includes/settings/frontend.php:131
+msgid "Enable tool Add Clipart"
+msgstr ""
+
+#: includes/settings/frontend.php:152
+msgid "Change color path"
+msgstr ""
+
+#: includes/settings/frontend.php:161
+msgid "Enable tool Add Image"
+msgstr ""
+
+#: includes/settings/frontend.php:171
+msgid "Enable upload image"
+msgstr ""
+
+#: includes/settings/frontend.php:181 includes/settings/upload.php:9
+msgid "Login Required"
+msgstr ""
+
+#: includes/settings/frontend.php:182
+msgid ""
+"Users must create an account in your Wordpress site and need to be logged-in "
+"to upload images."
+msgstr ""
+
+#: includes/settings/frontend.php:188
+msgid "Allow upload multiple images"
+msgstr ""
+
+#: includes/settings/frontend.php:189
+msgid "Allow the customer upload multiple images."
+msgstr ""
+
+#: includes/settings/frontend.php:195
+msgid "Max upload files at once"
+msgstr ""
+
+#: includes/settings/frontend.php:203 includes/settings/upload.php:42
+msgid "Max upload size"
+msgstr ""
+
+#: includes/settings/frontend.php:211 includes/settings/upload.php:50
+msgid "Min upload size"
+msgstr ""
+
+#: includes/settings/frontend.php:219
+msgid "Min image upload resolution"
+msgstr ""
+
+#: includes/settings/frontend.php:227
+msgid "Enable low resolution image"
+msgstr ""
+
+#: includes/settings/frontend.php:231
+msgid "Alert a message to the customer"
+msgstr ""
+
+#: includes/settings/frontend.php:238
+msgid "Enable images from url"
+msgstr ""
+
+#: includes/settings/frontend.php:248
+msgid "Enable get images from Google Drive"
+msgstr ""
+
+#: includes/settings/frontend.php:258
+msgid "Enable search from Pixabay"
+msgstr ""
+
+#: includes/settings/frontend.php:268
+msgid "Enable search from Unsplash"
+msgstr ""
+
+#: includes/settings/frontend.php:278
+msgid "Enable SVG code"
+msgstr ""
+
+#: includes/settings/frontend.php:288
+msgid "Enable capture images by webcam"
+msgstr ""
+
+#: includes/settings/frontend.php:298
+msgid "Enable Facebook photos"
+msgstr ""
+
+#: includes/settings/frontend.php:308
+msgid "Enable Instagram photos"
+msgstr ""
+
+#: includes/settings/frontend.php:318
+msgid "Enable Dropbox photos"
+msgstr ""
+
+#: includes/settings/frontend.php:328
+msgid "Show terms and conditions"
+msgstr ""
+
+#: includes/settings/frontend.php:329
+msgid "Show term and conditions upload image."
+msgstr ""
+
+#: includes/settings/frontend.php:339
+msgid "Terms and conditions upload image"
+msgstr ""
+
+#: includes/settings/frontend.php:343
+msgid "HTML Tags Supported"
+msgstr ""
+
+#: includes/settings/frontend.php:379
+msgid "Shadow"
+msgstr ""
+
+#: includes/settings/frontend.php:381
+msgid "Grayscale"
+msgstr ""
+
+#: includes/settings/frontend.php:382
+msgid "Invert"
+msgstr ""
+
+#: includes/settings/frontend.php:383
+msgid "Sepia"
+msgstr ""
+
+#: includes/settings/frontend.php:384
+msgid "Sepia 2"
+msgstr ""
+
+#: includes/settings/frontend.php:385
+msgid "Remove white"
+msgstr ""
+
+#: includes/settings/frontend.php:386
+msgid "Transparency"
+msgstr ""
+
+#: includes/settings/frontend.php:387
+msgid "Tint"
+msgstr ""
+
+#: includes/settings/frontend.php:388
+msgid "Blend mode"
+msgstr ""
+
+#: includes/settings/frontend.php:389
+msgid "Brightness"
+msgstr ""
+
+#: includes/settings/frontend.php:390
+msgid "Noise"
+msgstr ""
+
+#: includes/settings/frontend.php:391
+msgid "Pixelate"
+msgstr ""
+
+#: includes/settings/frontend.php:392
+msgid "Multiply"
+msgstr ""
+
+#: includes/settings/frontend.php:393
+msgid "Blur"
+msgstr ""
+
+#: includes/settings/frontend.php:394
+msgid "Sharpen"
+msgstr ""
+
+#: includes/settings/frontend.php:395
+msgid "Emboss"
+msgstr ""
+
+#: includes/settings/frontend.php:396
+msgid "Edge enhance"
+msgstr ""
+
+#: includes/settings/frontend.php:398
+#: views/modern/popup-contents/crop-image.php:13
+msgid "Crop image"
+msgstr ""
+
+#: includes/settings/frontend.php:399
+msgid "Shape crop"
+msgstr ""
+
+#: includes/settings/frontend.php:406
+msgid "Enable Free Draw"
+msgstr ""
+
+#: includes/settings/frontend.php:460 views/modern/sidebars/tab-elements.php:61
+#: views/vista/sidebar/more.php:53
+msgid "Brush"
+msgstr ""
+
+#: includes/settings/frontend.php:461 views/modern/sidebars/tab-elements.php:64
+#: views/vista/sidebar/more.php:61
+msgid "Pencil"
+msgstr ""
+
+#: includes/settings/frontend.php:462 includes/settings/frontend.php:472
+#: views/editor_components/js_config.php:62
+#: views/modern/sidebars/tab-elements.php:65 views/vista/sidebar/more.php:66
+msgid "Circle"
+msgstr ""
+
+#: includes/settings/frontend.php:463 views/modern/sidebars/tab-elements.php:66
+#: views/vista/sidebar/more.php:71
+msgid "Spray"
+msgstr ""
+
+#: includes/settings/frontend.php:464
+msgid "Pattern"
+msgstr ""
+
+#: includes/settings/frontend.php:465
+msgid "Hline"
+msgstr ""
+
+#: includes/settings/frontend.php:466
+msgid "Vline"
+msgstr ""
+
+#: includes/settings/frontend.php:467
+msgid "Square"
+msgstr ""
+
+#: includes/settings/frontend.php:468
+msgid "Diamond"
+msgstr ""
+
+#: includes/settings/frontend.php:469
+msgid "Texture"
+msgstr ""
+
+#: includes/settings/frontend.php:470
+msgid "Geometrical shape"
+msgstr ""
+
+#: includes/settings/frontend.php:473 views/editor_components/js_config.php:59
+msgid "Triangle"
+msgstr ""
+
+#: includes/settings/frontend.php:474 views/editor_components/js_config.php:60
+msgid "Line"
+msgstr ""
+
+#: includes/settings/frontend.php:475 views/editor_components/js_config.php:61
+msgid "Polygon"
+msgstr ""
+
+#: includes/settings/frontend.php:476
+msgid "Hexagon"
+msgstr ""
+
+#: includes/settings/frontend.php:483
+msgid "Enable QRCode"
+msgstr ""
+
+#: includes/settings/frontend.php:496
+msgid "Default text for QRCode"
+msgstr ""
+
+#: includes/settings/frontend.php:503
+msgid "Enable scale object from center"
+msgstr ""
+
+#: includes/settings/frontend.php:505
+msgid "Change the default object scale origin from corner to center."
+msgstr ""
+
+#: includes/settings/frontend.php:514
+msgid "Disable auto load primary tempalte."
+msgstr ""
+
+#: includes/settings/frontend.php:516
+msgid ""
+"Always show blank design pages and only load templates until the customer "
+"choose them."
+msgstr ""
+
+#: includes/settings/frontend.php:525
+msgid "Lazy load default template"
+msgstr ""
+
+#: includes/settings/frontend.php:527
+msgid ""
+"Lazy load default template if the product has template and the default "
+"templates is a very large objects."
+msgstr ""
+
+#: includes/settings/general.php:9
+msgid "Default design editor layout"
+msgstr ""
+
+#: includes/settings/general.php:11
+msgid ""
+"Choose default layout for design tool, you can choose specify layout for "
+"each product.<br /><b>Note</b>: We recommend <b>Modern</b> layout for the "
+"best user experience. We have stopped developing new features on Classic "
+"layout, consider this if you still want to use it."
+msgstr ""
+
+#: includes/settings/general.php:15
+msgid "<b>Modern</b> - recommended"
+msgstr ""
+
+#: includes/settings/general.php:16 views/metabox-design-setting.php:405
+msgid "Visual"
+msgstr ""
+
+#: includes/settings/general.php:17 views/metabox-design-setting.php:406
+msgid "Classic"
+msgstr ""
+
+#: includes/settings/general.php:21
+msgid "Default output resolution - DPI"
+msgstr ""
+
+#: includes/settings/general.php:28
+msgid "Dimensions Unit"
+msgstr ""
+
+#: includes/settings/general.php:30
+msgid "This controls what unit you will define lengths in."
+msgstr ""
+
+#: includes/settings/general.php:34
+msgid "cm"
+msgstr ""
+
+#: includes/settings/general.php:35
+msgid "in"
+msgstr ""
+
+#: includes/settings/general.php:36
+msgid "mm"
+msgstr ""
+
+#: includes/settings/general.php:40
+msgid "Preview design size"
+msgstr ""
+
+#: includes/settings/general.php:42
+msgid ""
+"This is size of preview design image which will show in cart or order page."
+msgstr ""
+
+#: includes/settings/general.php:49
+msgid "Preview template size"
+msgstr ""
+
+#: includes/settings/general.php:51
+msgid "This is size of preview template image which will show in gallery page."
+msgstr ""
+
+#: includes/settings/general.php:58
+msgid "Hide On Smartphones"
+msgstr ""
+
+#: includes/settings/general.php:59
+msgid ""
+"Hide product designer on smartphones and display an information instead."
+msgstr ""
+
+#: includes/settings/general.php:69
+msgid "Allow save design for later"
+msgstr ""
+
+#: includes/settings/general.php:70
+msgid ""
+"Allow the customer save their design and continue working on it another time."
+msgstr ""
+
+#: includes/settings/general.php:80
+msgid "Allow share design"
+msgstr ""
+
+#: includes/settings/general.php:81
+msgid "Allow the customer share their design via email or social network."
+msgstr ""
+
+#: includes/settings/general.php:91
+msgid "Cache latest design on user browser"
+msgstr ""
+
+#: includes/settings/general.php:92
+msgid ""
+"Save customer latest design. When they come back design product, they latest "
+"design will be loaded."
+msgstr ""
+
+#: includes/settings/general.php:102
+msgid "Cache customer uploaded image"
+msgstr ""
+
+#: includes/settings/general.php:103
+msgid "Cache customer uploaded image links on browser."
+msgstr ""
+
+#: includes/settings/general.php:113
+msgid "Allow customer re-design after order"
+msgstr ""
+
+#: includes/settings/general.php:114
+msgid ""
+"After order, customer can edit they design before it is approved or rejected."
+msgstr ""
+
+#: includes/settings/general.php:124
+msgid "Allow download design after checkout"
+msgstr ""
+
+#: includes/settings/general.php:125
+msgid ""
+"Allow the customer download their designs or upload files after checkout."
+msgstr ""
+
+#: includes/settings/general.php:130
+msgid "Yes - all order status"
+msgstr ""
+
+#: includes/settings/general.php:131
+msgid "Complete order"
+msgstr ""
+
+#: includes/settings/general.php:136 includes/settings/general.php:171
+msgid "Design file type download"
+msgstr ""
+
+#: includes/settings/general.php:146 includes/settings/general.php:179
+msgid ""
+"Choose design file type which the customer can download. Design in JPG "
+"format require PHP Imagick. "
+msgstr ""
+
+#: includes/settings/general.php:150 includes/settings/general.php:183
+#: includes/settings/general.php:188 includes/settings/general.php:270
+#: views/detail-order.php:155 views/modern/main-bar.php:57
+msgid "PNG"
+msgstr ""
+
+#: includes/settings/general.php:151 includes/settings/general.php:185
+#: includes/settings/general.php:190
+#, php-format
+msgid "PDF, detail config for <a target=\"_blank\" href=\"%s\">PDF</a>"
+msgstr ""
+
+#: includes/settings/general.php:152 includes/settings/general.php:184
+#: includes/settings/general.php:189 includes/settings/general.php:271
+#: views/detail-order.php:148 views/modern/main-bar.php:63
+msgid "SVG"
+msgstr ""
+
+#: includes/settings/general.php:153
+msgid "JPG ( require PHP Imagick )"
+msgstr ""
+
+#: includes/settings/general.php:154
+msgid "CMYK - JPG ( require PHP Imagick )"
+msgstr ""
+
+#: includes/settings/general.php:155
+msgid "Upload files - The customer upload files"
+msgstr ""
+
+#: includes/settings/general.php:160
+msgid "Allow download design in editor"
+msgstr ""
+
+#: includes/settings/general.php:161
+msgid "Allow the customer download their designs in editor ( Modern layout )."
+msgstr ""
+
+#: includes/settings/general.php:186
+msgid "JPG"
+msgstr ""
+
+#: includes/settings/general.php:197
+msgid "Admin notifications"
+msgstr ""
+
+#: includes/settings/general.php:199
+msgid "Send a message to the admin when customer design saved / changed."
+msgstr ""
+
+#: includes/settings/general.php:208
+msgid "Recurrence"
+msgstr ""
+
+#: includes/settings/general.php:210
+msgid "Choose how many times you want to receive an e-mail."
+msgstr ""
+
+#: includes/settings/general.php:214
+msgid "Hourly"
+msgstr ""
+
+#: includes/settings/general.php:215
+msgid "Twice a day"
+msgstr ""
+
+#: includes/settings/general.php:216
+msgid "Daily"
+msgstr ""
+
+#: includes/settings/general.php:220
+msgid "Recipients"
+msgstr ""
+
+#: includes/settings/general.php:221
+msgid "Enter recipients (comma separated) for this email. Defaults to "
+msgstr ""
+
+#: includes/settings/general.php:229
+msgid "Send mail to admins when approve designs"
+msgstr ""
+
+#: includes/settings/general.php:231
+msgid "Send mail to admins when approve the customer designs."
+msgstr ""
+
+#: includes/settings/general.php:240
+msgid "Admin emails who receive notification when designs approved"
+msgstr ""
+
+#: includes/settings/general.php:241
+msgid "Enter recipients (comma separated) for admin email. Defaults to "
+msgstr ""
+
+#: includes/settings/general.php:249
+msgid "Attach custom designs"
+msgstr ""
+
+#: includes/settings/general.php:250
+msgid "Attach custom designs in Admin notifications email."
+msgstr ""
+
+#: includes/settings/general.php:260
+msgid "Attach custom designs type"
+msgstr ""
+
+#: includes/settings/general.php:266
+msgid "Choose design file type which attach in email."
+msgstr ""
+
+#: includes/settings/general.php:278
+msgid "Create your own page"
+msgstr ""
+
+#: includes/settings/general.php:279
+msgid "Choose Create your own page."
+msgstr ""
+
+#: includes/settings/general.php:286
+msgid "Designer page"
+msgstr ""
+
+#: includes/settings/general.php:287
+msgid "Choose designer page."
+msgstr ""
+
+#: includes/settings/general.php:295
+msgid "Choose Gallery page."
+msgstr ""
+
+#: includes/settings/general.php:302
+msgid "Redirect login"
+msgstr ""
+
+#: includes/settings/general.php:303
+msgid "Choose login page on design tool."
+msgstr ""
+
+#: includes/settings/general.php:310
+msgid "Product builder page"
+msgstr ""
+
+#: includes/settings/general.php:311
+msgid "Choose Product builder page."
+msgstr ""
+
+#: includes/settings/general.php:320
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/settings/general.php:321
+msgid "Enter a Facebook App-ID to allow customer use Facebook photos."
+msgstr ""
+
+#: includes/settings/general.php:321 includes/settings/general.php:345
+#: includes/settings/general.php:361 includes/settings/general.php:369
+msgid "Where do I get this info?"
+msgstr ""
+
+#: includes/settings/general.php:328
+msgid "Instagram App ID"
+msgstr ""
+
+#: includes/settings/general.php:329
+msgid "Enter a Instagram App-ID to allow customer use Instagram photos."
+msgstr ""
+
+#: includes/settings/general.php:336
+msgid "Dropbox App ID"
+msgstr ""
+
+#: includes/settings/general.php:337
+msgid "Enter a Dropbox App-ID to allow customer use Dropbox photos."
+msgstr ""
+
+#: includes/settings/general.php:337
+msgid "Create a new app"
+msgstr ""
+
+#: includes/settings/general.php:337
+msgid "Edit app and set \"Chooser/Saver domains\" with your domain: <b><code>"
+msgstr ""
+
+#: includes/settings/general.php:344
+msgid "Google API key"
+msgstr ""
+
+#: includes/settings/general.php:345
+msgid "The Browser API key obtained from the Google API Console."
+msgstr ""
+
+#: includes/settings/general.php:352
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/settings/general.php:353
+msgid "The Client ID obtained from the Google API Console."
+msgstr ""
+
+#: includes/settings/general.php:360
+msgid "Pixabay API key"
+msgstr ""
+
+#: includes/settings/general.php:361
+msgid ""
+"You can use default key or your Pixabay API key. That feature allow the "
+"customer serach images from Pixabay."
+msgstr ""
+
+#: includes/settings/general.php:368
+msgid "Unsplash Application ID"
+msgstr ""
+
+#: includes/settings/general.php:369
+msgid ""
+"You can use default key or your Unsplash Application ID. That feature allow "
+"the customer serach images from Pixabay."
+msgstr ""
+
+#: includes/settings/general.php:381
+msgid "Force to upload SVG files"
+msgstr ""
+
+#: includes/settings/general.php:382
+msgid ""
+"Some themes or plugins disable upload SVG files feature. This option force "
+"to upload SVG files."
+msgstr ""
+
+#: includes/settings/general.php:392
+msgid "Enable log mode"
+msgstr ""
+
+#: includes/settings/general.php:393
+#, php-format
+msgid "Enable log mode for debug. <a href=\"%s\">Logs</a>"
+msgstr ""
+
+#: includes/settings/general.php:403
+msgid "Fix image URLs after change domain"
+msgstr ""
+
+#: includes/settings/general.php:404
+msgid "Fix image url after change domain or setup SSL."
+msgstr ""
+
+#: includes/settings/general.php:414
+msgid "Cron job flush W3 Total cache"
+msgstr ""
+
+#: includes/settings/general.php:425
+msgid "Site force login"
+msgstr ""
+
+#: includes/settings/general.php:427
+msgid "Require user log in first."
+msgstr ""
+
+#: includes/settings/general.php:436
+msgid "Redefine K_PATH_FONTS constant"
+msgstr ""
+
+#: includes/settings/general.php:438
+msgid ""
+"Redefine K_PATH_FONTS constant if your server does not provide the write "
+"permission in the plugins folder."
+msgstr ""
+
+#: includes/settings/general.php:447
+msgid "Disable NONCE in the submit form"
+msgstr ""
+
+#: includes/settings/general.php:449
+msgid ""
+"Disable NONCE in the submit form if your site has a problem with cache "
+"plugins."
+msgstr ""
+
+#: includes/settings/libraries.php:20
+msgid "Angular js"
+msgstr ""
+
+#: includes/settings/libraries.php:22
+msgid ""
+"AngularJS: https://angularjs.org/ <br /> Disable if the theme or other "
+"plugin included"
+msgstr ""
+
+#: includes/settings/output.php:9
+msgid "Watermark"
+msgstr ""
+
+#: includes/settings/output.php:11
+msgid "Enable watermark if allow customer download PDFs"
+msgstr ""
+
+#: includes/settings/output.php:15
+msgid "Always"
+msgstr ""
+
+#: includes/settings/output.php:16
+msgid "Before complete order"
+msgstr ""
+
+#: includes/settings/output.php:21
+msgid "Watermark type"
+msgstr ""
+
+#: includes/settings/output.php:31
+msgid "Watermark image"
+msgstr ""
+
+#: includes/settings/output.php:33
+msgid "Choose a watermark image"
+msgstr ""
+
+#: includes/settings/output.php:38
+msgid "Watermark text"
+msgstr ""
+
+#: includes/settings/output.php:39
+msgid "Branded watermark text"
+msgstr ""
+
+#: includes/settings/output.php:47
+msgid ""
+"If the product include bleed line, show it below/above the content design."
+msgstr ""
+
+#: includes/settings/output.php:52
+msgid "Below the content design."
+msgstr ""
+
+#: includes/settings/output.php:53
+msgid "Above the content design."
+msgstr ""
+
+#: includes/settings/output.php:57
+msgid "Truetype fonts"
+msgstr ""
+
+#: includes/settings/output.php:58
+msgid "Each font in a separate line"
+msgstr ""
+
+#: includes/settings/output.php:69
+msgid "Default ICC profile"
+msgstr ""
+
+#: includes/settings/output.php:71
+msgid ""
+"Set default ICC profile for jpg image. <br/><b>This feature require your "
+"server support Imagemagick with lcms2.</b>"
+msgstr ""
+
+#: includes/settings/printing_option.php:9
+msgid "Options display style"
+msgstr ""
+
+#: includes/settings/printing_option.php:11
+msgid "This controls how options are displayed on the front-end ."
+msgstr ""
+
+#: includes/settings/printing_option.php:15
+msgid "Style 1"
+msgstr ""
+
+#: includes/settings/printing_option.php:16
+msgid "Style 2"
+msgstr ""
+
+#: includes/settings/printing_option.php:20
+msgid "Hide Add to cart button until all required options are chosen"
+msgstr ""
+
+#: includes/settings/printing_option.php:22
+msgid ""
+"Check this to show the add to cart button only when all required options are "
+"filled."
+msgstr ""
+
+#: includes/settings/printing_option.php:31
+msgid "Hide summary options"
+msgstr ""
+
+#: includes/settings/printing_option.php:33
+msgid "Hide summary options in product detail page."
+msgstr ""
+
+#: includes/settings/printing_option.php:42
+msgid "Hide table pricing"
+msgstr ""
+
+#: includes/settings/printing_option.php:44
+msgid "Hide table pricing in product detail page."
+msgstr ""
+
+#: includes/settings/printing_option.php:53
+msgid "Hide option swatch label"
+msgstr ""
+
+#: includes/settings/printing_option.php:55
+msgid "Hide option swatch label in Style 1 in product detail page."
+msgstr ""
+
+#: includes/settings/printing_option.php:64
+msgid "Change original product price"
+msgstr ""
+
+#: includes/settings/printing_option.php:66
+msgid "Overwrite the original product price when options are changing."
+msgstr ""
+
+#: includes/settings/printing_option.php:75
+msgid "Auto hide price if zero"
+msgstr ""
+
+#: includes/settings/printing_option.php:77
+msgid "Hide the option price display if it is zero."
+msgstr ""
+
+#: includes/settings/printing_option.php:86
+msgid "Option description tooltip position"
+msgstr ""
+
+#: includes/settings/printing_option.php:92
+#: views/metabox-design-setting.php:304 views/metabox-design-setting.php:345
+#: views/nbdesigner-box-design-setting-variation.php:188
+#: views/nbdesigner-box-design-setting-variation.php:232
+msgid "Top"
+msgstr ""
+
+#: includes/settings/printing_option.php:93
+msgid "Right"
+msgstr ""
+
+#: includes/settings/printing_option.php:94
+msgid "Bottom"
+msgstr ""
+
+#: includes/settings/printing_option.php:95
+#: views/metabox-design-setting.php:311 views/metabox-design-setting.php:339
+#: views/nbdesigner-box-design-setting-variation.php:196
+#: views/nbdesigner-box-design-setting-variation.php:224
+msgid "Left"
+msgstr ""
+
+#: includes/settings/printing_option.php:99
+msgid "jQuery selector for increase/decrease quantity button"
+msgstr ""
+
+#: includes/settings/printing_option.php:101
+msgid ""
+"This is used to re calculate quantity discount price, example: .quantity-"
+"plus, .quantity-minus"
+msgstr ""
+
+#: includes/settings/printing_option.php:108
+msgid "Display product options on"
+msgstr ""
+
+#: includes/settings/printing_option.php:110
+msgid "Display product options on popup or product tab in modern layout."
+msgstr ""
+
+#: includes/settings/printing_option.php:114
+msgid "Popup"
+msgstr ""
+
+#: includes/settings/printing_option.php:115
+msgid "Product Tab"
+msgstr ""
+
+#: includes/settings/printing_option.php:121
+msgid "Force Select Options"
+msgstr ""
+
+#: includes/settings/printing_option.php:123
+msgid ""
+"This changes the add to cart button on shop and archive pages to display "
+"select options when the product has extra product options."
+msgstr ""
+
+#: includes/settings/printing_option.php:134
+msgid "Turn off persistent cart"
+msgstr ""
+
+#: includes/settings/printing_option.php:136
+msgid "Enable this if the product has a lot of options."
+msgstr ""
+
+#: includes/settings/printing_option.php:145
+msgid "Clear cart button"
+msgstr ""
+
+#: includes/settings/printing_option.php:147
+msgid "Enables or disables the clear cart button."
+msgstr ""
+
+#: includes/settings/printing_option.php:156
+msgid "Hide options in cart"
+msgstr ""
+
+#: includes/settings/printing_option.php:158
+msgid "Enables or disables the display of options in cart."
+msgstr ""
+
+#: includes/settings/printing_option.php:167
+msgid "Hide option price in cart"
+msgstr ""
+
+#: includes/settings/printing_option.php:169
+msgid "Enables or disables the display of option price in cart."
+msgstr ""
+
+#: includes/settings/printing_option.php:180
+msgid "Auto hide Preview printing options in design editor"
+msgstr ""
+
+#: includes/settings/upload.php:10
+msgid ""
+"Users must create an account in your Wordpress site and need to be logged-in "
+"to upload files."
+msgstr ""
+
+#: includes/settings/upload.php:16 views/metabox-design-setting.php:576
+msgid "Allowed file types"
+msgstr ""
+
+#: includes/settings/upload.php:17
+msgid ""
+"Extensions seperated by a comma. Don not use dots or spaces. Example: "
+"<code>jpg,bmp,pdf,ps,ai,iddd</code>... Set empty input to allow all "
+"extensions except disallowed extensions."
+msgstr ""
+
+#: includes/settings/upload.php:25 views/metabox-design-setting.php:581
+msgid "Disallowed file types"
+msgstr ""
+
+#: includes/settings/upload.php:26
+msgid ""
+"Extensions seperated by a comma. Don not use dots or spaces. Example: "
+"<code>png,gif,... </code>"
+msgstr ""
+
+#: includes/settings/upload.php:34 views/metabox-design-setting.php:586
+msgid "Number of uploads"
+msgstr ""
+
+#: includes/settings/upload.php:38
+msgid "Number of files allow user upload."
+msgstr ""
+
+#: includes/settings/upload.php:58
+msgid "Create Preview for images"
+msgstr ""
+
+#: includes/settings/upload.php:61
+msgid ""
+"Be careful, it may be slow down your server if uploaded images are very "
+"large."
+msgstr ""
+
+#: includes/settings/upload.php:69
+msgid "Preview image width"
+msgstr ""
+
+#: includes/settings/upload.php:74
+msgid "Preview image width in pixel."
+msgstr ""
+
+#: includes/settings/upload.php:78
+msgid "Min. resolution DPI for JPG/JPEG image"
+msgstr ""
+
+#: includes/settings/upload.php:85
+msgid "Delete upload files after X days"
+msgstr ""
+
+#: includes/settings/upload.php:87
+msgid ""
+"Choose how long to retain upload files. Leave the above input blank to "
+"retain upload file indefinitely."
+msgstr ""
+
+#: includes/settings/upload.php:95
+msgid "Max. resolution (px)"
+msgstr ""
+
+#: includes/settings/upload.php:97
+msgid "Set empty input to allow any resolution"
+msgstr ""
+
+#: includes/settings/upload.php:107
+msgid "Min. resolution (px)"
+msgstr ""
+
+#: includes/table/class.product.templates.php:9
+#: views/modern/popup-contents/my-cart-designs.php:20
+#: views/modern/popup-contents/my-templates.php:20
+#: views/modern/sidebars/tab-templates.php:16 views/modern/tour-guide.php:23
+#: views/vista/sidebar/design.php:5 views/vista/sidebar/design.php:21
+#: views/vista/sidebar/design.php:24 views/vista/toolbar.php:11
+msgid "Template"
+msgstr ""
+
+#: includes/table/class.product.templates.php:10
+#: views/modern/sidebars/tab-nav.php:14
+msgid "Templates"
+msgstr ""
+
+#: includes/table/class.product.templates.php:128
+msgid "No templates avaliable."
+msgstr ""
+
+#: includes/table/class.product.templates.php:182
+#: includes/table/class.product.templates.php:249
+msgid "Primary"
+msgstr ""
+
+#: includes/table/class.product.templates.php:183
+#: views/modern/context-menu.php:74 views/modern/toolbars/toolbar-common.php:6
+#: views/vista/context-menu.php:17
+msgid "Duplicate"
+msgstr ""
+
+#: includes/table/class.product.templates.php:205
+#: templates/mydesign/detail-design.php:66
+#: views/nbdesigner-manager-fonts.php:198 views/nbdesigner-tools.php:28
+msgid "Update"
+msgstr ""
+
+#: includes/table/class.product.templates.php:248
+#: templates/gallery/artist.php:207 templates/mydesign/detail-design.php:79
+#: templates/mydesign/my-designs.php:18 templates/mydesign/my-designs.php:45
+msgid "Preview"
+msgstr ""
+
+#: includes/table/class.product.templates.php:250
+msgid "Variation"
+msgstr ""
+
+#: includes/table/class.product.templates.php:261
+msgid "Show all design"
+msgstr ""
+
+#: includes/table/class.product.templates.php:262
+msgid "Publish design"
+msgstr ""
+
+#: includes/table/class.product.templates.php:263
+msgid "Unpublish design"
+msgstr ""
+
+#: includes/table/class.product.templates.php:264
+msgid "Private design"
+msgstr ""
+
+#: includes/table/class.product.templates.php:265
+msgid "Primary design"
+msgstr ""
+
+#: includes/table/class.product.templates.php:273
+msgid "Show all variation"
+msgstr ""
+
+#: includes/table/class.product.templates.php:280
+msgid "Filter"
+msgstr ""
+
+#: templates/admin-manager-templates.php:5 views/metabox-design-setting.php:431
+#: views/metabox-design-setting.php:460
+msgid "Create Template"
+msgstr ""
+
+#: templates/admin-manager-templates.php:6
+#: templates/admin-manager-templates.php:7
+msgid "Edit Template"
+msgstr ""
+
+#: templates/admin-manager-templates.php:10
+#: views/nbdesigner-admin-template.php:31
+#: views/nbdesigner-admin-template.php:33
+msgid "Add Template"
+msgstr ""
+
+#: templates/admin-manager-templates.php:19
+msgid "Preview your design"
+msgstr ""
+
+#: templates/compatibility/dokan/product_setting.php:5
+msgid "Configure design for product"
+msgstr ""
+
+#: templates/emails/nbdesigner-admin-notifications.php:3
+msgid "Please review orders below:"
+msgstr ""
+
+#: templates/emails/nbdesigner-admin-notifications.php:7
+#: templates/emails/notify-admin-when-approve-design.php:7
+msgid "View order"
+msgstr ""
+
+#: templates/emails/nbdesigner-admin-notifications.php:10
+msgid "Login is required to edit orders"
+msgstr ""
+
+#: templates/emails/nbdesigner-admin-notifications.php:12
+msgid "No orders found"
+msgstr ""
+
+#: templates/emails/nbdesigner-approve-order-design.php:7
+#, php-format
+msgid "Your order with order number %s now has the following status: %s"
+msgstr ""
+
+#: templates/emails/nbdesigner-approve-order-design.php:12
+msgid ""
+"Please log into your account and design again. Go to product detail page, "
+"redesign and save your design (haven't to add to cart!)"
+msgstr ""
+
+#: templates/emails/nbdesigner-approve-order-design.php:13
+msgid "Login to design again."
+msgstr ""
+
+#: templates/emails/notify-admin-when-approve-design.php:3
+#, php-format
+msgid "The customer design in order %s has been approved!"
+msgstr ""
+
+#: templates/emails/notify-admin-when-approve-design.php:6
+msgid "Please review order below:"
+msgstr ""
+
+#: templates/emails/notify-admin-when-approve-design.php:34
+msgid "Upload designs"
+msgstr ""
+
+#: templates/gallery/artist.php:28
+msgid "Edit profile"
+msgstr ""
+
+#: templates/gallery/artist.php:62 templates/mydesign/edit-info.php:51
+#: views/modern/sidebars/tab-photo.php:31 views/user-profile.php:65
+#: views/vista/sidebar/images.php:38 views/vista/sidebar/images.php:300
+#: views/vista/sidebar/more.php:185
+msgid "Facebook"
+msgstr ""
+
+#: templates/gallery/artist.php:70 templates/gallery/artist.php:86
+msgid "Google"
+msgstr ""
+
+#: templates/gallery/artist.php:78 templates/mydesign/edit-info.php:61
+#: views/user-profile.php:75
+msgid "Twitter"
+msgstr ""
+
+#: templates/gallery/artist.php:95 templates/mydesign/edit-info.php:71
+#: views/user-profile.php:85
+msgid "Youtube"
+msgstr ""
+
+#: templates/gallery/artist.php:103 templates/mydesign/edit-info.php:76
+#: views/modern/sidebars/tab-photo.php:41 views/user-profile.php:90
+#: views/vista/sidebar/images.php:46
+msgid "Instagram"
+msgstr ""
+
+#: templates/gallery/artist.php:113 templates/mydesign/edit-info.php:81
+#: views/user-profile.php:95
+msgid "Flickr"
+msgstr ""
+
+#: templates/gallery/artist.php:164
+#: templates/gallery/popup-preview-product.php:4
+#: templates/gallery/popup-preview-product.php:6
+msgid "Back to list"
+msgstr ""
+
+#: templates/gallery/artist.php:170
+msgid "Edit template for"
+msgstr ""
+
+#: templates/gallery/artist.php:170 templates/gallery/sidebar.php:57
+msgid "Template for"
+msgstr ""
+
+#: templates/gallery/artist.php:174 templates/mydesign/detail-design.php:72
+msgid "Vote"
+msgstr ""
+
+#: templates/gallery/artist.php:180 views/detail-order.php:80
+#: views/detail-order.php:362 views/modern/main-bar.php:93
+#: views/options/field.php:824
+msgid "View"
+msgstr ""
+
+#: templates/gallery/artist.php:194
+msgid "Thumbnail"
+msgstr ""
+
+#: templates/gallery/artist.php:202
+msgid "Upload thumbnail"
+msgstr ""
+
+#: templates/gallery/artist.php:203
+msgid ""
+"Upload a thumbnail image to show in template page. If omit thumbnail image, "
+"use a preview design by default."
+msgstr ""
+
+#: templates/gallery/artist.php:218
+msgid "Resource used in this template"
+msgstr ""
+
+#: templates/gallery/artist.php:237
+msgid "Copy Url"
+msgstr ""
+
+#: templates/gallery/artist.php:298
+msgid "Update info"
+msgstr ""
+
+#: templates/gallery/artist.php:299 templates/gallery/gallery-item.php:44
+msgid "Edit template"
+msgstr ""
+
+#: templates/gallery/artist.php:300
+msgid "Add template"
+msgstr ""
+
+#: templates/gallery/artist.php:301
+msgid "Delete template"
+msgstr ""
+
+#: templates/gallery/main.php:14 views/modern/sidebars/tab-templates.php:9
+msgid "designs"
+msgstr ""
+
+#: templates/gallery/main.php:36
+#: templates/single-product/option-builder.php:828
+#: views/modern/popup-contents/printing-options.php:20
+msgid "Start design"
+msgstr ""
+
+#: templates/gallery/main.php:37
+msgid "Design or"
+msgstr ""
+
+#: templates/gallery/popup-preview-product.php:16 views/manager-product.php:78
+#: views/metabox-design-setting.php:436 views/nbdesigner-admin-template.php:43
+msgid "Choose variation"
+msgstr ""
+
+#: templates/gallery/popup-preview-product.php:29 views/manager-product.php:61
+#: views/manager-product.php:89 views/metabox-design-setting.php:446
+#: views/nbdesigner-admin-template.php:54
+msgid "Create template"
+msgstr ""
+
+#: templates/gallery/popup-preview.php:7
+msgid "More about this design"
+msgstr ""
+
+#: templates/gallery/popup-preview.php:8 templates/mydesign/my-designs.php:58
+msgid "Use this design"
+msgstr ""
+
+#: templates/gallery/shortcode.php:31
+msgid "No template"
+msgstr ""
+
+#: templates/gallery/sidebar.php:2
+msgid "Design Category"
+msgstr ""
+
+#: templates/gallery/sidebar.php:43
+msgid "See All"
+msgstr ""
+
+#: templates/gallery/sidebar.php:49
+msgid "Wishlist"
+msgstr ""
+
+#: templates/mobile.php:59
+msgid "Sorry, our design tool is not currently supported on mobile devices."
+msgstr ""
+
+#: templates/mobile.php:60
+msgid "Back to product"
+msgstr ""
+
+#: templates/mydesign/detail-design.php:75
+msgid "Hits"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:7
+msgid "Opps! You do not have permission access this page!"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:24 views/user-profile.php:20
+msgid "Upload banner"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:25 views/user-profile.php:21
+msgid "(Upload a banner for your store. )"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:29 views/user-profile.php:26
+msgid "Artist Name"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:33 templates/mydesign/my-designs.php:9
+msgid "View own gallery"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:37 views/user-profile.php:31
+msgid "About the artist"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:46 views/user-profile.php:60
+msgid "Phone Number"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:56 views/user-profile.php:70
+msgid "Google Plus"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:66 views/user-profile.php:80
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/mydesign/edit-info.php:86
+msgid "Update informations"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:2
+msgid "Designs store"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:20
+msgid "Created"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:21 templates/mydesign/my-designs.php:53
+msgid "Action "
+msgstr ""
+
+#: templates/mydesign/my-designs.php:57
+msgid "Add to cart"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:70
+msgid "Previous"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:73 views/modern/tour-guide.php:17
+msgid "Next"
+msgstr ""
+
+#: templates/mydesign/my-designs.php:80
+msgid "No design has been made yet."
+msgstr ""
+
+#: templates/order/download-pdf-option.php:7
+msgid "Option for PDF files"
+msgstr ""
+
+#: templates/order/download-pdf-option.php:10
+msgid "Show crop marks and bleed"
+msgstr ""
+
+#: templates/order/download-pdf-option.php:14
+msgid "Save to multiple files"
+msgstr ""
+
+#: templates/permission.php:4
+msgid "You do not have permission to access this page!"
+msgstr ""
+
+#: templates/permission.php:5 views/nbdesigner-admin-template.php:35
+#: views/nbdesigner-frontend-template.php:13
+msgid "Back"
+msgstr ""
+
+#: templates/quick-view.php:17
+msgid "Placeholder"
+msgstr ""
+
+#: templates/quick-view.php:19
+msgid "View Full Details"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:522 views/modern/main-bar.php:85
+msgid "Save for later"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:540
+msgid "Share design"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:553
+#: templates/single-product/nbd-section.php:571
+#: views/editor_components/js_config.php:67
+#: views/modern/popup-contents/user-design.php:12
+msgid "My design"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:643
+#: views/product-builder/wrapper.php:189
+msgid "Click or drop file here"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:644
+#: views/product-builder/wrapper.php:190
+msgid "Allow extensions"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:645
+msgid "Disallow extensions"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:646
+#: views/metabox-design-setting.php:590 views/options/field.php:133
+#: views/product-builder/wrapper.php:191
+msgid "Min size"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:647
+#: views/metabox-design-setting.php:594 views/options/field.php:134
+#: views/product-builder/wrapper.php:192
+msgid "Max size"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:652
+msgid "Complete"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:653
+msgid "Back to option"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:661
+msgid "How would you like to design your"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:673
+msgid "Upload a full design"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:675
+msgid "Have a complete design"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:676
+msgid "Have your own designer"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:694
+msgid "Design here online"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:696
+msgid "Already have your concept"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:697
+msgid "Customise every detail"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:722
+msgid "Use our templates"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:724
+msgid "Looking for inspiration"
+msgstr ""
+
+#: templates/single-product/nbd-section.php:725
+msgid "Want simple customization"
+msgstr ""
+
+#: templates/single-product/option-builder.php:828
+#: views/modern/popup-contents/printing-options.php:20
+msgid "Apply options"
+msgstr ""
+
+#: templates/single-product/option-builder.php:830
+msgid "Clear selection"
+msgstr ""
+
+#: templates/single-product/option-builder.php:839
+msgid "Summary options"
+msgstr ""
+
+#: templates/single-product/option-builder.php:855
+msgid "Options price"
+msgstr ""
+
+#: templates/single-product/option-builder.php:856
+#: templates/single-product/option-builder.php:860
+#: templates/single-product/option-builder.php:864
+#: templates/single-product/options-builder/quantity-2.php:13
+#: templates/single-product/options-builder/quantity.php:13
+msgid "1 item"
+msgstr ""
+
+#: templates/single-product/option-builder.php:863
+msgid "Final price"
+msgstr ""
+
+#: templates/single-product/option-builder.php:868
+#: templates/single-product/price-options.php:19
+msgid "Total price"
+msgstr ""
+
+#: templates/single-product/option-builder.php:869
+msgid "items"
+msgstr ""
+
+#: templates/single-product/option-builder.php:879
+msgid "Table pricing"
+msgstr ""
+
+#: templates/single-product/option-builder.php:893
+msgid "Up to"
+msgstr ""
+
+#: templates/single-product/option-builder.php:894
+msgid "Price / 1 item"
+msgstr ""
+
+#: templates/single-product/option-builder.php:900
+msgid "or more"
+msgstr ""
+
+#: templates/single-product/option-builder.php:2642
+msgid "Sorry, file is too big, max size: "
+msgstr ""
+
+#: templates/single-product/option-builder.php:2649
+msgid "Sorry, file is too small, min size: "
+msgstr ""
+
+#: templates/single-product/option-builder.php:2664
+msgid ""
+"Sorry, this file type is not permitted for security reasons. Only accept: "
+msgstr ""
+
+#: templates/single-product/options-builder/bulk-options.php:2
+#: views/metabox-design-setting.php:566 views/options/appearance.php:11
+msgid "Bulk variation"
+msgstr ""
+
+#: templates/single-product/options-builder/bulk-options.php:17
+#: templates/single-product/options-builder/quantity-2.php:4
+#: templates/single-product/options-builder/quantity.php:4
+#: templates/single-product/price-options.php:11 views/options/preview.php:18
+#: views/options/quantity.php:3
+msgid "Quantity"
+msgstr ""
+
+#: templates/single-product/options-builder/bulk-options.php:48
+msgid "Add Variation"
+msgstr ""
+
+#: templates/single-product/options-builder/bulk-options.php:49
+#: views/options/field.php:715
+msgid "Delete Selected"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:62
+#: templates/single-product/options-builder/input.php:62
+msgid "Min size: "
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:65
+#: templates/single-product/options-builder/input.php:65
+msgid "Max size: "
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:71
+#: templates/single-product/options-builder/input.php:71
+#: views/detail-order.php:298 views/metabox-design-setting.php:268
+#: views/metabox-design-setting.php:290 views/metabox-design-setting.php:325
+#: views/metabox-design-setting.php:530 views/metabox-design-setting.php:535
+#: views/metabox-design-setting.php:542
+#: views/modern/toolbars/toolbar-text.php:140
+#: views/nbdesigner-box-design-setting-variation.php:155
+#: views/nbdesigner-box-design-setting-variation.php:172
+#: views/nbdesigner-box-design-setting-variation.php:208
+#: views/options/field.php:638
+msgid "Width"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:85
+#: templates/single-product/options-builder/input.php:85
+#: views/metabox-design-setting.php:276 views/metabox-design-setting.php:297
+#: views/metabox-design-setting.php:333 views/metabox-design-setting.php:531
+#: views/metabox-design-setting.php:536 views/metabox-design-setting.php:543
+#: views/nbdesigner-box-design-setting-variation.php:163
+#: views/nbdesigner-box-design-setting-variation.php:180
+#: views/nbdesigner-box-design-setting-variation.php:216
+#: views/options/field.php:645
+msgid "Height"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:98
+#: templates/single-product/options-builder/input.php:98
+#, php-format
+msgid "Width: min %s - max %s"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:99
+#: templates/single-product/options-builder/input.php:99
+#, php-format
+msgid "Height: min %s - max %s"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:100
+#: templates/single-product/options-builder/input.php:100
+msgid "Invalid value"
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:103
+#: templates/single-product/options-builder/input.php:103
+msgid "Invalid value, min: "
+msgstr ""
+
+#: templates/single-product/options-builder/input-2.php:104
+#: templates/single-product/options-builder/input.php:104
+msgid "Invalid value, max: "
+msgstr ""
+
+#: templates/single-product/options-builder/price-matrix.php:92
+#: views/modern/color-palette.php:34 views/modern/sidebars/preview.php:16
+#: views/modern/sidebars/tab-elements.php:106
+#: views/modern/sidebars/tab-elements.php:138
+#: views/modern/sidebars/tab-product-option.php:27
+#: views/modern/toolbars/color-palette.php:34
+#: views/product-builder/wrapper.php:170 views/vista/color-palette.php:52
+#: views/vista/sidebar/design.php:86 views/vista/sidebar/more.php:139
+#: views/vista/toolbox/toolbox-path.php:73
+msgid "Choose"
+msgstr ""
+
+#: templates/single-product/price-options.php:34
+#: templates/single-product/pricing-table-tab.php:9
+#: views/options/edit-option.php:83 views/options/field.php:702
+#: views/price-options.php:42 views/price-options.php:102
+#: views/price-options.php:154 views/price-options.php:155
+msgid "To"
+msgstr ""
+
+#: templates/single-product/price-options.php:35
+#: templates/single-product/pricing-table-tab.php:10 views/price-options.php:80
+msgid "Price per unit"
+msgstr ""
+
+#: templates/single-product/pricing-table-tab.php:3
+msgid "Pricing table"
+msgstr ""
+
+#: templates/single-product/variation-bulk.php:3
+msgid "Order bulk"
+msgstr ""
+
+#: templates/widget-suggest-design.php:24
+msgid "No related product design"
+msgstr ""
+
+#: views/box-order-metadata.php:6
+msgid "Delete order design"
+msgstr ""
+
+#: views/box-order-metadata.php:49
+msgid "View detail"
+msgstr ""
+
+#: views/box-order-metadata.php:70
+msgid "Check all"
+msgstr ""
+
+#: views/box-order-metadata.php:74 views/box-order-metadata.php:76
+msgid "Download all"
+msgstr ""
+
+#: views/box-order-metadata.php:81
+msgid "With selected:"
+msgstr ""
+
+#: views/box-order-metadata.php:85
+msgid "Accept"
+msgstr ""
+
+#: views/box-order-metadata.php:86
+msgid "Decline"
+msgstr ""
+
+#: views/box-order-metadata.php:88
+msgid "GO"
+msgstr ""
+
+#: views/box-order-metadata.php:96 views/box-order-metadata.php:111
+msgid "Send mail"
+msgstr ""
+
+#: views/box-order-metadata.php:102
+msgid "Reason accepted / declined:"
+msgstr ""
+
+#: views/box-order-metadata.php:108
+msgid "Files accepted"
+msgstr ""
+
+#: views/box-order-metadata.php:109
+msgid "Files rejected"
+msgstr ""
+
+#: views/box-order-metadata.php:116
+msgid "No design or uplod file in this order"
+msgstr ""
+
+#: views/detail-order.php:51
+msgid "Detail product design"
+msgstr ""
+
+#: views/detail-order.php:54
+msgid "Back to order"
+msgstr ""
+
+#: views/detail-order.php:57
+msgid "Resource"
+msgstr ""
+
+#: views/detail-order.php:58 views/detail-order.php:405
+msgid "Create PDF"
+msgstr ""
+
+#: views/detail-order.php:59 views/detail-order.php:146
+msgid "Download design"
+msgstr ""
+
+#: views/detail-order.php:64
+msgid "Images"
+msgstr ""
+
+#: views/detail-order.php:88
+msgid "Texts"
+msgstr ""
+
+#: views/detail-order.php:92 views/product-builder/wrapper.php:137
+msgid "Content"
+msgstr ""
+
+#: views/detail-order.php:94
+msgid "Font Size"
+msgstr ""
+
+#: views/detail-order.php:95
+msgid "Font Family"
+msgstr ""
+
+#: views/detail-order.php:155
+msgid "( High quantity images )"
+msgstr ""
+
+#: views/detail-order.php:158
+msgid "Download PNG"
+msgstr ""
+
+#: views/detail-order.php:166
+msgid "JPG ( CMYK with ICC profile )"
+msgstr ""
+
+#: views/detail-order.php:170
+msgid "Change ICC profile"
+msgstr ""
+
+#: views/detail-order.php:170 views/metabox-design-setting.php:55
+#: views/options/field.php:884
+msgid "here"
+msgstr ""
+
+#: views/detail-order.php:176 views/modern/main-bar.php:66
+msgid "PDF"
+msgstr ""
+
+#: views/detail-order.php:179
+msgid "Export PDF with config"
+msgstr ""
+
+#: views/detail-order.php:185
+msgid "Required PHP imagick API"
+msgstr ""
+
+#: views/detail-order.php:195
+msgid "Force all side in the same format"
+msgstr ""
+
+#: views/detail-order.php:203
+msgid ""
+"Create a PDF file contain all page in the same page size. By default, each "
+"page correspond a PDF file."
+msgstr ""
+
+#: views/detail-order.php:208
+msgid "Create PDF from"
+msgstr ""
+
+#: views/detail-order.php:274
+msgid "Paper Size"
+msgstr ""
+
+#: views/detail-order.php:278
+#, php-format
+msgid "As product size %s x %s (exclude margin)"
+msgstr ""
+
+#: views/detail-order.php:295 views/metabox-design-setting.php:262
+#: views/metabox-design-setting.php:641 views/metabox-design-setting.php:643
+#: views/metabox-design-setting.php:646
+msgid "Product size"
+msgstr ""
+
+#: views/detail-order.php:299
+msgid "Hight"
+msgstr ""
+
+#: views/detail-order.php:300
+msgid "In mm"
+msgstr ""
+
+#: views/detail-order.php:309
+msgid "Portrait"
+msgstr ""
+
+#: views/detail-order.php:310
+msgid "Landscape"
+msgstr ""
+
+#: views/detail-order.php:316
+msgid "Margin"
+msgstr ""
+
+#: views/detail-order.php:323
+msgid "Margin top, right, bottom, left in mm"
+msgstr ""
+
+#: views/detail-order.php:328
+msgid "Show Bleed Line"
+msgstr ""
+
+#: views/detail-order.php:345
+msgid "Margin bleed"
+msgstr ""
+
+#: views/detail-order.php:352
+msgid "Margin bleed top, right, bottom, left in mm"
+msgstr ""
+
+#: views/detail-order.php:357 views/modern/toolbars/toolbar-text.php:151
+#: views/vista/sidebar/design.php:7
+msgid "Background"
+msgstr ""
+
+#: views/detail-order.php:361
+msgid "Change image"
+msgstr ""
+
+#: views/detail-order.php:363
+msgid ""
+"Change image with heigh resolution if you want. Support: jpeg, jpg, png, svg"
+msgstr ""
+
+#: views/detail-order.php:369 views/metabox-design-setting.php:202
+#: views/nbdesigner-box-design-setting-variation.php:122
+msgid "Transparent"
+msgstr ""
+
+#: views/detail-order.php:375 views/metabox-design-setting.php:215
+msgid "Include background image"
+msgstr ""
+
+#: views/detail-order.php:380
+msgid "Include background image if background type is image."
+msgstr ""
+
+#: views/detail-order.php:435
+msgid "Create PDFs"
+msgstr ""
+
+#: views/editor_components/js_config.php:55
+msgid "Please accept the upload term conditions"
+msgstr ""
+
+#: views/editor_components/js_config.php:56
+msgid "Vector"
+msgstr ""
+
+#: views/editor_components/js_config.php:64
+#: views/vista/toolbox/toolbox-group.php:5
+msgid "Group"
+msgstr ""
+
+#: views/editor_components/js_config.php:65
+msgid "This item is not available in Lite version!"
+msgstr ""
+
+#: views/editor_components/js_config.php:66
+msgid "Do you want to delete this design?"
+msgstr ""
+
+#: views/license-form.php:4
+msgid "License"
+msgstr ""
+
+#: views/license-form.php:5
+msgid "Version"
+msgstr ""
+
+#: views/license-form.php:6
+msgid "Support"
+msgstr ""
+
+#: views/license-form.php:10
+msgid "Get free license key"
+msgstr ""
+
+#: views/license-form.php:14
+msgid "Get key"
+msgstr ""
+
+#: views/license-form.php:17
+msgid "Please fill correct email. License key will be sent to your email."
+msgstr ""
+
+#: views/license-form.php:27
+msgid "Active license key"
+msgstr ""
+
+#: views/license-form.php:30
+msgid "Active"
+msgstr ""
+
+#: views/license-form.php:31 views/vista/toolbox/toolbox-image.php:36
+msgid "Remove"
+msgstr ""
+
+#: views/license-notice.php:13
+msgid "Get NBDesigner Premium"
+msgstr ""
+
+#: views/manager-product.php:3
+msgid "Manager NBDesigner Products"
+msgstr ""
+
+#: views/manager-product.php:6
+msgid "Search products"
+msgstr ""
+
+#: views/manager-product.php:53 views/manager-product.php:54
+msgid "Edit product"
+msgstr ""
+
+#: views/manager-product.php:55
+msgid "View product"
+msgstr ""
+
+#: views/manager-product.php:67
+msgid "Manage template"
+msgstr ""
+
+#: views/manager-product.php:69
+msgid "templates"
+msgstr ""
+
+#: views/manager-product.php:102
+#, php-format
+msgid "No product, <a href=\"%s\" target=\"_blank\">view user guide</a>"
+msgstr ""
+
+#: views/metabox-design-setting.php:55
+msgid ""
+"All your configurations has not been saved. Please activate the license key, "
+msgstr ""
+
+#: views/metabox-design-setting.php:60
+msgid "Enable Design"
+msgstr ""
+
+#: views/metabox-design-setting.php:65
+msgid "Enable Upload Design"
+msgstr ""
+
+#: views/metabox-design-setting.php:70
+msgid "Enable Upload Without Design"
+msgstr ""
+
+#: views/metabox-design-setting.php:78
+msgid "Cutom Design"
+msgstr ""
+
+#: views/metabox-design-setting.php:87
+#: views/nbdesigner-box-design-setting-variation.php:10
+msgid "Add More"
+msgstr ""
+
+#: views/metabox-design-setting.php:88
+#: views/nbdesigner-box-design-setting-variation.php:11
+msgid "Collapse All"
+msgstr ""
+
+#: views/metabox-design-setting.php:102
+msgid "Less setting"
+msgstr ""
+
+#: views/metabox-design-setting.php:193
+#: views/nbdesigner-box-design-setting-variation.php:113
+#: views/options/field.php:510
+msgid "Background type"
+msgstr ""
+
+#: views/metabox-design-setting.php:206 views/metabox-design-setting.php:228
+#: views/nbdesigner-box-design-setting-variation.php:126
+#: views/nbdesigner-box-design-setting-variation.php:138
+msgid "Set image"
+msgstr ""
+
+#: views/metabox-design-setting.php:218
+msgid "Include background image in final design if background type is image."
+msgstr ""
+
+#: views/metabox-design-setting.php:222
+#: views/nbdesigner-box-design-setting-variation.php:132
+msgid "Overlay"
+msgstr ""
+
+#: views/metabox-design-setting.php:237
+#: views/nbdesigner-box-design-setting-variation.php:147
+msgid "Include in final design"
+msgstr ""
+
+#: views/metabox-design-setting.php:248
+msgid "Circle/Ellipse"
+msgstr ""
+
+#: views/metabox-design-setting.php:255
+msgid "(Click"
+msgstr ""
+
+#: views/metabox-design-setting.php:255
+msgid "to know how to setting product design)"
+msgstr ""
+
+#: views/metabox-design-setting.php:256
+msgid "Product area"
+msgstr ""
+
+#: views/metabox-design-setting.php:257
+msgid "Design area"
+msgstr ""
+
+#: views/metabox-design-setting.php:258
+msgid "Bounding box"
+msgstr ""
+
+#: views/metabox-design-setting.php:258
+msgid "product always align vertical/horizontal center bounding box"
+msgstr ""
+
+#: views/metabox-design-setting.php:284 views/metabox-design-setting.php:644
+#: views/metabox-design-setting.php:648
+msgid "Design area size"
+msgstr ""
+
+#: views/metabox-design-setting.php:318 views/metabox-design-setting.php:645
+#: views/metabox-design-setting.php:647
+msgid "Relative position"
+msgstr ""
+
+#: views/metabox-design-setting.php:350
+#: views/nbdesigner-box-design-setting-variation.php:239
+msgid "For paper/card"
+msgstr ""
+
+#: views/metabox-design-setting.php:360
+#: views/nbdesigner-box-design-setting-variation.php:249
+msgid "Bleed top-bottom"
+msgstr ""
+
+#: views/metabox-design-setting.php:366
+#: views/nbdesigner-box-design-setting-variation.php:255
+msgid "Bleed left-right"
+msgstr ""
+
+#: views/metabox-design-setting.php:373
+#: views/nbdesigner-box-design-setting-variation.php:262
+msgid "Show safe zone"
+msgstr ""
+
+#: views/metabox-design-setting.php:381
+#: views/nbdesigner-box-design-setting-variation.php:270
+msgid "Magin top-bottom"
+msgstr ""
+
+#: views/metabox-design-setting.php:387
+#: views/nbdesigner-box-design-setting-variation.php:276
+msgid "Magin left-right"
+msgstr ""
+
+#: views/metabox-design-setting.php:403
+msgid "Design editor layout"
+msgstr ""
+
+#: views/metabox-design-setting.php:404
+msgid "Modern ( recommended )"
+msgstr ""
+
+#: views/metabox-design-setting.php:410
+msgid "Use templates"
+msgstr ""
+
+#: views/metabox-design-setting.php:465
+msgid "Manage Templates"
+msgstr ""
+
+#: views/metabox-design-setting.php:475 views/metabox-design-setting.php:493
+msgid "Use global template store"
+msgstr ""
+
+#: views/metabox-design-setting.php:480
+msgid "Template type"
+msgstr ""
+
+#: views/metabox-design-setting.php:489
+msgid "View list template"
+msgstr ""
+
+#: views/metabox-design-setting.php:499
+msgid "DPI ( Dots Per Inch )"
+msgstr ""
+
+#: views/metabox-design-setting.php:504 views/metabox-design-setting.php:544
+msgid "Extra price"
+msgstr ""
+
+#: views/metabox-design-setting.php:506 views/options/quantity.php:55
+msgid "Fixed"
+msgstr ""
+
+#: views/metabox-design-setting.php:507 views/options/quantity.php:56
+msgid "Percentage"
+msgstr ""
+
+#: views/metabox-design-setting.php:511
+msgid "Get a quote"
+msgstr ""
+
+#: views/metabox-design-setting.php:513
+msgid "Set product price to "
+msgstr ""
+
+#: views/metabox-design-setting.php:520
+msgid "Allow user define demension"
+msgstr ""
+
+#: views/metabox-design-setting.php:524
+msgid "Allow"
+msgstr ""
+
+#: views/metabox-design-setting.php:525
+msgid "All dimensions"
+msgstr ""
+
+#: views/metabox-design-setting.php:526
+msgid "Predefined dimensions"
+msgstr ""
+
+#: views/metabox-design-setting.php:529 views/options/field.php:83
+#: views/options/field.php:630 views/options/quantity.php:36
+msgid "Min"
+msgstr ""
+
+#: views/metabox-design-setting.php:534 views/options/field.php:84
+#: views/options/field.php:631 views/options/quantity.php:37
+msgid "Max"
+msgstr ""
+
+#: views/metabox-design-setting.php:549
+msgid "Extra price for each variation, ex: + 5 or - 5"
+msgstr ""
+
+#: views/metabox-design-setting.php:554
+msgid "Dynamic page / side"
+msgstr ""
+
+#: views/metabox-design-setting.php:559
+msgid "Price per page/side"
+msgstr ""
+
+#: views/metabox-design-setting.php:568
+msgid ""
+"Enable bulk variation form - add to cart multiple variation with same design"
+msgstr ""
+
+#: views/metabox-design-setting.php:578
+msgid ""
+"Extensions seperated by a comma. Don not use dots or spaces. Example: "
+"<code>jpg,bmp,pdf,ps,ai,iddd</code>"
+msgstr ""
+
+#: views/metabox-design-setting.php:583
+msgid ""
+"Extensions seperated by a comma. Don not use dots or spaces. Example: "
+"<code>png,gif</code>"
+msgstr ""
+
+#: views/metabox-design-setting.php:598
+msgid "Min. resolution DPI for JPG image"
+msgstr ""
+
+#: views/metabox-design-setting.php:622 views/metabox-design-setting.php:639
+#: views/metabox-design-setting.php:657 views/metabox-design-setting.php:659
+msgid "Notice"
+msgstr ""
+
+#: views/metabox-design-setting.php:623
+msgid "Bellow values must in range from 0 to 500px"
+msgstr ""
+
+#: views/metabox-design-setting.php:624
+msgid "There are relative position of design area in bounding box."
+msgstr ""
+
+#: views/metabox-design-setting.php:625
+msgid "See detail"
+msgstr ""
+
+#: views/metabox-design-setting.php:640
+msgid "Please upload background image with aspect ratio"
+msgstr ""
+
+#: views/metabox-design-setting.php:641
+msgid "Make sure setting"
+msgstr ""
+
+#: views/metabox-design-setting.php:641
+msgid "must always be the top priority!"
+msgstr ""
+
+#: views/metabox-design-setting.php:642
+msgid "You have two order setting options"
+msgstr ""
+
+#: views/metabox-design-setting.php:645
+msgid "will automatic update"
+msgstr ""
+
+#: views/metabox-design-setting.php:648
+msgid "click"
+msgstr ""
+
+#: views/metabox-design-setting.php:648 views/metabox-design-setting.php:663
+msgid "to update"
+msgstr ""
+
+#: views/metabox-design-setting.php:658
+msgid "After change bellow"
+msgstr ""
+
+#: views/metabox-design-setting.php:658 views/metabox-design-setting.php:662
+msgid "values"
+msgstr ""
+
+#: views/metabox-design-setting.php:658 views/metabox-design-setting.php:663
+msgid "relative position"
+msgstr ""
+
+#: views/metabox-design-setting.php:658
+msgid "of design area in bounding box will automatic update."
+msgstr ""
+
+#: views/metabox-design-setting.php:661
+msgid "If color labels change to "
+msgstr ""
+
+#: views/metabox-design-setting.php:661
+msgid "red"
+msgstr ""
+
+#: views/metabox-design-setting.php:661
+msgid "check values again."
+msgstr ""
+
+#: views/metabox-design-setting.php:662
+msgid "There"
+msgstr ""
+
+#: views/metabox-design-setting.php:662
+msgid "will decide dimensions of output images."
+msgstr ""
+
+#: views/metabox-design-setting.php:663
+msgid "If you modify"
+msgstr ""
+
+#: views/metabox-design-setting.php:663
+msgid "click button"
+msgstr ""
+
+#: views/metabox-design-setting.php:663
+msgid "Design area."
+msgstr ""
+
+#: views/modern/await-for-print-options.php:6
+msgid "Please choose options before start design!"
+msgstr ""
+
+#: views/modern/color-palette.php:4
+#: views/modern/sidebars/tab-product-option.php:3
+#: views/modern/toolbars/color-palette.php:4
+msgid "Document colors"
+msgstr ""
+
+#: views/modern/color-palette.php:11 views/modern/sidebars/tab-elements.php:88
+#: views/modern/sidebars/tab-elements.php:144
+#: views/modern/sidebars/tab-product-option.php:9
+#: views/modern/toolbars/color-palette.php:11 views/vista/color-palette.php:19
+#: views/vista/sidebar/design.php:51 views/vista/toolbox/toolbox-path.php:39
+msgid "Default palette"
+msgstr ""
+
+#: views/modern/color-palette.php:17 views/modern/sidebars/tab-elements.php:157
+#: views/modern/toolbars/color-palette.php:17 views/vista/color-palette.php:32
+#: views/vista/sidebar/design.php:64 views/vista/toolbox/toolbox-path.php:52
+msgid "Color palette"
+msgstr ""
+
+#: views/modern/context-menu.php:4
+msgid "Exclude from export"
+msgstr ""
+
+#: views/modern/context-menu.php:5 views/vista/context-menu.php:5
+msgid "Reflect Horizontal"
+msgstr ""
+
+#: views/modern/context-menu.php:6 views/vista/context-menu.php:6
+msgid "Reflect Vertical"
+msgstr ""
+
+#: views/modern/context-menu.php:15
+msgid "Fit to width"
+msgstr ""
+
+#: views/modern/context-menu.php:25
+msgid "Fit to height"
+msgstr ""
+
+#: views/modern/context-menu.php:30
+msgid "Stretch"
+msgstr ""
+
+#: views/modern/context-menu.php:33 views/modern/toolbars/toolbar-common.php:55
+msgid "Bring to Front"
+msgstr ""
+
+#: views/modern/context-menu.php:34 views/modern/toolbars/toolbar-common.php:60
+#: views/product-builder/wrapper.php:69
+msgid "Bring Forward"
+msgstr ""
+
+#: views/modern/context-menu.php:35 views/modern/toolbars/toolbar-common.php:65
+msgid "Send to Backward"
+msgstr ""
+
+#: views/modern/context-menu.php:36 views/modern/toolbars/toolbar-common.php:70
+msgid "Send to Back"
+msgstr ""
+
+#: views/modern/context-menu.php:38 views/modern/toolbars/toolbar-common.php:85
+msgid "Center horizontal"
+msgstr ""
+
+#: views/modern/context-menu.php:39 views/modern/toolbars/toolbar-common.php:89
+msgid "Center vertical"
+msgstr ""
+
+#: views/modern/context-menu.php:41 views/vista/context-menu.php:8
+#: views/vista/toolbox/toolbox-group.php:19
+msgid "Align Vertical Center"
+msgstr ""
+
+#: views/modern/context-menu.php:42 views/vista/context-menu.php:9
+#: views/vista/toolbox/toolbox-group.php:24
+msgid "Align Horizontal Center"
+msgstr ""
+
+#: views/modern/context-menu.php:43 views/vista/context-menu.php:10
+#: views/vista/toolbox/toolbox-group.php:29
+msgid "Align Left"
+msgstr ""
+
+#: views/modern/context-menu.php:44 views/vista/context-menu.php:11
+#: views/vista/toolbox/toolbox-group.php:34
+msgid "Align Right"
+msgstr ""
+
+#: views/modern/context-menu.php:45 views/vista/context-menu.php:12
+#: views/vista/toolbox/toolbox-group.php:39
+msgid "Align Top"
+msgstr ""
+
+#: views/modern/context-menu.php:46 views/vista/context-menu.php:13
+#: views/vista/toolbox/toolbox-group.php:49
+msgid "Align Bottom"
+msgstr ""
+
+#: views/modern/context-menu.php:47 views/vista/context-menu.php:14
+#: views/vista/toolbox/toolbox-group.php:54
+msgid "Distribute Horizontal"
+msgstr ""
+
+#: views/modern/context-menu.php:48 views/vista/context-menu.php:15
+msgid "Distribute Vertical"
+msgstr ""
+
+#: views/modern/context-menu.php:50 views/vista/context-menu.php:7
+msgid "Replace Image"
+msgstr ""
+
+#: views/modern/context-menu.php:52
+msgid "Lock all adjustment"
+msgstr ""
+
+#: views/modern/context-menu.php:55
+msgid "Lock edit"
+msgstr ""
+
+#: views/modern/context-menu.php:58 views/vista/toolbox/toolbox-image.php:58
+#: views/vista/toollock.php:9
+msgid "Lock horizontal movement"
+msgstr ""
+
+#: views/modern/context-menu.php:61 views/vista/toolbox/toolbox-image.php:65
+#: views/vista/toollock.php:16
+msgid "Lock vertical movement"
+msgstr ""
+
+#: views/modern/context-menu.php:64 views/vista/toolbox/toolbox-image.php:72
+#: views/vista/toollock.php:23
+msgid "Lock horizontal scaling"
+msgstr ""
+
+#: views/modern/context-menu.php:67 views/vista/toolbox/toolbox-image.php:79
+#: views/vista/toollock.php:30
+msgid "Lock vertical scaling"
+msgstr ""
+
+#: views/modern/context-menu.php:70
+msgid "Lock rotation"
+msgstr ""
+
+#: views/modern/context-menu.php:75 views/modern/popup-contents/hotkeys.php:310
+#: views/modern/toolbars/toolbar-path.php:3 views/vista/context-menu.php:18
+msgid "Ungroup"
+msgstr ""
+
+#: views/modern/main-bar.php:20
+msgid "Home"
+msgstr ""
+
+#: views/modern/main-bar.php:26
+msgid "File"
+msgstr ""
+
+#: views/modern/main-bar.php:31
+msgid "Open My Logo"
+msgstr ""
+
+#: views/modern/main-bar.php:34
+msgid "Open My Design"
+msgstr ""
+
+#: views/modern/main-bar.php:39
+msgid "My Design in Cart"
+msgstr ""
+
+#: views/modern/main-bar.php:43 views/modern/popup-contents/hotkeys.php:286
+msgid "Import Design"
+msgstr ""
+
+#: views/modern/main-bar.php:47 views/modern/popup-contents/hotkeys.php:292
+msgid "Export Design"
+msgstr ""
+
+#: views/modern/main-bar.php:60
+msgid "CMYK JPG"
+msgstr ""
+
+#: views/modern/main-bar.php:81
+msgid "Clear all design"
+msgstr ""
+
+#: views/modern/main-bar.php:96
+msgid "Ruler"
+msgstr ""
+
+#: views/modern/main-bar.php:104
+msgid "Show bleed line"
+msgstr ""
+
+#: views/modern/main-bar.php:108
+msgid "Show dimensions"
+msgstr ""
+
+#: views/modern/main-bar.php:111
+msgid "Clear Guides"
+msgstr ""
+
+#: views/modern/main-bar.php:115
+msgid "Snap to"
+msgstr ""
+
+#: views/modern/main-bar.php:119
+msgid "Layer"
+msgstr ""
+
+#: views/modern/main-bar.php:120
+msgid "Bounding"
+msgstr ""
+
+#: views/modern/main-bar.php:121
+msgid "Grid"
+msgstr ""
+
+#: views/modern/main-bar.php:126
+msgid "Show warning"
+msgstr ""
+
+#: views/modern/main-bar.php:130
+msgid "Out of stage"
+msgstr ""
+
+#: views/modern/main-bar.php:131
+msgid "Image low resolution"
+msgstr ""
+
+#: views/modern/main-bar.php:144
+msgid "Quick Help"
+msgstr ""
+
+#: views/modern/main-bar.php:151 views/vista/toolbar.php:28
+msgid "Undo"
+msgstr ""
+
+#: views/modern/main-bar.php:155 views/vista/toolbar.php:32
+msgid "Redo"
+msgstr ""
+
+#: views/modern/main-bar.php:165 views/vista/save-template.php:5
+msgid "Save Template"
+msgstr ""
+
+#: views/modern/main-bar.php:169 views/modern/tour-guide.php:47
+msgid "Process"
+msgstr ""
+
+#: views/modern/popup-contents/confirm-delete-layers.php:5
+#: views/vista/popup.php:53
+msgid "Delete All Layers"
+msgstr ""
+
+#: views/modern/popup-contents/confirm-delete-layers.php:9
+#: views/vista/popup.php:57
+msgid "Are you sure you want to delete all layers?"
+msgstr ""
+
+#: views/modern/popup-contents/crop-image.php:28
+#: views/modern/toolbars/toolbar-image.php:40
+msgid "Crop"
+msgstr ""
+
+#: views/modern/popup-contents/global-template-category.php:13
+msgid "Save this template"
+msgstr ""
+
+#: views/modern/popup-contents/guidelines.php:5
+msgid "Guidelines"
+msgstr ""
+
+#: views/modern/popup-contents/guidelines.php:9
+msgid "Bleed Line"
+msgstr ""
+
+#: views/modern/popup-contents/guidelines.php:10
+msgid ""
+"This is where we aim to trim the product. The actual line can vary due to "
+"the trimming process."
+msgstr ""
+
+#: views/modern/popup-contents/guidelines.php:11 views/modern/stages.php:112
+msgid "Safe zone"
+msgstr ""
+
+#: views/modern/popup-contents/guidelines.php:12
+msgid ""
+"Keep text and important imagery within this line to ensure it does not get "
+"cut off during trimming. "
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:9
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:28
+msgid "Select all layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:34
+msgid "Deselect all layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:40
+msgid "Clear all layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:46
+msgid "Undo changes"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:52
+msgid "Redo changes"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:58
+msgid "Show/hide Bleed line"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:64
+msgid "Show/hide Ruler"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:70
+msgid "Align layer horizontal center"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:76
+msgid "Align layer vertical center"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:82
+msgid "Zoom In stage"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:88
+msgid "Zoom Out stage"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:94
+msgid "Fit stage with viewport"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:100
+msgid "Resize stage to real size"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:106
+msgid "Bring layer forward"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:112
+msgid "Bring layer backward"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:118
+#: views/modern/popup-contents/hotkeys.php:124
+msgid "Load your designs"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:130
+msgid "Make your text bold"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:136
+msgid "Italicize your text"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:142
+#: views/modern/toolbars/toolbar-group.php:4
+#: views/modern/toolbars/toolbar-group.php:5
+msgid "Group layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:148
+msgid "Duplicate layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:154
+msgid "Make your text UPPERCASE"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:160
+msgid "Make your text lowercase"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:166
+msgid "Move the selected layers to left 1px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:172
+msgid "Move the selected layers to right 1px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:178
+msgid "Move the selected layers to top 1px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:184
+msgid "Move the selected layers to bottom 1px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:190
+msgid "Free transform"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:196
+msgid "Zoom out selected layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:202
+msgid "Zoom in selected layer"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:208
+msgid "Show/hide Grid"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:214
+msgid "Clear all guidelines"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:220
+msgid "Centered scaling"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:226
+msgid "Move the selected layers to left 10px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:232
+msgid "Move the selected layers to right 10px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:238
+msgid "Move the selected layers to top 10px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:244
+msgid "Move the selected layers to bottom 10px"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:250
+msgid "Delete selected layers"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:256
+msgid "Disable drawing mode"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:262
+msgid "Enable drawing mode"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:268
+msgid "Quit text editing"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:274
+msgid "Bring layer to front"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:280
+msgid "Send layer to back"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:298
+msgid "Save Design for later"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:304
+msgid "Load Your Design in Cart"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:316
+msgid "Clear all stages"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:322
+msgid "Decreate font size"
+msgstr ""
+
+#: views/modern/popup-contents/hotkeys.php:328
+msgid "Increate font size"
+msgstr ""
+
+#: views/modern/popup-contents/my-cart-designs.php:12
+msgid "My designs in cart"
+msgstr ""
+
+#: views/modern/popup-contents/printing-options.php:13
+msgid "Choose options"
+msgstr ""
+
+#: views/modern/popup-contents/printing-options.php:13
+msgid "Options preview"
+msgstr ""
+
+#: views/modern/popup-contents/printing-options.php:20
+msgid "Please choose options before apply to start design!"
+msgstr ""
+
+#: views/modern/popup-contents/share.php:13
+msgid "Share this design"
+msgstr ""
+
+#: views/modern/popup-contents/share.php:17
+msgid "Share with"
+msgstr ""
+
+#: views/modern/popup-contents/share.php:25
+msgid "Write a comment"
+msgstr ""
+
+#: views/modern/popup-contents/share.php:28
+msgid "Share now"
+msgstr ""
+
+#: views/modern/popup-contents/upload-terms.php:5
+msgid "Image upload terms"
+msgstr ""
+
+#: views/modern/popup-contents/webcam.php:14 views/vista/popup.php:11
+#: views/vista/popup.php:40
+msgid "Pause"
+msgstr ""
+
+#: views/modern/popup-contents/webcam.php:15
+msgid "Resume"
+msgstr ""
+
+#: views/modern/popup-contents/webcam.php:16 views/vista/popup.php:12
+msgid "Stop Webcam"
+msgstr ""
+
+#: views/modern/popup-contents/webcam.php:17 views/vista/popup.php:13
+#: views/vista/popup.php:42
+msgid "Capture"
+msgstr ""
+
+#: views/modern/sidebars/preview.php:3
+msgid "infomation"
+msgstr ""
+
+#: views/modern/sidebars/tab-clipart.php:3
+msgid "Search clipart"
+msgstr ""
+
+#: views/modern/sidebars/tab-clipart.php:31
+#: views/modern/sidebars/tab-photo.php:265
+msgid "Load more"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:3
+msgid "Search element"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:14 views/vista/sidebar/more.php:21
+msgid "Draw"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:22 views/vista/sidebar/more.php:27
+msgid "Shapes"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:30 views/vista/sidebar/more.php:33
+msgid "Icons"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:38
+msgid "Lines"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:46
+msgid "Bar/QR-Code"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:57
+msgid "Free Drawing"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:59
+msgid "Choose "
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:73
+msgid "Brush width "
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:82
+msgid "Brush color"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:162
+msgid "Remove background"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:179
+#: views/modern/sidebars/tab-templates.php:29
+#: views/modern/sidebars/tab-templates.php:78
+msgid "Pro"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:196 views/vista/sidebar/more.php:166
+msgid "Create QRCode"
+msgstr ""
+
+#: views/modern/sidebars/tab-elements.php:197
+msgid "Create BarCode"
+msgstr ""
+
+#: views/modern/sidebars/tab-layer.php:11
+msgid "Show/Hide"
+msgstr ""
+
+#: views/modern/sidebars/tab-layer.php:12
+msgid "Lock/Unlock"
+msgstr ""
+
+#: views/modern/sidebars/tab-nav.php:19 views/modern/tour-guide.php:43
+msgid "Photos"
+msgstr ""
+
+#: views/modern/sidebars/tab-nav.php:21 views/modern/tour-guide.php:39
+msgid "Elements"
+msgstr ""
+
+#: views/modern/sidebars/tab-nav.php:24 views/modern/tour-guide.php:31
+msgid "Layers"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:3
+msgid "Search photo"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:14 views/vista/sidebar/images.php:21
+msgid "Image Upload"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:22 views/vista/sidebar/images.php:31
+msgid "Image url"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:51 views/vista/sidebar/images.php:54
+msgid "Dropbox"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:60 views/vista/popup.php:41
+#: views/vista/sidebar/images.php:64
+msgid "Webcam"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:69 views/vista/sidebar/images.php:70
+msgid "Pixabay"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:77 views/vista/sidebar/images.php:76
+msgid "Unsplash"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:89 views/vista/sidebar/images.php:88
+msgid "You need to be logged in to upload images!"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:90 views/vista/sidebar/images.php:89
+#: views/vista/sidebar/images.php:239
+msgid "Login"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:100 views/vista/sidebar/images.php:95
+msgid "Click or drop images here"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:104 views/vista/sidebar/images.php:99
+msgid "Accept file types"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:105
+#: views/product-builder/js_config.php:56 views/vista/sidebar/images.php:100
+msgid "Max file size"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:106
+#: views/product-builder/js_config.php:57 views/vista/sidebar/images.php:101
+msgid "Min file size"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:107
+msgid "Max upload files"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:114 views/vista/sidebar/images.php:108
+msgid "I accept the terms"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:121 views/vista/sidebar/images.php:126
+msgid "Clear all uploaded images"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:126 views/vista/sidebar/images.php:132
+msgid "Image Url"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:128 views/vista/sidebar/images.php:134
+msgid "Enter image url, allow: jpg, png, svg"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:129 views/vista/sidebar/images.php:135
+msgid "insert"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:142 views/vista/sidebar/images.php:149
+msgid "Pick From Google Drive"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:210 views/vista/sidebar/images.php:217
+msgid "SVG Code"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:211 views/vista/sidebar/images.php:218
+msgid "Enter svg code"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:212 views/vista/sidebar/images.php:219
+msgid "Insert SVG"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:229
+msgid "Log in"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:233 views/vista/sidebar/images.php:243
+msgid "Log out"
+msgstr ""
+
+#: views/modern/sidebars/tab-photo.php:253 views/vista/sidebar/images.php:274
+msgid "webcam"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:4
+msgid "Click to add text"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:6
+msgid "Company Name"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:6
+msgid "Add heading"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:7
+msgid "Subheading"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:7
+msgid "Add subheading"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:8
+msgid "Add a little bit of body text"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:9
+msgid "Curved text"
+msgstr ""
+
+#: views/modern/sidebars/tab-typography.php:9
+msgid "Add curved text"
+msgstr ""
+
+#: views/modern/stages.php:47 views/vista/stages.php:37
+msgid "Drop to replace"
+msgstr ""
+
+#: views/modern/stages.php:89 views/vista/toolbar-page.php:5
+msgid "Prev Page"
+msgstr ""
+
+#: views/modern/stages.php:91 views/vista/toolbar-page.php:7
+msgid "Next Page"
+msgstr ""
+
+#: views/modern/stages.php:93
+msgid "Add page"
+msgstr ""
+
+#: views/modern/stages.php:95 views/vista/toolbar-page.php:9
+msgid "Clear Design"
+msgstr ""
+
+#: views/modern/stages.php:109
+msgid "Bleed line"
+msgstr ""
+
+#: views/modern/tip.php:2
+msgid "Show tip"
+msgstr ""
+
+#: views/modern/tip.php:103
+msgid "Double click to edit text"
+msgstr ""
+
+#: views/modern/tip.php:105
+msgid "Right click on selected layers to show context menu"
+msgstr ""
+
+#: views/modern/toasts.php:3 views/vista/toasts.php:4
+msgid "All changes saved"
+msgstr ""
+
+#: views/modern/toolbar-zoom.php:12
+msgid "Print Size"
+msgstr ""
+
+#: views/modern/toolbar-zoom.php:13 views/vista/toolbar-zoom.php:13
+msgid "Fit"
+msgstr ""
+
+#: views/modern/toolbar-zoom.php:14 views/vista/toolbar-zoom.php:14
+msgid "Fill"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:13
+msgid "Store layers as your own design"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:19
+#: views/modern/toolbars/toolbar-common.php:23
+#: views/product-builder/wrapper.php:90
+msgid "Angle"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:50
+msgid "Layer stack"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:77
+msgid "layer position"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:86
+msgid "Top left"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:87
+msgid "Top center"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:90
+msgid "Middle left"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:91
+msgid "Middle center"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:92
+msgid "Middle right"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:93
+msgid "Intro"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:94
+msgid "Bottom left"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:95
+msgid "Bottom center"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-common.php:96
+msgid "Bottom right"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-image.php:43
+msgid "Create clipping mask"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-image.php:50
+#: views/modern/toolbars/toolbar-image.php:57
+#: views/modern/toolbars/toolbar-image.php:64
+msgid "Remove clipping mask"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:10
+#: views/vista/toolbox/toolbox-text.php:30
+msgid "Search in"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:10
+#: views/nbdesigner-manager-fonts.php:202
+#: views/vista/toolbox/toolbox-text.php:30
+msgid "fonts"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:17
+msgid "Document Fonts"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:29
+msgid "All Fonts"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:59
+msgid "Edit Text"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:62
+msgid "Enter your text"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:79
+msgid "Text align left"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:82
+msgid "Text align center"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:85
+msgid "Text align right"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:91
+msgid "Uppercase"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:102
+msgid "Line height and spacing"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:125
+msgid "Stroke"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:159
+msgid "Curved Text"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:168
+msgid "Radius"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:185
+msgid "Reverse"
+msgstr ""
+
+#: views/modern/toolbars/toolbar-text.php:190
+msgid "RTL"
+msgstr ""
+
+#: views/modern/tour-guide.php:15
+msgid "Prev"
+msgstr ""
+
+#: views/modern/tour-guide.php:16
+msgid "of"
+msgstr ""
+
+#: views/modern/tour-guide.php:24
+msgid ""
+"Choose from our state of the art Ready-to-use relevant templates which are "
+"relevant to product you have chosen to design."
+msgstr ""
+
+#: views/modern/tour-guide.php:28
+msgid ""
+"Use our extensive font library and formatting options (Alignment, Colors, "
+"and Size) to use text in your design."
+msgstr ""
+
+#: views/modern/tour-guide.php:32
+msgid "A simple way to manage and drag to sort the order in layers."
+msgstr ""
+
+#: views/modern/tour-guide.php:35
+msgid "Clip Art"
+msgstr ""
+
+#: views/modern/tour-guide.php:36
+msgid ""
+"Choose from extensive library of ready-to-use relevant vector art (ClipArt) "
+"which you can use to create meaningful design. You can also search the "
+"vector art you are looking for by using given search box."
+msgstr ""
+
+#: views/modern/tour-guide.php:40
+msgid ""
+"Choose from library of different shapes, icons which are useful to create "
+"your design; Color palette is also available to change color of shape, icon."
+msgstr ""
+
+#: views/modern/tour-guide.php:44
+msgid ""
+"You can upload your photos and Artwork to be used in your design from here; "
+"please also through given instructions related to type if art file and size "
+"limitation."
+msgstr ""
+
+#: views/modern/tour-guide.php:48
+msgid ""
+"Your design will be saved before continuing with other options or directly "
+"add to cart."
+msgstr ""
+
+#: views/modern/warning.php:3
+msgid "Out Of Stage"
+msgstr ""
+
+#: views/modern/warning.php:7
+msgid "Image Low Resolution"
+msgstr ""
+
+#: views/nbdesigner-admin-template.php:25
+msgid "Templates for"
+msgstr ""
+
+#: views/nbdesigner-analytics.php:2
+msgid "Analytics"
+msgstr ""
+
+#: views/nbdesigner-analytics.php:3
+msgid "Comming soon :D"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:3
+msgid "Setting Design"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:6
+msgid "Enable Design for this variation"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:23
+msgid "More setting"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:153
+msgid "Product size:"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:170
+msgid "Design area size:"
+msgstr ""
+
+#: views/nbdesigner-box-design-setting-variation.php:204
+msgid "Relative position:"
+msgstr ""
+
+#: views/nbdesigner-frontend-template.php:11
+msgid "No product has been selected"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:12
+msgid "Clipart files"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:15
+msgid "Allow extensions: svg, png, jpg, jpeg"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:16
+msgid "Allow upload multiple files."
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:17
+msgid ""
+"Note: if you export svg file from Illustrator, please choose Fonts type "
+"\"Convert to outline\""
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:23 views/nbdesigner-manager-fonts.php:107
+#: views/vista/save-template.php:7
+msgid "Save"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:24 views/nbdesigner-manager-fonts.php:108
+msgid "Add New"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:48 views/nbdesigner-manager-fonts.php:132
+msgid "You don't have any category."
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:52
+msgid "+ Add new art category"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:61
+msgid "List arts "
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:64 views/nbdesigner-manager-fonts.php:148
+msgid "Select a category"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:71
+msgid "View mode white"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:72
+msgid "View mode black"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:73
+msgid "All arts"
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:86
+msgid "You don't have any art."
+msgstr ""
+
+#: views/nbdesigner-manager-arts.php:91
+msgid "arts"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:3
+msgid "Custom Fonts"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:12
+msgid "Add font"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:17
+msgid "Font name"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:21
+msgid "Open font file to view font name, Ex:"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:28
+msgid "Font files"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:42
+msgid "Regular"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:78
+msgid "Bold italic"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:89
+msgid "Allow extensions: ttf"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:93
+msgid "Font Language Subsets"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:136
+msgid "+ Add new font category"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:145
+msgid "List fonts "
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:154
+msgid "All fonts"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:163
+msgid "You don't have any custom font."
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:169
+msgid "Google Fonts"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:203
+msgid "Select All"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:204
+msgid "Unselect All"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:206
+#: views/nbdesigner-manager-fonts.php:212
+msgid "Display "
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:208
+msgid "All"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:209
+msgid "Selected"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:210
+msgid "Unselected"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:222
+msgid "Click check mark to select/unselect font"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:223
+msgid "Please remove unused fonts to make the design editor loads faster"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:230
+msgid "Unselect"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:380
+msgid "First"
+msgstr ""
+
+#: views/nbdesigner-manager-fonts.php:380
+msgid "Last"
+msgstr ""
+
+#: views/nbdesigner-shortcode-dialog.php:4
+#: views/nbdesigner-shortcode-dialog.php:22
+msgid "Number of templates per row"
+msgstr ""
+
+#: views/nbdesigner-shortcode-dialog.php:8
+msgid "Pagination"
+msgstr ""
+
+#: views/nbdesigner-shortcode-dialog.php:12
+msgid "Number of rows per page"
+msgstr ""
+
+#: views/nbdesigner-shortcode-dialog.php:16
+#: views/nbdesigner-shortcode-dialog.php:38
+msgid "Create"
+msgstr ""
+
+#: views/nbdesigner-shortcode-dialog.php:26
+msgid "Template Limit"
+msgstr ""
+
+#: views/nbdesigner-tools.php:3
+msgid "Migrate website domain"
+msgstr ""
+
+#: views/nbdesigner-tools.php:4
+msgid "Update url, path: cliparts, fonts..."
+msgstr ""
+
+#: views/nbdesigner-tools.php:9
+msgid "Old domain"
+msgstr ""
+
+#: views/nbdesigner-tools.php:13
+msgid "Fill your old domain, example: \"http://old-domain.com\"."
+msgstr ""
+
+#: views/nbdesigner-tools.php:18
+msgid "New domain"
+msgstr ""
+
+#: views/nbdesigner-tools.php:22
+msgid "Fill your new domain, example: \"http://new-domain.com\"."
+msgstr ""
+
+#: views/nbdesigner-tools.php:29
+msgid "Restore"
+msgstr ""
+
+#: views/nbdesigner-tools.php:35
+msgid "Theme check"
+msgstr ""
+
+#: views/nbdesigner-tools.php:38
+msgid "Start check"
+msgstr ""
+
+#: views/nbdesigner-tools.php:46
+msgid "Edit custom CSS for NBDesigner frontend"
+msgstr ""
+
+#: views/nbdesigner-tools.php:54
+msgid "Update Custom CSS"
+msgstr ""
+
+#: views/nbdesigner-tools.php:55
+msgid "Using bad CSS code could break the appearance of your plugin"
+msgstr ""
+
+#: views/nbdesigner-tools.php:85
+msgid "Edit custom JS for NBDesigner frontend"
+msgstr ""
+
+#: views/nbdesigner-tools.php:93
+msgid "Update Custom JS"
+msgstr ""
+
+#: views/nbdesigner-tools.php:94
+msgid "Using bad JS code could break the appearance of your plugin"
+msgstr ""
+
+#: views/nbdesigner-tools.php:123
+msgid "Update product design setting data"
+msgstr ""
+
+#: views/nbdesigner-tools.php:126
+msgid "Update v1.7.0"
+msgstr ""
+
+#: views/nbdesigner-tools.php:127
+msgid "Update v1.8.0"
+msgstr ""
+
+#: views/nbdesigner-tools.php:128
+msgid "Update templates"
+msgstr ""
+
+#: views/nbdesigner-tools.php:130
+msgid "Make sure backup data before update avoid lost data!"
+msgstr ""
+
+#: views/nbdesigner-tools.php:134 views/nbdesigner-tools.php:137
+msgid "Clear transients"
+msgstr ""
+
+#: views/nbdesigner-tools.php:139
+msgid "This tool will clear the NBD product transients cache!"
+msgstr ""
+
+#: views/nbdesigner-tools.php:145
+msgid "Create pages"
+msgstr ""
+
+#: views/nbdesigner-tools.php:147
+msgid "Note"
+msgstr ""
+
+#: views/nbdesigner-tools.php:147
+msgid ""
+"This tool will install all the missing NBDesigner pages. Pages already "
+"defined and set up will not be replaced."
+msgstr ""
+
+#: views/nbdesigner-tools.php:150
+msgid "Logs"
+msgstr ""
+
+#: views/nbdesigner-tools.php:150
+msgid "Delete log"
+msgstr ""
+
+#: views/nbdesigner-translate.php:4
+msgid "Allow customer change language without reload page."
+msgstr ""
+
+#: views/nbdesigner-translate.php:5
+msgid "(Click the phrase to edit)"
+msgstr ""
+
+#: views/nbdesigner-translate.php:7 views/nbdesigner-translate.php:22
+msgid "Choose language"
+msgstr ""
+
+#: views/nbdesigner-translate.php:15
+msgid "Save Language"
+msgstr ""
+
+#: views/nbdesigner-translate.php:16
+msgid "Delete Language"
+msgstr ""
+
+#: views/nbdesigner-translate.php:39
+msgid "Create new language"
+msgstr ""
+
+#: views/nbdesigner-translate.php:39
+msgid "Add New Language"
+msgstr ""
+
+#: views/nbdesigner-translate.php:41
+msgid "Search"
+msgstr ""
+
+#: views/options/appearance.php:10
+msgid "Price Matrix"
+msgstr ""
+
+#: views/options/appearance.php:17
+msgid ""
+"Allow fields with options: Data type - Multiple options | Enable - Yes | has "
+"at least one attribute | Field Conditional Logic - No"
+msgstr ""
+
+#: views/options/appearance.php:20
+msgid "Horizontal field"
+msgstr ""
+
+#: views/options/appearance.php:32
+msgid "Vertical field"
+msgstr ""
+
+#: views/options/appearance.php:51
+msgid "Allow fields with options: Enable - Yes | Field Conditional Logic - No"
+msgstr ""
+
+#: views/options/appearance.php:54
+msgid "Bulk form field"
+msgstr ""
+
+#: views/options/edit-option.php:35
+msgid "Edit Options"
+msgstr ""
+
+#: views/options/edit-option.php:36 views/options/options-list-table.php:13
+msgid "Add new"
+msgstr ""
+
+#: views/options/edit-option.php:53
+msgid "Enter title here"
+msgstr ""
+
+#: views/options/edit-option.php:55
+msgid "required"
+msgstr ""
+
+#: views/options/edit-option.php:80 views/options/edit-option.php:84
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: views/options/edit-option.php:80 views/options/edit-option.php:84
+msgid "Leave both fields blank to not restrict this options to a date range"
+msgstr ""
+
+#: views/options/edit-option.php:93
+msgid "Move to Trash"
+msgstr ""
+
+#: views/options/edit-option.php:106
+msgid "Apply for"
+msgstr ""
+
+#: views/options/edit-option.php:116
+msgid "Select the Products to apply the options"
+msgstr ""
+
+#: views/options/edit-option.php:118
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: views/options/edit-option.php:131
+msgid "Select the Categories to apply the options"
+msgstr ""
+
+#: views/options/edit-option.php:164
+msgid "Import"
+msgstr ""
+
+#: views/options/edit-option.php:165
+msgid "Export"
+msgstr ""
+
+#: views/options/edit-option.php:170
+msgid "Printing fields"
+msgstr ""
+
+#: views/options/edit-option.php:173 views/options/edit-option.php:175
+msgid "Default field"
+msgstr ""
+
+#: views/options/edit-option.php:175
+msgid "Add fields"
+msgstr ""
+
+#: views/options/edit-option.php:179
+msgid "Online design fields"
+msgstr ""
+
+#: views/options/edit-option.php:181 views/options/global_field.php:3
+msgid "Sides/Pages"
+msgstr ""
+
+#: views/options/edit-option.php:182
+msgid "Color/Material"
+msgstr ""
+
+#: views/options/edit-option.php:192 views/options/edit-option.php:216
+msgid "Product builder fields"
+msgstr ""
+
+#: views/options/edit-option.php:200
+msgid "Default fields"
+msgstr ""
+
+#: views/options/edit-option.php:210
+msgid "Online design fields which effect custom design configuaration."
+msgstr ""
+
+#: views/options/field.php:4
+msgid "Double click to expand option"
+msgstr ""
+
+#: views/options/field.php:7
+msgid "Conditinal"
+msgstr ""
+
+#: views/options/field.php:9
+msgid "Online design"
+msgstr ""
+
+#: views/options/field.php:10
+msgid "Product builder"
+msgstr ""
+
+#: views/options/field.php:19 views/options/field.php:370
+#: views/options/field.php:386
+msgid "Up"
+msgstr ""
+
+#: views/options/field.php:20 views/options/field.php:371
+#: views/options/field.php:387
+msgid "Down"
+msgstr ""
+
+#: views/options/field.php:23
+msgid "Copy"
+msgstr ""
+
+#: views/options/field.php:24
+msgid "Expand"
+msgstr ""
+
+#: views/options/field.php:85 views/options/field.php:632
+#: views/options/quantity.php:38
+msgid "Step"
+msgstr ""
+
+#: views/options/field.php:104
+msgid "Text option"
+msgstr ""
+
+#: views/options/field.php:110
+msgid "Min length"
+msgstr ""
+
+#: views/options/field.php:111
+msgid "Max length"
+msgstr ""
+
+#: views/options/field.php:135
+msgid "Allow type"
+msgstr ""
+
+#: views/options/field.php:154 views/options/global_field.php:7
+msgid "Choose whether the option is enabled or not."
+msgstr ""
+
+#: views/options/field.php:218 views/options/field.php:284
+#: views/options/field.php:355
+msgid "Quantity break"
+msgstr ""
+
+#: views/options/field.php:239 views/options/field.php:318
+msgid "Swatch type"
+msgstr ""
+
+#: views/options/field.php:249 views/options/field.php:259
+#: views/options/field.php:328 views/options/field.php:558
+msgid "Click to change image"
+msgstr ""
+
+#: views/options/field.php:255
+msgid "Product image"
+msgstr ""
+
+#: views/options/field.php:297
+msgid "Enable sub attributes"
+msgstr ""
+
+#: views/options/field.php:303
+msgid "Sub attributes type"
+msgstr ""
+
+#: views/options/field.php:374 views/options/field.php:390
+msgid "Expend"
+msgstr ""
+
+#: views/options/field.php:380
+msgid "Add sub attribute"
+msgstr ""
+
+#: views/options/field.php:397
+msgid "Add attribute"
+msgstr ""
+
+#: views/options/field.php:405
+msgid "Field Conditional Logic"
+msgstr ""
+
+#: views/options/field.php:405
+msgid "Enable conditional logic for showing or hiding this field."
+msgstr ""
+
+#: views/options/field.php:417
+msgid "Show"
+msgstr ""
+
+#: views/options/field.php:418
+msgid "Hide"
+msgstr ""
+
+#: views/options/field.php:420
+msgid "this field if"
+msgstr ""
+
+#: views/options/field.php:422
+msgid "all"
+msgstr ""
+
+#: views/options/field.php:423
+msgid "any"
+msgstr ""
+
+#: views/options/field.php:425
+msgid "of these rules match:"
+msgstr ""
+
+#: views/options/field.php:434
+msgid "is"
+msgstr ""
+
+#: views/options/field.php:435
+msgid "is not"
+msgstr ""
+
+#: views/options/field.php:436
+msgid "is empty"
+msgstr ""
+
+#: views/options/field.php:437
+msgid "is not empty"
+msgstr ""
+
+#: views/options/field.php:482
+msgid "Add Field"
+msgstr ""
+
+#: views/options/field.php:486
+msgid "Page display"
+msgstr ""
+
+#: views/options/field.php:490
+msgid "Each page on a design stage"
+msgstr ""
+
+#: views/options/field.php:491
+msgid "Two pages on a design stage"
+msgstr ""
+
+#: views/options/field.php:497
+msgid "Exclude page"
+msgstr ""
+
+#: views/options/field.php:502
+msgid "Cover pages"
+msgstr ""
+
+#: views/options/field.php:521
+msgid "Number of sides"
+msgstr ""
+
+#: views/options/field.php:529
+msgid "Backgrund sides"
+msgstr ""
+
+#: views/options/field.php:548
+msgid "Sides background"
+msgstr ""
+
+#: views/options/field.php:572
+msgid "Use a same online design config"
+msgstr ""
+
+#: views/options/field.php:573
+msgid ""
+"All attributes have a same online design config ( product width, height, "
+"area design width, height, left, top )."
+msgstr ""
+
+#: views/options/field.php:585
+msgid "Online design config:"
+msgstr ""
+
+#: views/options/field.php:591
+msgid "Product width"
+msgstr ""
+
+#: views/options/field.php:592
+msgid "Product height"
+msgstr ""
+
+#: views/options/field.php:593
+msgid "Design width"
+msgstr ""
+
+#: views/options/field.php:594
+msgid "Design height"
+msgstr ""
+
+#: views/options/field.php:595
+msgid "Design top"
+msgstr ""
+
+#: views/options/field.php:596
+msgid "Design left"
+msgstr ""
+
+#: views/options/field.php:623
+msgid "Dimension range:"
+msgstr ""
+
+#: views/options/field.php:633
+msgid "Default value"
+msgstr ""
+
+#: views/options/field.php:659
+msgid "Enable measure price base on design area"
+msgstr ""
+
+#: views/options/field.php:660
+msgid "Measure price base on design area."
+msgstr ""
+
+#: views/options/field.php:673
+msgid "Price base on design area:"
+msgstr ""
+
+#: views/options/field.php:683
+msgid "Measurement Range"
+msgstr ""
+
+#: views/options/field.php:684 views/price-options.php:17
+msgid ""
+"Configure the starting-ending range, inclusive, of measurements to match "
+"this rule.  The first matched rule will be used to determine the price.  The "
+"final rule can be defined without an ending range to match all measurements "
+"greater than or equal to its starting range."
+msgstr ""
+
+#: views/options/field.php:687 views/price-options.php:20
+msgid "Price per Unit"
+msgstr ""
+
+#: views/options/field.php:714
+msgid "Add Rule"
+msgstr ""
+
+#: views/options/field.php:726
+msgid "Calculate price base on number of sides/pages"
+msgstr ""
+
+#: views/options/field.php:741
+msgid "Padding value"
+msgstr ""
+
+#: views/options/field.php:747
+msgid "Option"
+msgstr ""
+
+#: views/options/field.php:747
+msgid "Value"
+msgstr ""
+
+#: views/options/field.php:765
+msgid "Views"
+msgstr ""
+
+#: views/options/field.php:765
+msgid ""
+"Add product view/side, example: Front, Back, Top, Inside... and use them for "
+"all product components."
+msgstr ""
+
+#: views/options/field.php:773
+msgid "View base"
+msgstr ""
+
+#: views/options/field.php:774 views/options/field.php:956
+#: views/options/quantity.php:73
+msgid "Action"
+msgstr ""
+
+#: views/options/field.php:787
+msgid "Delete View"
+msgstr ""
+
+#: views/options/field.php:792
+msgid "Add View"
+msgstr ""
+
+#: views/options/field.php:800
+msgid "Component icon"
+msgstr ""
+
+#: views/options/field.php:813
+msgid "Component configurations"
+msgstr ""
+
+#: views/options/field.php:814
+msgid "All images in the same view must have the same size."
+msgstr ""
+
+#: views/options/field.php:822
+msgid "Attribute"
+msgstr ""
+
+#: views/options/field.php:823
+msgid "Sub attribute"
+msgstr ""
+
+#: views/options/field.php:836 views/options/field.php:985
+#: views/options/field.php:1010
+msgid "Show in view"
+msgstr ""
+
+#: views/options/field.php:866
+msgid "Allow change font family"
+msgstr ""
+
+#: views/options/field.php:877
+msgid "Allow all fonts"
+msgstr ""
+
+#: views/options/field.php:884
+msgid "Manage fonts"
+msgstr ""
+
+#: views/options/field.php:889
+msgid "Custom fonts"
+msgstr ""
+
+#: views/options/field.php:907
+msgid "Google fonts"
+msgstr ""
+
+#: views/options/field.php:925
+msgid "Allow change color"
+msgstr ""
+
+#: views/options/field.php:936
+msgid "Allow all colors"
+msgstr ""
+
+#: views/options/field.php:954
+msgid "Color name"
+msgstr ""
+
+#: views/options/field.php:975
+msgid "Add color"
+msgstr ""
+
+#: views/options/global_field.php:21
+msgid "Design setting"
+msgstr ""
+
+#: views/options/global_field.php:33
+msgid ""
+"1- Fixed amount: This is an flat increase or decrease added to the product "
+"price. 2- Percent of the original price: This is a percentage increase or "
+"decrease of the initial product price. 3- Percent of the original price + "
+"options: This is a percentage increase or decrease of the initial product "
+"price plus all of the other options that are not of this type. 4- Current "
+"value * price: This will multiply field value by the Price you set."
+msgstr ""
+
+#: views/options/global_field.php:38
+msgid "Fixed amount "
+msgstr ""
+
+#: views/options/global_field.php:58
+msgid "Dynamic number of sides / pages"
+msgstr ""
+
+#: views/options/global_field.php:69
+msgid "Number of sides / pages"
+msgstr ""
+
+#: views/options/global_field.php:81
+msgid "Actions"
+msgstr ""
+
+#: views/options/global_field.php:82
+msgid "Side name"
+msgstr ""
+
+#: views/options/global_field.php:101 views/options/quantity.php:83
+msgid "Add more"
+msgstr ""
+
+#: views/options/preview.php:4
+msgid "Create Pre builder"
+msgstr ""
+
+#: views/options/preview.php:7
+msgid "Frontend Preview"
+msgstr ""
+
+#: views/options/quantity.php:7
+msgid "Replace default quantity input"
+msgstr ""
+
+#: views/options/quantity.php:22
+msgid "Range slider"
+msgstr ""
+
+#: views/options/quantity.php:24
+msgid "Select box"
+msgstr ""
+
+#: views/options/quantity.php:30
+msgid "Step value"
+msgstr ""
+
+#: views/options/quantity.php:30
+msgid "Enter the step for the handle."
+msgstr ""
+
+#: views/options/quantity.php:51
+msgid "Discount type base on quantity breaks"
+msgstr ""
+
+#: views/options/quantity.php:63
+msgid "Quantity breaks"
+msgstr ""
+
+#: views/options/quantity.php:64
+#, php-format
+msgid ""
+"This option allows you to create different price tiers for product based on "
+"the quantity a customer buys. For example, set it so a customer needs to buy "
+"5 or more to get 10% off, buy 10 or  to get 15% off, and so on."
+msgstr ""
+
+#: views/options/quantity.php:71
+msgid "Break"
+msgstr ""
+
+#: views/options/quantity.php:72
+msgid "Discount"
+msgstr ""
+
+#: views/options/quantity.php:72
+msgid "item"
+msgstr ""
+
+#: views/price-options.php:3
+msgid "Price base on design area"
+msgstr ""
+
+#: views/price-options.php:3
+msgid "Require enable \"Allow user define demension\""
+msgstr ""
+
+#: views/price-options.php:63
+msgid "Price base on quantity"
+msgstr ""
+
+#: views/price-options.php:63
+msgid "Overrides extra price for custom design"
+msgstr ""
+
+#: views/price-options.php:77
+msgid ""
+"Configure the starting-ending range, inclusive, of quantities to match this "
+"rule.  The first matched rule will be used to determine the price.  The "
+"final rule can be defined without an ending range to match all quantities "
+"greater than or equal to its starting range."
+msgstr ""
+
+#: views/product-builder/customize-btn.php:1
+msgid "Customize"
+msgstr ""
+
+#: views/product-builder/js_config.php:55
+msgid "Only support image!"
+msgstr ""
+
+#: views/product-builder/js_config.php:58
+msgid "Are you sure you want to delete this image?"
+msgstr ""
+
+#: views/product-builder/js_config.php:59
+msgid "Are you sure you want to delete this text?"
+msgstr ""
+
+#: views/product-builder/js_config.php:60
+msgid "Oops! Design has not been saved!"
+msgstr ""
+
+#: views/product-builder/wrapper.php:70
+msgid "Send To Backward"
+msgstr ""
+
+#: views/product-builder/wrapper.php:71 views/product-builder/wrapper.php:78
+msgid "Zoom"
+msgstr ""
+
+#: views/product-builder/wrapper.php:79 views/vista/toolbar-zoom.php:18
+#: views/vista/toolbox/toolbox-image.php:88
+msgid "Zoom out"
+msgstr ""
+
+#: views/product-builder/wrapper.php:80
+#: views/vista/toolbox/toolbox-image.php:95
+msgid "Zoom in"
+msgstr ""
+
+#: views/product-builder/wrapper.php:95
+msgid "Clear all layer"
+msgstr ""
+
+#: views/product-builder/wrapper.php:114
+#: views/vista/toolbox/toolbox-group.php:177
+#: views/vista/toolbox/toolbox-image.php:199
+#: views/vista/toolbox/toolbox-path.php:192
+#: views/vista/toolbox/toolbox-text.php:258
+msgid "Done"
+msgstr ""
+
+#: views/product-builder/wrapper.php:143
+#: views/vista/toolbox/toolbox-text.php:24
+msgid "Font family"
+msgstr ""
+
+#: views/support.php:190
+msgid ""
+"Hello! You might be interested in the following NBDesigner NEWS and our "
+"printing solutions."
+msgstr ""
+
+#: views/support.php:194
+msgid "Change log"
+msgstr ""
+
+#: views/support.php:210
+msgid "FAQs"
+msgstr ""
+
+#: views/support.php:228
+msgid ""
+"You have a T-shirt printing business and you want your customers to have a "
+"great experience at your site."
+msgstr ""
+
+#: views/support.php:231
+msgid ""
+"You got a big printing business and you want to manage all things clean and "
+"clear."
+msgstr ""
+
+#: views/user-profile.php:7
+#, php-format
+msgid "%1$s settings"
+msgstr ""
+
+#: views/user-profile.php:9
+msgid "Banner"
+msgstr ""
+
+#: views/user-profile.php:35
+msgid "Create designs"
+msgstr ""
+
+#: views/user-profile.php:38
+msgid "Allow user create designs"
+msgstr ""
+
+#: views/user-profile.php:41
+msgid "Sell designs"
+msgstr ""
+
+#: views/user-profile.php:44
+msgid "Allow user sell his/her designs"
+msgstr ""
+
+#: views/user-profile.php:47
+msgid "Artist Commission %"
+msgstr ""
+
+#: views/user-profile.php:51
+msgid " % artist gets from each design"
+msgstr ""
+
+#: views/vista/sidebar/design.php:16
+msgid "Upload Svg"
+msgstr ""
+
+#: views/vista/sidebar/design.php:17
+msgid "Add Text"
+msgstr ""
+
+#: views/vista/sidebar/design.php:38 views/vista/sidebar/more.php:93
+#: views/vista/sidebar/more.php:119
+msgid "Set color"
+msgstr ""
+
+#: views/vista/sidebar/images.php:5
+msgid "Search images"
+msgstr ""
+
+#: views/vista/sidebar/more.php:3 views/vista/toolbar.php:20
+msgid "More"
+msgstr ""
+
+#: views/vista/sidebar/more.php:5
+msgid "Search cliparts"
+msgstr ""
+
+#: views/vista/sidebar/more.php:39
+msgid "QR Code"
+msgstr ""
+
+#: views/vista/sidebar/more.php:50
+msgid "Free Drawing Mode"
+msgstr ""
+
+#: views/vista/sidebar/more.php:78
+msgid "Brush Width"
+msgstr ""
+
+#: views/vista/toolbar-page.php:8
+msgid "Copy Design"
+msgstr ""
+
+#: views/vista/toolbar-zoom.php:6
+msgid "Full Screen"
+msgstr ""
+
+#: views/vista/toolbar-zoom.php:7
+msgid "Zoon in"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:7
+#: views/vista/toolbox/toolbox-image.php:7
+#: views/vista/toolbox/toolbox-path.php:8
+#: views/vista/toolbox/toolbox-text.php:10
+msgid "Setting"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:8
+#: views/vista/toolbox/toolbox-image.php:8
+#: views/vista/toolbox/toolbox-path.php:9
+#: views/vista/toolbox/toolbox-text.php:11
+msgid "Position"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:59
+msgid "Distribute-vertical"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:71
+msgid "Delete all layer"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:82
+#: views/vista/toolbox/toolbox-image.php:104
+#: views/vista/toolbox/toolbox-path.php:97
+#: views/vista/toolbox/toolbox-text.php:158
+msgid "Position center horizontal"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:87
+#: views/vista/toolbox/toolbox-image.php:109
+#: views/vista/toolbox/toolbox-path.php:102
+#: views/vista/toolbox/toolbox-text.php:163
+msgid "Position top right"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:92
+#: views/vista/toolbox/toolbox-image.php:114
+#: views/vista/toolbox/toolbox-path.php:107
+#: views/vista/toolbox/toolbox-text.php:168
+msgid "Position top center"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:97
+#: views/vista/toolbox/toolbox-image.php:119
+#: views/vista/toolbox/toolbox-path.php:112
+#: views/vista/toolbox/toolbox-text.php:173
+msgid "Position top left"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:101
+#: views/vista/toolbox/toolbox-image.php:123
+#: views/vista/toolbox/toolbox-path.php:116
+msgid "Bring to front"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:110
+#: views/vista/toolbox/toolbox-image.php:132
+#: views/vista/toolbox/toolbox-path.php:125
+#: views/vista/toolbox/toolbox-text.php:186
+msgid "Position center vertical"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:115
+#: views/vista/toolbox/toolbox-image.php:137
+#: views/vista/toolbox/toolbox-path.php:130
+#: views/vista/toolbox/toolbox-text.php:191
+msgid "Position middle right"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:120
+#: views/vista/toolbox/toolbox-image.php:142
+#: views/vista/toolbox/toolbox-path.php:135
+#: views/vista/toolbox/toolbox-text.php:196
+msgid "Position middle center"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:125
+#: views/vista/toolbox/toolbox-image.php:147
+#: views/vista/toolbox/toolbox-path.php:140
+#: views/vista/toolbox/toolbox-text.php:201
+msgid "Position middle left"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:129
+#: views/vista/toolbox/toolbox-image.php:151
+#: views/vista/toolbox/toolbox-path.php:144
+#: views/vista/toolbox/toolbox-text.php:205
+msgid "Bring forward"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:141
+#: views/vista/toolbox/toolbox-image.php:163
+#: views/vista/toolbox/toolbox-path.php:156
+#: views/vista/toolbox/toolbox-text.php:217
+msgid "Position bottom left"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:146
+#: views/vista/toolbox/toolbox-image.php:168
+#: views/vista/toolbox/toolbox-path.php:161
+#: views/vista/toolbox/toolbox-text.php:222
+msgid "Position bottom center"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:151
+#: views/vista/toolbox/toolbox-image.php:173
+#: views/vista/toolbox/toolbox-path.php:166
+#: views/vista/toolbox/toolbox-text.php:227
+msgid "Position bottom right"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-group.php:155
+#: views/vista/toolbox/toolbox-image.php:177
+#: views/vista/toolbox/toolbox-path.php:170
+#: views/vista/toolbox/toolbox-text.php:231
+msgid "Sent to backward"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:5
+msgid "Image edit"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:19
+msgid "rotate"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:23
+msgid "reset"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:31
+msgid "Replace image"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:33
+msgid "replace"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-image.php:38
+msgid "remove"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-path.php:5
+msgid "Path"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-path.php:6
+msgid "Shape"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-path.php:86
+msgid "Delete path"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:8
+msgid "Format Text"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:18
+msgid "Text content"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:23
+msgid "Font"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:91
+msgid "Text bold"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:97
+msgid "Text italic"
+msgstr ""
+
+#: views/vista/toolbox/toolbox-text.php:110
+msgid "Delete layer"
+msgstr ""

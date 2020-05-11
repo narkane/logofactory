@@ -1,0 +1,150 @@
+<?php if ( ! defined( 'ABSPATH' ) ) { exit;} ?>
+<script type="text/javascript">
+    var NBDESIGNCONFIG = {
+        lang_code   :   "<?php echo $lang_code; ?>",
+        lang_rtl    :   "<?php if(is_rtl()){ echo 'rtl'; } else {  echo 'ltr';  } ?>",
+        is_mobile   :   "<?php echo wp_is_mobile(); ?>",
+        ui_mode   :   "<?php echo $ui_mode; ?>",
+        layout   :   "<?php echo $layout; ?>",
+        show_nbo_option   :   "<?php echo $show_nbo_option; ?>",
+        enable_upload   :   "<?php echo $enable_upload; ?>",
+        enable_upload_without_design   :   "<?php echo $enable_upload_without_design; ?>",
+        nbd_content_url    :   "<?php echo NBDESIGNER_DATA_URL; ?>",
+        font_url    :   "<?php echo $font_url; ?>",
+        art_url    :   "<?php echo NBDESIGNER_ART_URL; ?>",
+        assets_url  :   "<?php echo NBDESIGNER_PLUGIN_URL . 'assets/'; ?>",
+        plg_url  :   "<?php echo NBDESIGNER_PLUGIN_URL; ?>",
+        ajax_url    : "<?php echo admin_url('admin-ajax.php'); ?>",
+        nonce   :   "<?php echo wp_create_nonce('save-design'); ?>",
+        nonce_get   :   "<?php echo wp_create_nonce('nbdesigner-get-data'); ?>",
+        instagram_redirect_uri    : "<?php echo NBDESIGNER_PLUGIN_URL.'includes/auth-instagram.php'; ?>",
+        dropbox_redirect_uri    : "<?php echo NBDESIGNER_PLUGIN_URL.'includes/auth-dropbox.php'; ?>",
+        cart_url    :   "<?php echo esc_url( wc_get_cart_url() ); ?>",
+        task    :   "<?php echo $task; ?>",
+        task2    :   "<?php echo $task2; ?>",
+        design_type    :   "<?php echo $design_type; ?>",
+        product_id  :   "<?php echo $product_id; ?>",
+        variation_id  :   "<?php echo $variation_id; ?>",                
+        product_type  :   "<?php echo $product_type; ?>",                
+        redirect_url    :   "<?php echo $redirect_url; ?>",
+        nbd_item_key    :   "<?php echo $nbd_item_key; ?>",
+        nbu_item_key    :   "<?php echo $nbu_item_key; ?>",
+        cart_item_key    :   "<?php echo $cart_item_key; ?>",
+        home_url    :   "<?php echo $home_url; ?>",
+        icl_home_url    :   "<?php echo $icl_home_url; ?>",
+        is_logged    :   <?php echo nbd_user_logged_in(); ?>,
+        is_wpml	:	<?php echo $is_wpml; ?>,
+        enable_upload_multiple	:   "<?php echo $enable_upload_multiple; ?>",
+        login_url   :   "<?php echo esc_url( wp_login_url( getUrlPageNBD('redirect') ) ); ?>",
+        //login_url   :   "<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ).'?nbd_redirect=1'; ?>",
+        product_data  :   <?php echo json_encode($product_data); ?>,
+        fonts: <?php echo nbd_get_fonts(); ?>,
+        subsets: <?php echo json_encode(nbd_font_subsets()); ?>,
+        fbID: "<?php echo $fbID; ?>",
+        nbd_create_own_page: "<?php echo getUrlPageNBD('create'); ?>",
+        link_get_options: "<?php echo $link_get_options; ?>",
+        valid_license: "<?php echo $valid_license ? 1 : 0; ?>",
+        enable_dropbox: false,
+        /* customize */
+        //user_infos: <?php //echo json_encode(nbd_get_user_information()); ?>,
+        //contact_sheets: <?php //echo json_encode(nbd_get_user_contact_sheet()); ?>,
+        default_font: <?php echo $default_font; ?>,
+        templates: <?php echo json_encode($templates); ?>,
+        nbdlangs: {
+                cliparts: "<?php _e('Cliparts', 'web-to-print-online-designer'); ?>",
+                alert_upload_term: "<?php _e('Please accept the upload term conditions', 'web-to-print-online-designer'); ?>",
+                path: "<?php _e('Vector', 'web-to-print-online-designer'); ?>",
+                image: "<?php _e('Image', 'web-to-print-online-designer'); ?>",
+                rect: "<?php _e('Rectangle', 'web-to-print-online-designer'); ?>",
+                triangle: "<?php _e('Triangle', 'web-to-print-online-designer'); ?>",
+                line: "<?php _e('Line', 'web-to-print-online-designer'); ?>",
+                polygon: "<?php _e('Polygon', 'web-to-print-online-designer'); ?>",
+                circle: "<?php _e('Circle', 'web-to-print-online-designer'); ?>",
+                ellipse: "<?php _e('Ellipse', 'web-to-print-online-designer'); ?>",
+                group: "<?php _e('Group', 'web-to-print-online-designer'); ?>",
+                pro_license_alert: "<?php _e('This item is not available in Lite version!', 'web-to-print-online-designer'); ?>",
+                confirm_delete_design: "<?php _e('Do you want to delete this design?', 'web-to-print-online-designer'); ?>",
+                my_design: "<?php _e('My design', 'web-to-print-online-designer'); ?>"
+            }
+    };
+    NBDESIGNCONFIG['default_variation_id'] = NBDESIGNCONFIG['variation_id'];
+    <?php 
+        $settings = nbdesigner_get_all_frontend_setting();
+        foreach ($settings as $key => $val):
+            if(is_numeric($val)):
+    ?>
+        NBDESIGNCONFIG['<?php echo $key; ?>'] = <?php echo $val; ?>;
+        <?php else: ?>
+        NBDESIGNCONFIG['<?php echo $key; ?>'] = "<?php echo $val; ?>";    
+        <?php endif; ?>    
+    <?php endforeach; ?>
+    <?php if( isset($product_data['option']['use_all_color']) ): ?>
+        NBDESIGNCONFIG['nbdesigner_show_all_color'] = "<?php echo $product_data['option']['use_all_color'] == 1 ? 'yes' : 'no'; ?>";
+    <?php endif; ?>
+    <?php 
+    if( isset($product_data['option']['color_cats']) ):
+        $cats = $product_data['option']['color_cats'];
+        $colors = Nbdesigner_IO::read_json_setting(NBDESIGNER_DATA_DIR . '/colors.json');
+        $colors = array_filter($colors, function ($val) use ($cats){
+            $check = false;
+            if( sizeof($val->cat) == 0 ){
+                if( in_array('0', $cats) ) $check = true;
+            }else{
+                $intercept = array_intersect($val->cat, $cats);
+                if( count($intercept) == count($val->cat) )  $check = true;
+            }
+            return $check;
+        });
+        $list_color = [];
+        foreach( $colors as $color ){
+            $list_color[] = $color->hex;
+        }
+        $list_color = array_unique($list_color);
+    ?>
+    var  colorPalette = [], row = [], __colorPalette = [], color = '';
+        <?php foreach($list_color as $cindex => $color): ?>
+            color = "<?php echo $color; ?>";
+            row.push(color);
+            <?php if( $cindex % 10 == 9 ): ?>
+                colorPalette.push(row);
+                row = [];                    
+            <?php endif; ?>
+            __colorPalette.push(color);
+        <?php endforeach; ?>
+    <?php elseif( isset($product_data['option']['list_color']) ): ?>
+    var  colorPalette = [], row = [], __colorPalette = [], color = '';
+        <?php foreach($product_data['option']['list_color'] as $cindex => $color): ?>
+            color = "<?php echo $color['code']; ?>";
+            row.push(color);
+            <?php if( $cindex % 10 == 9 ): ?>
+                colorPalette.push(row);
+                row = [];                    
+            <?php endif; ?>
+            __colorPalette.push(color);
+        <?php endforeach; ?>
+    <?php else: ?>
+    var _colors = NBDESIGNCONFIG['nbdesigner_hex_names'].split(','),
+    colorPalette = [], row = [];
+    __colorPalette = [];
+    for(var i=0; i < _colors.length; ++i) {
+        var color = _colors[i].split(':')[0];
+        row.push(color);
+        if(i % 10 == 9){
+            colorPalette.push(row);
+            row = [];
+        }
+        __colorPalette.push(color);
+    }
+    <?php endif; ?> 
+    row.push(NBDESIGNCONFIG['nbdesigner_default_color']);
+    colorPalette.push(row);                                  
+    <?php if($ui_mode == 1): ?>
+        nbd_window = window.parent;
+    <?php else: ?>      
+        nbd_window = window;
+    <?php endif; ?>
+    <?php if( $layout == 'visual' ): ?>
+        window.preventSubmitFormCart = true;
+    <?php endif; ?>
+    <?php do_action('nbd_js_config'); ?>
+</script>

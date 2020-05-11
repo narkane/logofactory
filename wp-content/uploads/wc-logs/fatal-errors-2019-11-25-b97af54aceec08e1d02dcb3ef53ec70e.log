@@ -1,0 +1,30 @@
+2019-11-25T05:50:20+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-11-25T05:50:20+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
+2019-11-25T05:50:20+00:00 CRITICAL Uncaught Exception: Connect Error 1226: User 'i5539532_wp2' has exceeded the 'max_user_connections' resource (current value: 30) in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php:287
+Stack trace:
+#0 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(303): MysqliDb->connect()
+#1 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(1845): MysqliDb->mysqli()
+#2 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php(435): MysqliDb->_prepareQuery()
+#3 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(66): MysqliDb->rawQuery('SET SQL_MODE='A...')
+#4 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/main.php(450): lumise->init()
+#5 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(1204): require_once('/home/q8rxz6vqv...')
+#6 /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/lumise.php(384): lumise_woocommerce->loa in /home/q8rxz6vqvxck/public_html/wp-content/plugins/lumise/core/includes/database.php on line 287
+
